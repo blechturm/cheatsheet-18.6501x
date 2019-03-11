@@ -1,6 +1,36 @@
 \section{Important probability distributions}
 \subsection*{Bernoulli}
+Parameter $p \in[0,1]$. Discrete, describes the success or failure in a single trial.\\
+$ p_x(k)=
+	\begin{cases}
+		 p,&\text{if k = 1}\\
+		(1-p),&\text{if k = 0}\\
+	\end{cases}
+$
+\\
+$E[X]=p$\\
+$Var(X)=p(1-p)$
 \subsection*{Exponential}
+Parameter $\lambda$. Continuous\\
+$ f_x(x)=
+	\begin{cases}
+		 \lambda exp(-\lambda x),&\text{if x >= 0}\\
+		0,&\text{o.w.}\\
+	\end{cases}
+$
+\\
+
+$ F_x(x)=
+	\begin{cases}
+		 1-exp(-\lambda x),&\text{if x >= 0}\\
+		0,&\text{o.w.}\\
+	\end{cases}
+$
+\\
+$E[X]=\frac{1}{\lambda}$\\
+$Var(X)=\frac{1}{\lambda^2}$
+
 \subsection*{Gaussian}
 \subsection*{Poisson}
 \subsection*{Uniform}
+
