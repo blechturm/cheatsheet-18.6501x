@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  11 MAR 2019 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  11 MAR 2019 16:19
 entering extended mode
 **./cheatsheet.tex
 (cheatsheet.tex
@@ -1884,9 +1884,29 @@ LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 3.
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\ujkpsyc.fd
 "
 File: ujkpsyc.fd 2006/08/15 v1.0
-)) (content/probability_distributions.tex) (content/expectation_variance.tex)
-(content/Law_large_Numbers.tex) (content/Central_limit.tex) (content/Models.tex
-) (content/Confidence_intervals.tex) (content/Hypothesis_tests.tex)
+)) (content/probability_distributions.tex) (content/expectation_variance.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+) (content/Law_large_Numbers.tex) (content/Central_limit.tex)
+(content/Models.tex) (content/Confidence_intervals.tex)
+(content/Hypothesis_tests.tex)
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 46.
 Package mdframed Info: mdframed inside a box 
@@ -1900,30 +1920,26 @@ Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 
 
 {C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(cheatsheet.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(cheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 32331 strings out of 492946
- 652600 string characters out of 3126266
- 735680 words of memory out of 3000000
+ 32327 strings out of 492946
+ 652562 string characters out of 3126266
+ 736715 words of memory out of 3000000
  35628 multiletter control sequences out of 15000+200000
- 595741 words of font info for 93 fonts, out of 3000000 for 9000
+ 595357 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,76p,837b,1064s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-}{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/sourcesanspr
-o/a_ggs4wk.enc}<C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ad
-obe/sourcesanspro/SourceSansPro-Bold.pfb><C:/Users/maxth/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb><C:/Users
-/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpex.pfb><
-C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkp
-mi.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpf
-onts/jkpmn8a.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/kpfonts/jkpsy.pfb>
-Output written on cheatsheet.pdf (1 page, 129999 bytes).
+ 55i,13n,76p,837b,1067s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
+vips/base/8r.enc}{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
+ips/sourcesanspro/a_ggs4wk.enc}<C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb><C:/Users/maxth/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regul
+ar.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpf
+onts/jkpex.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/kpfonts/jkpmi.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/kpfonts/jkpmn8a.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on cheatsheet.pdf (1 page, 130319 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
