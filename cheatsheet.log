@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  11 MAR 2019 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  11 MAR 2019 16:10
 entering extended mode
 **./cheatsheet.tex
 (cheatsheet.tex
@@ -1900,27 +1900,32 @@ Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 
 
 {C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(cheatsheet.aux) ) 
+(cheatsheet.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 32319 strings out of 492946
- 652498 string characters out of 3126266
- 734715 words of memory out of 3000000
+ 32331 strings out of 492946
+ 652600 string characters out of 3126266
+ 735680 words of memory out of 3000000
  35628 multiletter control sequences out of 15000+200000
- 593431 words of font info for 81 fonts, out of 3000000 for 9000
+ 595741 words of font info for 93 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,76p,837b,1066s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
-vips/base/8r.enc}{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
-ips/sourcesanspro/a_ggs4wk.enc}<C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb><C:/Users/maxth/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regul
-ar.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpf
-onts/jkpmi.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/kpfonts/jkpmn8a.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/kpfonts/jkpsy.pfb>
-Output written on cheatsheet.pdf (1 page, 116154 bytes).
+ 55i,13n,76p,837b,1064s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/sourcesanspr
+o/a_ggs4wk.enc}<C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ad
+obe/sourcesanspro/SourceSansPro-Bold.pfb><C:/Users/maxth/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb><C:/Users
+/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpex.pfb><
+C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkp
+mi.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpf
+onts/jkpmn8a.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/kpfonts/jkpsy.pfb>
+Output written on cheatsheet.pdf (1 page, 129999 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  19981 words of extra memory for PDF output out of 20736 (max. 10000000)
 
