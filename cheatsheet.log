@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  11 MAR 2019 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  12 MAR 2019 17:14
 entering extended mode
 **./cheatsheet.tex
 (cheatsheet.tex
@@ -1914,13 +1914,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-) (content/Law_large_Numbers.tex) (content/Central_limit.tex)
-(content/Models.tex) (content/estimators.tex) (content/Confidence_intervals.tex
-) (content/Hypothesis_tests.tex)
+) (content/Law_large_Numbers.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+) (content/Models.tex) (content/estimators.tex)
+(content/Confidence_intervals.tex) (content/Hypothesis_tests.tex)
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 47.
+(Font)              scaled to size 8.0pt on input line 46.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 47.
+ mdframed uses option nobreak mdframed on input line 46.
 
 Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 
@@ -1932,9 +1961,9 @@ Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 {C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (cheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 32334 strings out of 492946
- 652775 string characters out of 3126266
- 739715 words of memory out of 3000000
+ 32331 strings out of 492946
+ 652623 string characters out of 3126266
+ 741715 words of memory out of 3000000
  35632 multiletter control sequences out of 15000+200000
  605465 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1949,7 +1978,7 @@ onts/jkpex.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/kpfonts/jkpmi.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/kpfonts/jkpmn8a.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on cheatsheet.pdf (1 page, 135101 bytes).
+Output written on cheatsheet.pdf (1 page, 136682 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
