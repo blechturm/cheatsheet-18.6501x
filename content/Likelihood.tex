@@ -1,0 +1,18 @@
+\section{Likelihood}
+
+\subsection*{Discrete Likelihood}
+
+Let $(E, \{ P_\theta \} _{\theta \in \Theta })$ denote a discrete statistical model. Let $p_\theta$ denote the pmf of $P_\theta$. Let $X_1, \ldots , X_ n \stackrel{iid}{\sim } P_{\theta ^*}$ where the parameter $\theta ^*$  is unknown. Then the likelihood is the function \\
+
+$\displaystyle  L_ n: E^ n \times \Theta$\\
+$\displaystyle (x_1, \ldots , x_ n, \theta )$
+
+Bernoulli Variables:
+
+$L_ n(x_1, \ldots , x_ n, p) = p^{\sum _{i = 1}^ n x_ i} (1 -p)^{{\color{blue}{n - }} \sum _{i = 1}^ n x_ i}$
+
+$= L_ n = \prod _{i = 1}^ n \left( x_ i p + (1 - x_ i) (1 - p) \right)$
+
+Poisson Variables:\\
+
+$L_ n(x_1, \ldots , x_ n, \lambda) = \prod _{i = 1}^ n \frac{\lambda^{\sum_{i=1}^{n} x_i}}{\prod _{i = 1}^ n x_i!} e^{n\lambda}$\\

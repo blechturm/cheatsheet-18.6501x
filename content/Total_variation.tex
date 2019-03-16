@@ -1,0 +1,60 @@
+\section{Distance between distributions}
+
+\subsection*{Total variation}
+The total variation distance $\text {TV}$ between the propability measures $P$ and $Q$ with a sample space $E$ is defined as:\\
+
+$\text {TV}(\mathbf{P}, \mathbf{Q}) = {\max _{A \subset E}}| \mathbf{P}(A) - \mathbf{Q}(A) |,$\\
+
+Calculation with $f$ and $g$:
+
+$ \text {TV}(\mathbf{P}, \mathbf{Q}) =
+	\begin{cases}
+		  \frac{1}{2} \, \sum _{x \in E} |f(x) - g(x)|,&\text{discr}\\
+		 
+		 \frac{1}{2} \, {\color{blue}{\int }} _{x \in E} |f(x) - g(x)|dx,&\text{cont}\\
+	\end{cases}
+$\\
+
+Symmetry:\\
+ $d(\mathbf{P}, \mathbf{Q}) = d(\mathbf{Q}, \mathbf{P})$
+
+nonnegative: \\
+$d(\mathbf{P}, \mathbf{Q}) \geq 0$
+
+definite:\\
+$d(\mathbf{P}, \mathbf{Q}) = 0 \iff \mathbf{P}= \mathbf{Q}$
+
+triangle inequality:\\
+$d(\mathbf{P}, \mathbf{V}) \leq d(\mathbf{P}, \mathbf{Q}) + d(\mathbf{Q}, \mathbf{V})$
+
+If the support of $\mathbf{P}$ and $\mathbf{Q}$ is disjoint:\\
+$d(\mathbf{P}, \mathbf{V}) = 1$
+
+TV between continuous and discrete r.v:
+$d(\mathbf{P}, \mathbf{V}) = 1$
+
+\subsection*{KL divergence}
+
+the KL divergence (also known as relative entropy) $\text {KL}$ between between the propability measures $P$ and $Q$ with the common sample space $E$ and pmf/pdf functions $f$ and $g$ is defined as:
+
+$ \text {KL}(\mathbf{P}, \mathbf{Q}) =
+	\begin{cases}
+		  \sum _{x \in E} p(x) \ln \left( \frac{p(x)}{q(x)} \right),&\text{discr}\\
+		 
+		{\int }_{x \in E} p(x) \ln \left( \frac{p(x)}{q(x)}\right)dx,&\text{cont}\\
+	\end{cases}
+$\\
+Not a distance!\\
+Asymetric in general:\\
+$\text {KL}(\mathbf{P}, \mathbf{Q}) \neq \text {KL}(\mathbf{Q}, \mathbf{P})$\\
+Nonnegative:\\
+$\text {KL}(\mathbf{P}, \mathbf{Q}) \geq 0$\\
+Definite:\\
+if $\mathbf{P}$ = $\mathbf{Q}$ then $\text {KL}(\mathbf{P}, \mathbf{Q}) = 0$\\
+Does not satisfy triangle inequality in general:\\
+$KL(\mathbf{P}, \mathbf{V}) \nleq KL(\mathbf{P}, \mathbf{Q}) + KL(\mathbf{Q}, \mathbf{V})$\\
+
+Estimator of KL divergence:\\
+$KL(\mathbf{P}_{\theta_{*}},\mathbf{P}_{\theta}) = const - \mathbf{E}[ln(p_{\theta}(X))]$ \\
+
+$\widehat{KL}(\mathbf{P}_{\theta_{*}},\mathbf{P}_{\theta}) = const - \frac{1}{n} \sum_{i=1}^{n} log(p_{\theta}(X_i))$ 
