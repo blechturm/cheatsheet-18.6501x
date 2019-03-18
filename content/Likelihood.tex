@@ -1,18 +1,51 @@
 \section{Likelihood}
 
-\subsection*{Discrete Likelihood}
-
-Let $(E, \{ P_\theta \} _{\theta \in \Theta })$ denote a discrete statistical model. Let $p_\theta$ denote the pmf of $P_\theta$. Let $X_1, \ldots , X_ n \stackrel{iid}{\sim } P_{\theta ^*}$ where the parameter $\theta ^*$  is unknown. Then the likelihood is the function \\
+Let $(E, \{ P_\theta \} _{\theta \in \Theta })$ denote a discrete or continuous statistical model. Let $p_\theta$ denote the pmf or pdf of $P_\theta$. Let $X_1, \ldots , X_ n \stackrel{iid}{\sim } P_{\theta ^*}$ where the parameter $\theta ^*$  is unknown. Then the likelihood is the function \\
 
 $\displaystyle  L_ n: E^ n \times \Theta$\\
-$\displaystyle (x_1, \ldots , x_ n, \theta )$
+$\displaystyle (x_1, \ldots , x_ n, \theta )$\\
+$L_ n(x_1, \ldots , x_ n, \theta) = \prod _{i = 1}^ n P_{\theta}[X_i=x_i] $\\
 
-Bernoulli Variables:
+\subsection*{Discrete Likelihood}
+
+Bernoulli likelihood:
 
 $L_ n(x_1, \ldots , x_ n, p) = p^{\sum _{i = 1}^ n x_ i} (1 -p)^{{\color{blue}{n - }} \sum _{i = 1}^ n x_ i}$
 
 $= L_ n = \prod _{i = 1}^ n \left( x_ i p + (1 - x_ i) (1 - p) \right)$
 
-Poisson Variables:\\
+Poisson likelihood:
 
 $L_ n(x_1, \ldots , x_ n, \lambda) = \prod _{i = 1}^ n \frac{\lambda^{\sum_{i=1}^{n} x_i}}{\prod _{i = 1}^ n x_i!} e^{n\lambda}$\\
+
+Poisson loglikelihood:\\
+$log(L(x_1\dots x_n;\lambda))= \\ -n\lambda + log(\lambda)(\sum_{i=1}^n x_i)) - log(\prod _{i = 1}^ n x_i!)$
+
+
+\subsection*{Continuous Likelihood}
+
+Gaussian likelihood:\\
+
+$L(x_1\dots x_n;\mu,\sigma^2)=\\ \dfrac{1}{\left(\sigma\sqrt{2\pi}\right)^n}\exp{\left(-\dfrac{1}{2\sigma^2}\sum_{i=1}^n (x_i-\mu)^2 \right)}$\\
+
+Gaussian loglikelihood:\\
+
+$log(L(x_1\dots x_n;\mu,\sigma^2))= \\-n log(\sigma\sqrt{2\pi})-\frac{1}{2\sigma^2}\sum_{i=1}^n (x_i-\mu)^2 $
+
+Gaussian Maximum-loglikelihood estimators:\\
+
+ MLE estimator for $\sigma^2 = \tau$:\\  
+$\hat{\tau }_ n^{MLE} = \frac{1}{n} \sum _{i = 1}^ n X_ i^2$\\
+
+MLE estimators:\\
+
+$\hat{\mu}_ n^{MLE}=\frac{1}{n}\sum_{i=1}(x_i)$
+
+Exponential likelihood:\\
+$L(x_1\dots x_n;\lambda)=\lambda^n\exp\left(-\lambda\sum_{i=1}^n x_i\right)$
+
+
+Uniform:\\
+$L(x_1\dots x_n;b)=\frac{1(\max_i (x_i \leq b))} {b^n}$\\
+
+
