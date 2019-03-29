@@ -45,6 +45,7 @@ $ \text {KL}(\mathbf{P}, \mathbf{Q}) =
 	\end{cases}
 $\\
 Not a distance!\\
+Sum over support of $P$!\\
 Asymetric in general:\\
 $\text {KL}(\mathbf{P}, \mathbf{Q}) \neq \text {KL}(\mathbf{Q}, \mathbf{P})$\\
 Nonnegative:\\
@@ -55,6 +56,6 @@ Does not satisfy triangle inequality in general:\\
 $KL(\mathbf{P}, \mathbf{V}) \nleq KL(\mathbf{P}, \mathbf{Q}) + KL(\mathbf{Q}, \mathbf{V})$\\
 
 Estimator of KL divergence:\\
-$KL(\mathbf{P}_{\theta_{*}},\mathbf{P}_{\theta}) = const - \mathbf{E}[ln(p_{\theta}(X))]$ \\
+$\displaystyle  \text {KL}\left(\mathbf{P}_{\theta ^*}, \mathbf{P}_{\theta }\right) = \mathbb {E}_{\theta ^*}\left[\ln \left(\frac{p_{\theta ^*}(X)}{p_{\theta }(X)}\right)\right],$ \\
 
 $\widehat{KL}(\mathbf{P}_{\theta_{*}},\mathbf{P}_{\theta}) = const - \frac{1}{n} \sum_{i=1}^{n} log(p_{\theta}(X_i))$ 

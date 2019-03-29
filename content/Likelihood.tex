@@ -6,31 +6,78 @@ $\displaystyle  L_ n: E^ n \times \Theta$\\
 $\displaystyle (x_1, \ldots , x_ n, \theta )$\\
 $L_ n(x_1, \ldots , x_ n, \theta) = \prod _{i = 1}^ n P_{\theta}[X_i=x_i] $\\
 
-\subsection*{Discrete Likelihood}
+\subsection*{Bernoulli}
 
-Bernoulli likelihood:
+Likelihood 1 trial:\\
+$L_ 1(p) = p^x (1-p)^{1-x}$\\
 
-$L_ n(x_1, \ldots , x_ n, p) = p^{\sum _{i = 1}^ n x_ i} (1 -p)^{{\color{blue}{n - }} \sum _{i = 1}^ n x_ i}$
+Loglikelihood 1 trial:\\
+$log(L_ 1(p)) = x log(p) + (1-x) log (1-p)$\\
 
-$= L_ n = \prod _{i = 1}^ n \left( x_ i p + (1 - x_ i) (1 - p) \right)$
 
-Poisson likelihood:
+Likelihood n trials:\\
 
+$L_ n(x_1, \ldots , x_ n, p) = p^{\sum _{i = 1}^ n x_ i} (1 -p)^{{\color{blue}{n - }} \sum _{i = 1}^ n x_ i}$\\
+
+$= L_ n = \prod _{i = 1}^ n \left( x_ i p + (1 - x_ i) (1 - p) \right)$\\
+
+Loglikelihood n trials:
+
+\subsection*{Binomial}
+Likelihood:\\
+
+$L_ n(x_1, \ldots , x_ n, p,n) = nC_x~p^x(1-p)^{n-x} = p^{x_i}(1-p)^{1-x_i}$
+
+Loglikelihood:\\
+
+$log(L_ n(x_1, \ldots , x_ n, p,n)) = \ln\left(nC_x~p^x(1-p)^{n-x}\right) = \ln(nC_x)+x\ln(p)+(n-x)\ln(1-p)$
+
+\subsection*{Poisson}
+Likelihood:\\
 $L_ n(x_1, \ldots , x_ n, \lambda) = \prod _{i = 1}^ n \frac{\lambda^{\sum_{i=1}^{n} x_i}}{\prod _{i = 1}^ n x_i!} e^{n\lambda}$\\
 
-Poisson loglikelihood:\\
+Loglikelihood:\\
 $log(L(x_1\dots x_n;\lambda))= \\ -n\lambda + log(\lambda)(\sum_{i=1}^n x_i)) - log(\prod _{i = 1}^ n x_i!)$
 
 
-\subsection*{Continuous Likelihood}
+\subsection*{Gaussian}
 
-Gaussian likelihood:\\
+Likelihood:\\
 
 $L(x_1\dots x_n;\mu,\sigma^2)=\\ \dfrac{1}{\left(\sigma\sqrt{2\pi}\right)^n}\exp{\left(-\dfrac{1}{2\sigma^2}\sum_{i=1}^n (x_i-\mu)^2 \right)}$\\
 
-Gaussian loglikelihood:\\
+Loglikelihood:\\
 
 $log(L(x_1\dots x_n;\mu,\sigma^2))= \\-n log(\sigma\sqrt{2\pi})-\frac{1}{2\sigma^2}\sum_{i=1}^n (x_i-\mu)^2 $
+
+
+\subsection*{Exponential}
+
+Likelihood:\\
+$L(x_1\dots x_n;\lambda)=\lambda^n\exp\left(-\lambda\sum_{i=1}^n x_i\right)$
+
+Loglikelihood:\\
+
+\subsection*{Uniform}
+
+Likelihood:\\
+$L(x_1\dots x_n;b)=\frac{1(\max_i (x_i \leq b))} {b^n}$\\
+
+Loglikelihood:\\
+
+\subsection*{Maximum likelihood estimation}
+
+Cookbook: take the log of the likelihood function. Take the partial derivative of the loglikelihood function with respect to the parameter. Set the partial derivative to zero and solve for the parameter.
+
+If an indicator function on the pdf/pmf does not depend on the parameter, it can be ignored. If it depends on the parameter it can't be ignored because there is an discontinuity in the loglikelihood function. The maximum/minimum of the $X_i$ is then the maximum likelihood estimator.
+
+Maximum likelihood estimator:\\
+
+Let $\left\{ E,\left(\mathbf{P}_{\theta }\right)_{\theta \in \Theta }\right\}$  be a statistical model associated with a sample of i.i.d. random variables $X_1, X_2, \dots , X_ n$. Assume that there exists $\theta ^* \in \Theta$ such that $X_ i \sim \mathbf{P}_{\theta ^*}$.
+
+The maximum likelihood estimator is the (unique) $\theta$ that minimizes $\widehat{\text {KL}}\left(\mathbf{P}_{\theta ^*}, \mathbf{P}_{\theta }\right)$ over the parameter space. (The minimizer of the KL divergence is unique due to it being strictly convex in the space of distributions once  is fixed.)
+
+$\widehat{\theta }_ n^{MLE} =\\ \displaystyle \text {argmin}_{\theta \in \Theta }\widehat{\text {KL}}_ n\left(\mathbf{P}_{\theta ^*}, \mathbf{P}_{\theta }\right) =\\ \displaystyle \text {argmax}_{\theta \in \Theta } \sum _{i=1}^{n} \ln p_{\theta }(X_ i) =\\  \displaystyle \text {argmax}_{\theta \in \Theta } \ln \left(\prod _{i=1}^{n} p_{\theta }(X_ i)\right)$
 
 Gaussian Maximum-loglikelihood estimators:\\
 
@@ -41,11 +88,4 @@ MLE estimators:\\
 
 $\hat{\mu}_ n^{MLE}=\frac{1}{n}\sum_{i=1}(x_i)$
 
-Exponential likelihood:\\
-$L(x_1\dots x_n;\lambda)=\lambda^n\exp\left(-\lambda\sum_{i=1}^n x_i\right)$
-
-
-Uniform:\\
-$L(x_1\dots x_n;b)=\frac{1(\max_i (x_i \leq b))} {b^n}$\\
-
-
+%\subsection*{Continuous Likelihood}
