@@ -1,5 +1,10 @@
 \section{Expectation and Variance}
 \subsection*{Expectation}
+
+Expectation of a random vector is the elementwise expectation. Let $\mathbf X$  be a random vector of dimension $d \times 1$ with expectation $\mu _{\mathbf X}$. 
+
+Let $\mu \triangleq \mathbb E[\mathbf X]$  denote the entry-wise mean, i.e $\displaystyle  \displaystyle \mathbb E[\mathbf X] = \displaystyle \begin{pmatrix} \mathbb E[X^{(1)}]\\ \vdots \\ \mathbb E[X^{(d)}]\end{pmatrix}.$
+
 \subsection*{Variance}
 
 $Var(X + Y)=Var(X)+Var(Y)+2\textsf{Cov}(X,Y)$
@@ -26,14 +31,3 @@ $\textsf{Cov}(X,X + Y)= Var(X) + cov(X,Y)$\\
 $\displaystyle  \textsf{Cov}(aX+ bY, Z) \displaystyle = a\textsf{Cov}(X,Z) + b\textsf{Cov}(Y,Z)$\\
 
 If $Cov(X,Y) = 0$, we say that X and Y are uncorrelated. If $X$ and $Y$ are independent, they are uncorrelated. The converse is not always true. It is only true if $X$ and $Y$ form a gaussian vector, ie. any linear combination $\alpha X + \beta Y$ is gaussian for all $(\alpha,\beta) \in \mathbb{R}^2$ without $\{0,0\}$.
-
-\subsection*{Variance and expectation of mean of n iid random variables}
-Let $X_1, ..., X_n \stackrel{iid}{\sim} P_{\mu}$, where $E(X_i)=\mu$ and $Var(X_i)=\sigma^2$ for all $i=1,2,...,n$ and $\bar{X_n}= \frac{1}{n} \sum_{i=1}^{n} X_i$.\\
-
-Variance of the Mean:\\
-
-$Var(\overline{X_n})=(\frac{\sigma^2}{n})^2 Var(X_1 + X_2,...,X_n) =  \frac{\sigma^2}{n}$.\\
-
-Expectation of the mean:\\
-
-$E[\bar{X_n}]=\frac{1}{n}E[X_1 + X_2,...,X_n] = \mu$.

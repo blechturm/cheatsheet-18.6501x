@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  30 MAR 2019 09:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  30 MAR 2019 14:35
 entering extended mode
 **./cheatsheet.tex
 (cheatsheet.tex
@@ -1890,13 +1890,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--28
-\T1/jkp/m/n/9 (+20) The Hes-si-an of $[]\OML/jkp/m/it/9 f$[] \T1/jkp/m/n/9 (+20
-) is the ma-trix
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--28
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
 
  []
 
@@ -1906,38 +1920,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-[]\T1/jkp/m/n/9 (+20) Positive semi-definite if $[]\OT1/jkp/b/n/9 x[] A x \OMS/
-jkp/m/n/9 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
@@ -1967,92 +1990,122 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--38
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--44
+Underfull \hbox (badness 10000) in paragraph at lines 40--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--71
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+) (content/Multivariate_RV.tex
+Underfull \hbox (badness 10000) in paragraph at lines 85--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
 ) (content/expectation_variance.tex
-Underfull \hbox (badness 10000) in paragraph at lines 72--1
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
@@ -2061,18 +2114,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+) (content/Covariance_Matrix.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
@@ -2111,9 +2154,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
 ) (content/Models.tex) (content/estimators.tex)
-(content/Confidence_intervals.tex) (content/Hypothesis_tests.tex)
-(content/Total_variation.tex
+(content/Confidence_intervals.tex) (content/Hypothesis_tests.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--1
+[]$[][]\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 g\OT1/jkp/m/n/9 (+20) ([]) \OMS/jk
+p/m/n/9   \OML/jkp/m/it/9 g\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 m[]\OT1/jkp/m/
+n/9 (+20) (\OML/jkp/m/it/9 \OT1/jkp/m/n/9 (+20) ))) []
+ []
+
+) (content/Total_variation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -2149,7 +2213,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 4.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 4.
 
+Overfull \vbox (2.18312pt too high) has occurred while \output is active []
+
+
+[1
+
+
+
+{C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
@@ -2239,19 +2315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--78
 
  []
 
-LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 78.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 78.
 
-Overfull \vbox (2.18312pt too high) has occurred while \output is active []
-
-
-[1
-
-
-
-{C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
@@ -2330,40 +2394,102 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `jkp' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) (content/Multivariate_RV.tex
+) (content/Moments.tex
 Underfull \hbox (badness 10000) in paragraph at lines 142--1
 
  []
 
+Missing character: There is no d in font jkpsyb!
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) (content/Covariance_Matrix.tex)
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Overfull \hbox (5.27722pt too wide) in paragraph at lines 29--30
+[]$[]\OML/jkp/m/it/9 M[] []$[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Overfull \hbox (4.02428pt too wide) in paragraph at lines 39--40
+[]$[]\U/jkpmia/m/it/9  \OT1/jkp/m/n/9 (-20) (\OML/jkp/m/it/9 \OT1/jkp/m/n/9 (-
+20) ) = [][] \U/jkpmia/m/it/9 \OT1/jkp/m/n/9 (-20) (\OML/jkp/m/it/9 \OT1/jkp/
+m/n/9 (-20) ) []$[] 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\T1/jkp/m/n/9 (+20) ran-dom vec-tor of the mo-ments
+ []
+
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 51.
+ mdframed uses option nobreak mdframed on input line 52.
 
 Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 
 
 [2] (cheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 32510 strings out of 492946
- 655339 string characters out of 3126266
- 771985 words of memory out of 3000000
+ 32521 strings out of 492946
+ 655547 string characters out of 3126266
+ 774670 words of memory out of 3000000
  35683 multiletter control sequences out of 15000+200000
- 645488 words of font info for 182 fonts, out of 3000000 for 9000
+ 646336 words of font info for 188 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,76p,837b,1067s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/e
@@ -2384,7 +2510,7 @@ psy.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kp
 fonts/jkpsya.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/kpfonts/jkpsyb.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/kpfonts/jkpsyc.pfb>
-Output written on cheatsheet.pdf (2 pages, 199625 bytes).
+Output written on cheatsheet.pdf (2 pages, 200549 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

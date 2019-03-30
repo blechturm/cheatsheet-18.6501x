@@ -1,0 +1,43 @@
+\section{Method of Moments}
+
+Let $X_1, \ldots , X_ n \stackrel{iid}{\sim } \mathbf{P}_{\theta ^*}$ associated with model $(\mathbb {E}, \{ \mathbf{P}_{\theta }\} _{\theta \in \Theta })$, with $\mathbb {E} \subseteq \mathbb {R}$ and $\Theta \subseteq \mathbb {R^d}$, for some d $\geq 1$
+
+Population moments:\\
+
+$m_k(\theta) = \mathbb{E}_{\theta}[X^k_1],  1 \leq k \leq d$\\
+
+Empirical moments:\\
+
+$\widehat{m_k}(\theta) = \bar{X_n^k} = \frac{1}{n} \sum _{i=1}^{n}X_i^k$
+
+Convergence of empirical moments:\\
+
+$\widehat{m_k} \xrightarrow[n \rightarrow \infty]{P, a.s.} m_k$\\
+
+$(\widehat{m_1}, \ldots, \widehat{m_d}) \xrightarrow[n \rightarrow \infty]{P, a.s.} (m_1, \ldots, m_d)$
+
+MOM Estimator $M$ is a map from the parameters of a model to the moments of its distribution. This map is invertible, (ie. it results into a system of equations that can be solved for the true parameter vector $\theta^{*}$). Find the moments (as many as parameters), set up system of equations, solve for parameters, use empirical moments to estimate.
+
+$\displaystyle  \psi : \Theta \displaystyle \to \mathbb {R}^ d$\\
+
+$\displaystyle \theta \displaystyle \mapsto (m_1(\theta ), m_2(\theta ), \ldots , m_ d(\theta ))$\\
+
+$M ^{-1}(m_1(\theta ^*), m_2(\theta ^*), \ldots , m_ d(\theta ^*))$
+
+The MOM estimator uses the empirical moments:\\
+
+$M ^{-1}\left( \frac{1}{n} \sum _{i = 1}^ n X_ i, \frac{1}{n} \sum _{i = 1}^ n X_ i^2, \ldots , \frac{1}{n} \sum _{i = 1}^ n X_ i^ d \right)$\\
+
+
+
+Assuming $M^{-1}$ is continuously differentiable at $M(0)$, the asymptotical variance of the MOM estimator is:\\\\
+
+$\sqrt(n)(\widehat{\theta_n^{MM}} - \theta) \xrightarrow[n \rightarrow \infty]{(d)} N(0,\Gamma)$\\
+
+where,
+
+$\Gamma (\theta )=\left[\frac{\partial M^{-1}}{\partial \theta } (M(\theta ))\right]^{T} \Sigma (\theta )\left[\frac{\partial M^{-1}}{\partial \theta } (M(\theta ))\right]$
+
+$\Gamma(\theta) = \nabla_{\theta}(M^{-1})^{T} \Sigma \nabla_{\theta}(M^{-1}) $
+
+$\Sigma_{\theta}$ is the covariance matrix of the random vector of the moments $(X_1^1,X_1^2 \ldots, X_1^d)$.

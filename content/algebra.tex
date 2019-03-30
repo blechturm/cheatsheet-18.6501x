@@ -5,42 +5,54 @@ $|f(x)| > a  \Rightarrow f(x) > a$ or $f(x) < -a$\\
 \section{Matrixalgebra}
 \section{Calculus}
 \subsection*{Concavity in 1 dimension}
-If $g:I \to \mathbb {R}$ is twice differentiable in the interval $I$, i.e. $g^{\prime \prime }(x)$ exists for all $x \in I$, then $g$  is
+If $g:I \to \mathbb {R}$ is twice differentiable in the interval $I$:
 
-concave if and only if $g^{\prime \prime }(x) {\color{blue}{\leq }}  0$ for all $x \in I$;
+concave:\\ 
+if and only if $g^{\prime \prime }(x) {\color{blue}{\leq }}  0$ for all $x \in I$\\
 
-strictly concave if $g^{\prime \prime }(x) {\color{blue}{<}}  0$ for all $x \in I$;
+strictly concave:\\
+if $g^{\prime \prime }(x) {\color{blue}{<}}  0$ for all $x \in I$\\
 
-convex if and only if $g^{\prime \prime }(x) {\color{blue}{\geq }}  0$ for all $x \in I$;
+convex:\\ 
+if and only if $g^{\prime \prime }(x) {\color{blue}{\geq }}  0$ for all $x \in I$\\
 
-strictly convex if $g^{\prime \prime }(x) {\color{blue}{>}}  0$ for all $x \in I$;
+strictly convex if:\\
+$g^{\prime \prime }(x) {\color{blue}{>}}  0$ for all $x \in I$\\
 
 \subsection*{Multivariate Calculus}
-\textbf{Gradient}\\
-Let\\
-$f: \mathbb {R}^ d \longrightarrow \mathbb {R} \theta = \displaystyle \theta =\begin{pmatrix} \theta _1\\ \theta _2\\ \vdots \\ \theta _ d\end{pmatrix} \displaystyle \mapsto \displaystyle f(\theta )$\\
-denote a twice differentiable function, the Gradient $\nabla$ of $f$ is defined as:
+The Gradient $\nabla$ of a twice differntiable function $f$ is defined as:
 
 $\nabla f:\mathbb {R}^ d \rightarrow \mathbb {R}^ d $\\
 $\displaystyle \theta =\begin{pmatrix} \theta _1\\ \theta _2\\ \vdots \\ \theta _ d\end{pmatrix} \displaystyle \mapsto \displaystyle \left.\begin{pmatrix}  \frac{\partial f }{\partial \theta _1}\\ \frac{\partial f }{\partial \theta _2}\\ \vdots \\ \frac{\partial f }{\partial \theta _ d}\end{pmatrix}\right|_{\theta }$\\
 \textbf{Hessian}\\
-The Hessian of $f$ is the matrix $\mathbf{H}: \mathbb {R}^ d \to \mathbb {R}^{d\times d}$ whose entry in the $i$-th row and $j$-th column is defined by\\
 
-$\left(\mathbf{H}\, f\right)_{ij} := \frac{\partial ^2}{\partial \theta _ i \partial \theta _ j} f, \quad 1 \leq i, j \leq d$\\
+The Hessian of $f$ is a symmetric matrix of second partial derivatives of $f$\\
 
-\textbf{Semi-Definiteness}\\	 	 
+$\mathbf{H} h(\theta )= \nabla ^{2} h(\theta )= \\
+\left(\begin{array}{ c c c }
+\frac{\partial ^{2} h}{\partial \theta _{1} \partial \theta _{1}} (\theta ) & \cdots  & \frac{\partial ^{2} h}{\partial \theta _{1} \partial \theta _{d}} (\theta )\\
+ & \vdots  & \\
+\frac{\partial ^{2} h}{\partial \theta _{d} \partial \theta _{1}} (\theta ) & \cdots  & \frac{\partial ^{2} h}{\partial \theta _{d} \partial \theta _{d}} (\theta )
+\end{array}\right) \in \mathbb{R}^{d\times d}$\\
 
 A symmetric (real-valued) $d\times d$  matrix $\mathbf{A}$ is:\\
 
-Positive semi-definite if $\mathbf{x}^ T \, \mathbf{A}\, \mathbf{x} \geq 0\qquad \text {for all }\,  \mathbf{x}\in \mathbb {R}^ d.$\\
+Positive semi-definite:\\
+$\mathbf{x}^ T \, \mathbf{A}\, \mathbf{x} \geq 0\qquad \text {for all }\,  \mathbf{x}\in \mathbb {R}^ d.$\\
 
-Positive definite if inequality above is strict $\mathbf{x}^ T \, \mathbf{A}\, \mathbf{x}> 0$ for all non-zero vectors $\mathbf{x}\in \mathbb {R}^ d$\\
+Positive definite:\\
+$\mathbf{x}^ T \, \mathbf{A}\, \mathbf{x}> 0$ for all non-zero vectors $\mathbf{x}\in \mathbb {R}^ d$\\
 
-Negative semi-definite (resp. negative definite) if $\mathbf{x}^ T \, \mathbf{A}\, \mathbf{x}$ is non-positive (resp. negative) for all $\mathbf{x}\in \mathbb {R}^ d-\{ \mathbf{0}\}$.\\
+Negative semi-definite (resp. negative definite):\\
 
-Positive (or negative) definiteness implies positive (or negative) semi-definiteness.
+$\mathbf{x}^ T \, \mathbf{A}\, \mathbf{x}$ is negative for all $\mathbf{x}\in \mathbb {R}^ d-\{ \mathbf{0}\}$.\\
 
-\textbf{Concavity}\\
+Positive (or negative) definiteness implies positive (or negative) semi-definiteness.\\
 
+If the Hessian is positive definite then $f$ attains a local minimum at $a$ (convex).\\
+
+If the Hessian is negative definite at $a$, then f attains a local maximum at $a$ (concave).\\
+
+If the Hessian has both positive and negative eigenvalues then $a$ is a saddle point for $f$.
 
 	

@@ -1,11 +1,11 @@
-\section{LLN and CLT}
-Let $X_1, ..., X_n \stackrel{iid}{\sim} P_{\mu}$, where $E(X_i)=\mu$ and $Var(X_i)=\sigma^2$ for all $i=1,2,...,n$\\
+\section{Law of large Numbers and Central Limit theorem}
+Let $X_1, ..., X_n \stackrel{iid}{\sim} P_{\mu}$, where $E(X_i)=\mu$ and $Var(X_i)=\sigma^2$ for all $i=1,2,...,n$ and $\bar{X_n}= \frac{1}{n} \sum_{i=1}^{n} X_i$.\\
 
-Weak and strong law of large numbers:\\
+Law of large numbers:\\
 
-$\bar{X_n}= \frac{1}{n} \sum_{i=1}^{n} X_i \xrightarrow[n \rightarrow \infty]{P, a.s.} \mu$ .\\
+$\bar{X_n} \xrightarrow[n \rightarrow \infty]{P, a.s.} \mu$ .\\
 
-$ \frac{1}{n} \sum_{i=1}^{n} g(X_i) \xrightarrow[n \rightarrow \infty]{P, a.s.} \mathbf{E}[g(X)]$\\
+$ \frac{1}{n} \sum_{i=1}^{n} g(X_i) \xrightarrow[n \rightarrow \infty]{P, a.s.} \mathbb{E}[g(X)]$\\
 
 Central Limit Theorem:\\
 
@@ -13,3 +13,11 @@ $\sqrt(n)\frac{\bar{X_n}-\mu}{\sqrt(\sigma^2)} \xrightarrow[n \rightarrow \infty
 
 $\sqrt(n)(\bar{X_n}-\mu) \xrightarrow[n \rightarrow \infty]{(d)} N(0,\sigma^2)$\\
 
+Variance of the Mean:\\
+
+$Var(\overline{X_n})=\\
+(\frac{\sigma^2}{n})^2 Var(X_1 + X_2,...,X_n) =  \frac{\sigma^2}{n}$.\\
+
+Expectation of the mean:\\
+
+$E[\bar{X_n}]=\frac{1}{n}E[X_1 + X_2,...,X_n] = \mu$.
