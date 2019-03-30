@@ -1,16 +1,25 @@
 \section{Important probability distributions}
 \subsection*{Bernoulli}
-Parameter $p \in[0,1]$. Discrete, describes the success or failure in a single trial.\\
+Parameter $p \in[0,1]$, discrete\\
 $ p_x(k)=
 	\begin{cases}
 		 p,&\text{if k = 1}\\
 		(1-p),&\text{if k = 0}\\
 	\end{cases}
 $\\
-$E[X]=p$\\
-$Var(X)=p(1-p)$
+$\mathbb{E}[X]=p$\\
+$Var(X)=p(1-p)$\\
+
+\subsection*{Poisson}
+Parameter $\lambda$. discrete, approximates the binomial PMF when $n$ is large, $p$ is small, and $\lambda = np$.
+
+$\mathbf{p_x}(k)=exp(-\lambda)\frac{\lambda^k}{k!}$ for $k=0,1, \ldots,$\\
+
+$\mathbb{E}[X]=\lambda$\\
+$Var(X)=\lambda$\\
+
 \subsection*{Exponential}
-Parameter $\lambda$. Continuous\\
+Parameter $\lambda$, continuous\\
 $ f_x(x)=
 	\begin{cases}
 		 \lambda exp(-\lambda x),&\text{if x >= 0}\\
@@ -23,24 +32,42 @@ $ F_x(x)=
 		0,&\text{o.w.}\\
 	\end{cases}
 $\\
-$E[X]=\frac{1}{\lambda}$\\
-$Var(X)=\frac{1}{\lambda^2}$
+
+$\mathbb{E}[X]=\frac{1}{\lambda}$\\
+$Var(X)=\frac{1}{\lambda^2}$\\
 
 \subsection*{Normal (Gaussian)}
-Parameters $\mu$ and $\sigma^2 >0$. Continuous\\
+Parameters $\mu$ and $\sigma^2 >0$, continuous\\
 $f(x)= \frac{1}{\sqrt(2 \pi \sigma)} exp(-\frac{(x-\mu)^2}{2\sigma^2})$ \\
-$E[X]=\mu$ \\
+$\mathbb{E}[X]=\mu$ \\
 $Var(X)=\sigma^2$\\
-Useful properties:\\
 
+Linearity:\\
 
-\subsection*{Poisson}
-Parameter $\lambda$. Discrete, approximates the binomial PMF when $n$ is large, $p$ is small, and $\lambda = np$.
+$aX+b \sim N(X+b,a^2\sigma^2)$\\
 
-$(\mathbf{p_x}(k)=exp(-\lambda)\frac{\lambda^k}{k!}$ for $k=0,1, \ldots,$\\
+Symmetry:\\
 
-$\mathbf{E}[X]=\lambda$\\
-$Var(X)=\lambda$\\
+If $X \sim\ N(0,\sigma^2),$ then $-X \sim N(0,\sigma^2)$\\
+
+Standardization:\\
+
+$Z= \frac{X-\mu}{\sigma} \sim N(0,1)$\\
+
+$\mathbf{P}\left(X\leq t\right) = \displaystyle \mathbf{P}\left(Z\leq \frac{t-\mu}{\sigma}\right)$
+
+Quantile: $q_{\alpha } = \displaystyle \mathbf{P}\left(X\leq q_{\alpha }\right)=1-\alpha$\\
 
 \subsection*{Uniform}
 
+Parameters $a$ and $b$, continuous.
+
+$ \mathbf{f_x}(x)=
+	\begin{cases}
+		 \frac{1}{b-a},&\text{if a < x <b}\\
+		0,&\text{o.w.}\\
+	\end{cases}
+$\\
+
+$\mathbb{E}[X]=\frac{a+b}{2}$\\
+$Var(X)=\frac{(b-a)^2}{12}$\\

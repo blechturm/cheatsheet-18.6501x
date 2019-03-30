@@ -20,33 +20,3 @@ Convergence in Probability in Higher Dimension\\
 
 In other words, the sequence $\mathbf{X}_1, \mathbf{X}_2,\ldots$ converges in probability to $\mathbf{X}$ if and only if each component sequence $\, X_1^{(k)},X_2^{(k)},\ldots \,$ converges in probability to $\, X^{(k)}$.
 
-\section{Fisher Information}
-
-Let $(\mathbb {R}, \{ \mathbf{P}_\theta \} _{\theta \in \mathbb {R}})$ denote a continuous statistical model. Let $f_\theta (x)$ denote the pdf (probability density function) of the continuous distribution $\mathbf{P}_\theta$. Assume that $f_\theta (x)$ is twice-differentiable as a function of the parameter $\theta$.
-
-Loglikelihood of $X$:
-$\ell (\theta ) = \ln L_1(X, \theta ) = \ln f_\theta (X)$
-
-Formula for the calculation of Fisher Information of $X$:
-
-$\displaystyle  \mathcal{I}(\theta )= \int _{-\infty }^\infty \frac{\left(\frac{\partial f_\theta (x)}{\partial \theta }\right)^2}{f_\theta (x)} \,  dx$ \\
-
-Models with one parameter (ie. Bernulli):
-
-$\mathcal{I}(\theta ) = \textsf{Var}(\ell '(\theta ))$\\
-
-$\mathcal{I}(\theta ) = - \mathbf{E}(\ell ''(\theta ))$\\
-
-Models with multiple parameters (ie. Gaussians):
-
-$\mathcal{I}(\theta ) = -\mathbb E\left[\mathbf{H}\ell (\theta )\right]$
-
-Cookbook:\\
-
-Better to use 2nd derivative.\\
-
-\begin{itemize}
-  \item Find loglikelihood
-  \item Take second derivative (=Hessian if multivariate)
-  \item Massage Expression to use $- \mathbf{E}(\ell ''(\theta ))$
-\end{itemize}

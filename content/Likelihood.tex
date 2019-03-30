@@ -3,8 +3,12 @@
 Let $(E, \{ P_\theta \} _{\theta \in \Theta })$ denote a discrete or continuous statistical model. Let $p_\theta$ denote the pmf or pdf of $P_\theta$. Let $X_1, \ldots , X_ n \stackrel{iid}{\sim } P_{\theta ^*}$ where the parameter $\theta ^*$  is unknown. Then the likelihood is the function \\
 
 $\displaystyle  L_ n: E^ n \times \Theta$\\
-$\displaystyle (x_1, \ldots , x_ n, \theta )$\\
 $L_ n(x_1, \ldots , x_ n, \theta) = \prod _{i = 1}^ n P_{\theta}[X_i=x_i] $\\
+
+Loglikelihood:\\
+$\ell_n (\theta ) = \ln (L(x_1,\ldots, x_n \theta ))=\\
+= ln (\prod _{i = 1}^ n f_\theta (x_i))=\\ 
+= \sum _{i = 1}^ n ln(f_\theta(x_i))$\\
 
 \subsection*{Bernoulli}
 
@@ -12,43 +16,52 @@ Likelihood 1 trial:\\
 $L_ 1(p) = p^x (1-p)^{1-x}$\\
 
 Loglikelihood 1 trial:\\
-$log(L_ 1(p)) = x log(p) + (1-x) log (1-p)$\\
+$\ell_1(p) = x log(p) + (1-x) log (1-p)$\\
 
 
 Likelihood n trials:\\
 
-$L_ n(x_1, \ldots , x_ n, p) = p^{\sum _{i = 1}^ n x_ i} (1 -p)^{{\color{blue}{n - }} \sum _{i = 1}^ n x_ i}$\\
+$L_ n(x_1, \ldots , x_ n, p) =\\
+= p^{\sum _{i = 1}^ n x_ i} (1 -p)^{{\color{blue}{n - }} \sum _{i = 1}^ n x_ i}$ \\
 
-$= L_ n = \prod _{i = 1}^ n \left( x_ i p + (1 - x_ i) (1 - p) \right)$\\
+Loglikelihood n trials:\\
 
-Loglikelihood n trials:
+$\ell_n (p) = \\ = \sum _{i=1}^{n}x_{{i}}\ln  \left( p \right) + \left( n-\sum _{i=1}^{n}
+x_{{i}} \right) \ln  \left( 1-p \right)$\\
 
 \subsection*{Binomial}
 Likelihood:\\
 
-$L_ n(x_1, \ldots , x_ n, p,n) = nC_x~p^x(1-p)^{n-x} = p^{x_i}(1-p)^{1-x_i}$
+$L_ n(x_1, \ldots , x_ n, p,n) =\\
+= nC_x~p^x(1-p)^{n-x} = p^{x_i}(1-p)^{1-x_i}$\\
 
 Loglikelihood:\\
 
-$log(L_ n(x_1, \ldots , x_ n, p,n)) = \ln\left(nC_x~p^x(1-p)^{n-x}\right) = \ln(nC_x)+x\ln(p)+(n-x)\ln(1-p)$
+$\ell_n (p,n)  = \\
+ = \ln(nC_x)+x\ln(p)+(n-x)\ln(1-p)$\\
+ 
+$C$ is a constant from n choose k, disappears after differentiating.
 
 \subsection*{Poisson}
 Likelihood:\\
 $L_ n(x_1, \ldots , x_ n, \lambda) = \prod _{i = 1}^ n \frac{\lambda^{\sum_{i=1}^{n} x_i}}{\prod _{i = 1}^ n x_i!} e^{n\lambda}$\\
 
 Loglikelihood:\\
-$log(L(x_1\dots x_n;\lambda))= \\ -n\lambda + log(\lambda)(\sum_{i=1}^n x_i)) - log(\prod _{i = 1}^ n x_i!)$
+$\ell_n (\lambda)= \\
+= -n\lambda + log(\lambda)(\sum_{i=1}^n x_i)) - log(\prod _{i = 1}^ n x_i!)$
 
 
 \subsection*{Gaussian}
 
 Likelihood:\\
 
-$L(x_1\dots x_n;\mu,\sigma^2)=\\ \dfrac{1}{\left(\sigma\sqrt{2\pi}\right)^n}\exp{\left(-\dfrac{1}{2\sigma^2}\sum_{i=1}^n (x_i-\mu)^2 \right)}$\\
+$L(x_1\dots x_n;\mu,\sigma^2)=\\ 
+= \dfrac{1}{\left(\sigma\sqrt{2\pi}\right)^n}\exp{\left(-\dfrac{1}{2\sigma^2}\sum_{i=1}^n (x_i-\mu)^2 \right)}$\\
 
 Loglikelihood:\\
 
-$log(L(x_1\dots x_n;\mu,\sigma^2))= \\-n log(\sigma\sqrt{2\pi})-\frac{1}{2\sigma^2}\sum_{i=1}^n (x_i-\mu)^2 $
+$\ell_n (\mu,\sigma^2)= \\
+= -n log(\sigma\sqrt{2\pi})-\frac{1}{2\sigma^2}\sum_{i=1}^n (x_i-\mu)^2 $
 
 
 \subsection*{Exponential}
@@ -89,3 +102,41 @@ MLE estimators:\\
 $\hat{\mu}_ n^{MLE}=\frac{1}{n}\sum_{i=1}(x_i)$
 
 %\subsection*{Continuous Likelihood}
+
+\subsection{Fisher Information}
+
+The Fisher information, captures the negative of the expected curvature of the loglikelihood function.
+
+Let $(\mathbb {R}, \{ \mathbf{P}_\theta \} _{\theta \in \mathbb {R}})$ denote a continuous statistical model. Let $f_\theta (x)$ denote the pdf (probability density function) of the continuous distribution $\mathbf{P}_\theta$. Assume that $f_\theta (x)$ is twice-differentiable as a function of the parameter $\theta$.\\
+
+Formula for the calculation of Fisher Information of $X$:\\
+
+$\displaystyle  \mathcal{I}(\theta )= \int _{-\infty }^\infty \frac{\left(\frac{\partial f_\theta (x)}{\partial \theta }\right)^2}{f_\theta (x)} \,  dx$ \\
+
+Models with one parameter (ie. Bernulli):\\
+
+$\mathcal{I}(\theta ) = \textsf{Var}(\ell '(\theta ))$\\
+
+$\mathcal{I}(\theta ) = - \mathbf{E}(\ell ''(\theta ))$\\
+
+Models with multiple parameters (ie. Gaussians):\\
+
+$\mathcal{I}(\theta ) = -\mathbb E\left[\mathbf{H}\ell (\theta )\right]$
+
+Cookbook:\\
+
+Better to use 2nd derivative.\\
+
+\begin{itemize}
+  \item Find loglikelihood
+  \item Take second derivative (=Hessian if multivariate)
+  \item Massage second derivative or Hessian to use with $- \mathbf{E}(\ell ''(\theta ))$ or $-\mathbb E\left[\mathbf{H}\ell (\theta )\right]$
+\end{itemize}
+
+\subsection*{Asymptotic normality of the maximum likelihood estimator}
+
+Under certain conditions (see slides) the MLE is asymptotically normal. This applies even if the MLE is not the sample average.
+
+The asymptotic variance of the MLE is the inverse of the fisher information.
+
+$\sqrt(n)(\widehat{\theta }_ n^{\text {MLE}} - \theta^*) \xrightarrow[n \rightarrow \infty]{(d)} N_d(0,\mathcal{I}(\theta^* )^{-1})$\\
