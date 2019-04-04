@@ -24,7 +24,7 @@ $Var(X)= np(1-p)$
 
 Parameters $n>0$ and $p_1, \ldots, p_r$.
 
-$p_x(x)= \frac{n}{x_1!,\ldots,x_n!} p_1, \ldots, p_r$\\
+$p_x(x)= \frac{n!}{x_1!,\ldots,x_n!} p_1, \ldots, p_r$\\
 
 
 $\mathbb{E}[X_i]=n*p_i$
@@ -58,14 +58,13 @@ $\\
 $\mathbb{E}[X]=\frac{1}{\lambda}$\\
 $Var(X)=\frac{1}{\lambda^2}$\\
 
-\subsection*{Normal (Gaussian)}
-Univariate:\\
+\subsection*{Univariate Gaussians}
 Parameters $\mu$ and $\sigma^2 >0$, continuous\\
 $f(x)= \frac{1}{\sqrt(2 \pi \sigma)} exp(-\frac{(x-\mu)^2}{2\sigma^2})$ \\
 $\mathbb{E}[X]=\mu$ \\
 $Var(X)=\sigma^2$\\
 
-Linearity:\\
+Invariant under affine transformation:\\
 
 $aX+b \sim N(X+b,a^2\sigma^2)$\\
 
@@ -73,20 +72,18 @@ Symmetry:\\
 
 If $X \sim\ N(0,\sigma^2),$ then $-X \sim N(0,\sigma^2)$\\
 
+$\mathbb{P}(|X|>x) = 2\mathbb{P}(X>x)$\\
+
 Standardization:\\
 
 $Z= \frac{X-\mu}{\sigma} \sim N(0,1)$\\
 
 $\mathbf{P}\left(X\leq t\right) = \displaystyle \mathbf{P}\left(Z\leq \frac{t-\mu}{\sigma}\right)$
 
-Quantile: $q_{\alpha } = \displaystyle \mathbf{P}\left(X\leq q_{\alpha }\right)=1-\alpha$\\
-
-Normal tables:\\
-
 Moments:\\
 
 
-Multivariate gaussians:\\
+\subsection*{Multivariate Gaussians}
 
 \subsection*{Uniform}
 
@@ -106,7 +103,7 @@ Maximum of n iid uniform r.v.\\
 
 Minimum of n iid uniform r.v.\\
 
-\subsection{Cauchy}
+\subsection*{Cauchy}
 continuous, parameter $m$,
 
 $f_ m(x) = \frac{1}{\pi } \frac{1}{1 + (x - m)^2}$\\

@@ -1,33 +1,99 @@
-\section{Expectation and Variance}
-\subsection*{Expectation}
+\section{Expectation}
 
-The expectation of a random vector is the elementwise expectation. Let $\mathbf X$  be a random vector of dimension $d \times 1$.\
+$\mathbb{E}\left[X\right]=\int_{-inf}^{+inf}{x \cdot f_X\left(x\right)\ \ dx}$\\
+
+$\mathbb{E}\left[g\left(X\right)\right]=\int_{-inf}^{+inf}{g\left(x\right) \cdot f_X\left(x\right)dx}$\\
+
+$\mathbb{E}\left[X\middle| Y=y\right]=\int_{-inf}^{+inf}{x \cdot { f}_{X|Y}\left(x|y\right)\ \ dx}$\\
+
+Integration limits only have to be over the support of the pdf. Discrete r.v. same as continuous but with sums and pmfs.\\
+
+Total expectation theorem:\\
+
+$\mathbb{E}\left[X\right]=\int_{-inf}^{+inf}{f_Y\left(y\right)\cdot\mathbb{E}\left[X\middle| Y=y\right]dy}$\\
+
+Expectation of constant $a$:\\
+
+$\mathbb{E}[a] = a$\\
+
+Product of \textbf{independent} r.vs $X$ and $Y$ :\\
+
+$\mathbb{E}[X \cdot Y] = \mathbb{E}[X] \cdot \mathbb{E}[Y]$\\
+
+Product of \textbf{dependent} r.vs $X$ and $Y$ :\\
+
+$\mathbb{E}[X \cdot Y] \neq \mathbb{E}[X] \cdot \mathbb{E}[Y]$\\
+
+$\mathbb{E}[X \cdot Y] = \mathbb{E}[\mathbb{E}[Y \cdot X|Y]] = \mathbb{E}[Y \cdot \mathbb{E}[X|Y]]$\\
+
+Linearity of Expectation where $a$ and $c$ are given scalars:\\
+
+$\mathbb{E}[aX + c Y] = a\mathbb{E}[X] + c\mathbb{E}[Y]$\\
+
+If Variance of $X$ is known:\\
+
+$\mathbb{E}[X^2] = var(X) - \mathbb{E}[X]$\\
+
+The expectation of a random vector is the elementwise expectation. Let $\mathbf X$  be a random vector of dimension $d \times 1$.\\
 
 $\displaystyle  \displaystyle \mathbb E[\mathbf X] = \displaystyle \begin{pmatrix} \mathbb E[X^{(1)}]\\ \vdots \\ \mathbb E[X^{(d)}]\end{pmatrix}.$\\
 
-\subsection*{Variance}
+\section{Variance}
 
-$Var(X + Y)=Var(X)+Var(Y)+2\textsf{Cov}(X,Y)$
-\subsection*{Covariance}
+Variance is the squared distance from the mean.\\
 
-The Covariance is a measure of how much the values of each of two correlated random variables determine each other
+$Var(X)=\mathbb{E}[(X-\mathbb{E}(X))^2]$\\
 
-$\textsf{Cov}(X,Y) = \sigma(X,Y) = \sigma_ {(X,Y)}$\\
+$Var\left(X\right)=\mathbb{E}\left[X^2\right]-\left(\mathbb{E}\left[X\right]\right)^2$\\
 
-$\textsf{Cov}(X,Y) = \textsf{Cov}(Y,X)$
+Variance of a product with constant $a$:\\
 
-$\textsf{Cov}(X,Y) = \mathbb E[(X - \mu _ X)(Y - \mu _ Y)]$ \\
+$Var(aX)=a^2 Var\left(X\right)$\\
 
-$\textsf{Cov}(X,Y) = \mathbb E[XY] - \mathbb E[X]\mathbb E[Y] $\\
+Variance of sum of two \textbf{dependent} r.v.:\\
 
-$ \textsf{Cov}(X,Y)= \displaystyle  \mathbb E[(X)(Y-\mu _ Y)]$\\
+$Var(X + Y)=Var(X)+Var(Y)+2Cov(X,Y)$\\
 
-$\textsf{Cov}(X,X) = \mathbb E[(X - \mu _ X)^2] = \textsf{Var}(X)$\\
+Variance of sum of two \textbf{independent} r.v.:\\
 
-$\textsf{Cov}(aX + h,bY + c)= ab\textsf{Cov}(X,Y)$\\
+$Var(X + Y)=Var(X)+Var(Y)$\\
 
-$\textsf{Cov}(X,X + Y)= Var(X) + cov(X,Y)$\\
+\section{Covariance}
 
-$\displaystyle  \textsf{Cov}(aX+ bY, Z) \displaystyle = a\textsf{Cov}(X,Z) + b\textsf{Cov}(Y,Z)$\\
+The Covariance is a measure of how much the values of each of two correlated random variables determine each other\\
 
-If $Cov(X,Y) = 0$, we say that X and Y are uncorrelated. If $X$ and $Y$ are independent, they are uncorrelated. The converse is not always true. It is only true if $X$ and $Y$ form a gaussian vector, ie. any linear combination $\alpha X + \beta Y$ is gaussian for all $(\alpha,\beta) \in \mathbb{R}^2$ without $\{0,0\}$.
+$Cov(X,Y) = \mathbb E[(X - \mu _ X)(Y - \mu _ Y)]$ \\
+
+$Cov(X,Y) = \mathbb E[XY] - \mathbb E[X]\mathbb E[Y] $\\
+
+$ Cov(X,Y)= \displaystyle  \mathbb E[(X)(Y-\mu _ Y)]$\\
+
+Possible notations:\\
+
+$Cov(X,Y) = \sigma(X,Y) = \sigma_ {(X,Y)}$\\
+
+Covariance is commutative:\\
+
+$Cov(X,Y) = Cov(Y,X)$\\
+
+Covariance with of r.v. with itself is variance:\\
+
+$Cov(X,X) = \mathbb E[(X - \mu _ X)^2] = Var(X)$\\
+
+Useful properties:\\
+
+$Cov(aX + h,bY + c)= abCov(X,Y)$\\
+
+$Cov(X,X + Y)= Var(X) + cov(X,Y)$\\
+
+$\displaystyle  Cov(aX+ bY, Z) \displaystyle = aCov(X,Z) + bCov(Y,Z)$\\
+
+If $Cov(X,Y) = 0$, we say that X and Y are uncorrelated. If $X$ and $Y$ are independent, their Covariance is zero. The converse is not always true. It is only true if $X$ and $Y$ form a gaussian vector, ie. any linear combination $\alpha X + \beta Y$ is gaussian for all $(\alpha,\beta) \in \mathbb{R}^2$ without $\{0,0\}$.
+
+\section{Covariance Matrix}
+Let $X$  be a random vector of dimension $d \times 1$ with expectation $\mu _{X}$. 
+
+Matrix outer products!\\ 
+
+$\Sigma =\mathbb E[(X- \mu _{X})(X- \mu _{X})^ T] \\= \mathbb {E}[XX^ T] - \mathbb {E}[X]\mathbb {E}[X]^ T
+\\= \mathbb {E}[XX^ T] - \mu _{X}\mu _{X}^ T$
