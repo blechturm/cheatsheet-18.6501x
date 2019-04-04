@@ -1,0 +1,15 @@
+\section{M-estimation}
+
+Generalization of maximum likelihood estimation. No statistical model needs to be assumed to perform M-estimation.\\
+
+
+Median
+
+
+\section{Hubert loss}
+
+$h_\delta (x) = \begin{cases}  \frac{x^2}{2} \quad \text {if} \,  \,  \left| x \right| < \delta \\ \delta ( \left| x \right| - \delta /2 ) \quad \text {if} \,  \,  \left| x \right| > \delta \end{cases}.$
+
+the derivative of Huber's loss is the clip function :
+
+$\text {clip}_\delta (x) := \frac{d}{dx} h_\delta (x) = \begin{cases}  \delta \quad \text {if} \,  \,  x > \delta \\ x \quad \text {if} \,  \,  -\delta \leq x \leq \delta \\ -\delta \quad \text {if} \,  \,  x < -\delta \\ \end{cases}$

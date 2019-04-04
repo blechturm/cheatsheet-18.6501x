@@ -1,22 +1,21 @@
-\section{Multivariate Random Variables}
+\section{Random Vectors}
 
 
 A random vector $\mathbf X= \left(X^{(1)},\dots ,X^{(d)}\right)^ T$ of dimension $d \times 1$ is a vector-valued function from a probability space $\omega$ to $\mathbb {R}^ d$:\\
 
-$\displaystyle  \mathbf{X}\, \, :\,  \Omega \longrightarrow \displaystyle  \mathbb {R}^ d$
+$\displaystyle  \mathbf{X}\, \, :\,  \Omega \longrightarrow \displaystyle  \mathbb {R}^ d$\\
 
-$\displaystyle \omega  \longrightarrow \displaystyle \begin{pmatrix}  X^{(1)}(\omega ) \\ X^{(2)}(\omega )\\ \vdots \\ X^{(d)}(\omega )\end{pmatrix}$
+$\displaystyle \omega  \longrightarrow \displaystyle \begin{pmatrix}  X^{(1)}(\omega ) \\ X^{(2)}(\omega )\\ \vdots \\ X^{(d)}(\omega )\end{pmatrix}$\\
 
-where each $\, X^{(k)}\ $, is a (scalar) random variable on $\Omega$. 
+where each $\, X^{(k)}\ $, is a (scalar) random variable on $\Omega$. \\
 
-The probability distribution of a random vector $\mathbf X$ is the joint distribution of its components $X^{(1)},\, \ldots ,\, X^{(d)}$. 
+PDF of $\mathbf X$: joint distribution of its components $X^{(1)},\, \ldots ,\, X^{(d)}$. \\
 
-The cumulative distribution function (cdf) of a random vector $mathbf X$ is defined as \\
-$\displaystyle  \displaystyle F: \mathbb {R}^ d \rightarrow \displaystyle  [0,1]$\\
+CDF of $\mathbf X$:\\
 
-$\displaystyle \mathbf{x} \displaystyle \mapsto \displaystyle  \mathbf{P}(X^{(1)}\leq x^{(1)},\ldots ,\, X^{(d)}\leq x^{(d)}).$
+$\mathbb {R}^ d \rightarrow \displaystyle  [0,1]$\\
 
-Convergence in Probability in Higher Dimension\\
+$\displaystyle \mathbf{x} \displaystyle \mapsto \displaystyle  \mathbf{P}(X^{(1)}\leq x^{(1)},\ldots ,\, X^{(d)}\leq x^{(d)}).$\\
 
-In other words, the sequence $\mathbf{X}_1, \mathbf{X}_2,\ldots$ converges in probability to $\mathbf{X}$ if and only if each component sequence $\, X_1^{(k)},X_2^{(k)},\ldots \,$ converges in probability to $\, X^{(k)}$.
+The sequence $\mathbf{X}_1, \mathbf{X}_2,\ldots$ converges in probability to $\mathbf{X}$ if and only if each component of the sequence $\, X_1^{(k)},X_2^{(k)},\ldots \,$ converges in probability to $\, X^{(k)}$.
 

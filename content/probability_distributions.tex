@@ -10,6 +10,28 @@ $\\
 $\mathbb{E}[X]=p$\\
 $Var(X)=p(1-p)$\\
 
+\subsection*{Binomial}
+Parameters $p$ and $n$, discrete. Describes the number of successes
+in n independent Bernoulli trials.\\
+
+$p_x(k)= {n\choose k}{p}^{k} \left( 1-p \right) ^{n-k}$, $k=1,\ldots, n$\\
+
+$\mathbb{E}[X]=np$\\
+
+$Var(X)= np(1-p)$
+
+\subsection*{Multinomial}
+
+Parameters $n>0$ and $p_1, \ldots, p_r$.
+
+$p_x(x)= \frac{n}{x_1!,\ldots,x_n!} p_1, \ldots, p_r$\\
+
+
+$\mathbb{E}[X_i]=n*p_i$
+
+$Var(X_i)=np_i(1-p_i)$
+
+
 \subsection*{Poisson}
 Parameter $\lambda$. discrete, approximates the binomial PMF when $n$ is large, $p$ is small, and $\lambda = np$.
 
@@ -78,8 +100,18 @@ $ \mathbf{f_x}(x)=
 $\\
 
 $\mathbb{E}[X]=\frac{a+b}{2}$\\
-$Var(X)=\frac{(b-a)^2}{12}$
+$Var(X)=\frac{(b-a)^2}{12}$\\
 
 Maximum of n iid uniform r.v.\\
 
 Minimum of n iid uniform r.v.\\
+
+\subsection{Cauchy}
+continuous, parameter $m$,
+
+$f_ m(x) = \frac{1}{\pi } \frac{1}{1 + (x - m)^2}$\\
+
+$\mathbb{E}[X]=not defined!$\\
+$Var(X)=not defined!$\\
+
+$\text {med}(X) = P(X > M) = P(X < M)\\ = 1/2 = \displaystyle \int _{1/2}^{\infty } \frac{1}{\pi } \cdot \frac{1}{1 + (x-m)^2} \,  dx$

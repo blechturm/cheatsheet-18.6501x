@@ -42,6 +42,18 @@ $\ell_n (p,n)  = \\
  
 $C$ is a constant from n choose k, disappears after differentiating.
 
+
+\subsection*{Multinomial}
+
+Parameters $n>0$ and $p_1, \ldots, p_r$. Sample space= $E={1,2,3,\ldots,j}$\\
+
+Likelihood:\\
+
+$p_x(x)= \prod _{j=1}^{n}{p_{{j}}}^{T_{{j}}}$, where $T^j=\mathbbm{1}( X_i=j)$ is the count how often an outcome is seen in trials. \\
+
+Loglikelihood:\\
+$\ell_n= \sum _{j=2}^{n}T_{{j}}\ln  \left( p_{{j}} \right)$\\
+
 \subsection*{Poisson}
 Likelihood:\\
 $L_ n(x_1, \ldots , x_ n, \lambda) = \prod _{i = 1}^ n \frac{\lambda^{\sum_{i=1}^{n} x_i}}{\prod _{i = 1}^ n x_i!} e^{n\lambda}$\\
