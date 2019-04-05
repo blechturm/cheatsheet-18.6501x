@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  4 APR 2019 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  5 APR 2019 17:14
 entering extended mode
 **./cheatsheet.tex
 (cheatsheet.tex
@@ -1891,7 +1891,7 @@ LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 3.
 "
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-Underfull \hbox (badness 10000) in paragraph at lines 2--5
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
@@ -2029,90 +2029,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--60
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--99
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
+Underfull \hbox (badness 10000) in paragraph at lines 97--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
@@ -2153,6 +2145,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+) (content/Quantiles.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
@@ -2381,20 +2403,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-) (content/Law_large_Numbers.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
+(Font)              scaled to size 8.0pt on input line 90.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 3.
+ mdframed uses option nobreak mdframed on input line 90.
 
 Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 
@@ -2404,6 +2416,16 @@ Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 
 
 {C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+) (content/Law_large_Numbers.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -2448,7 +2470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-) (content/Quantiles.tex
+) (content/Models.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -2478,15 +2500,114 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-) (content/Models.tex) (content/estimators.tex)
-(content/Confidence_intervals.tex) (content/Hypothesis_tests.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--1
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+) (content/estimators.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+) (content/Confidence_intervals.tex
+Underfull \hbox (badness 10000) in paragraph at lines 19--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 []$[][]\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 g\OT1/jkp/m/n/9 (+20) ([]) \OMS/jk
 p/m/n/9   \OML/jkp/m/it/9 g\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 m[]\OT1/jkp/m/
 n/9 (+20) (\OML/jkp/m/it/9 \OT1/jkp/m/n/9 (+20) ))) []
  []
 
-) (content/Total_variation.tex
+) (content/Hypothesis_tests.tex) (content/Total_variation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -2640,7 +2761,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 98.
 
+Overfull \vbox (2.18312pt too high) has occurred while \output is active []
+
+
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
@@ -2745,13 +2872,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 20.
 
-Overfull \vbox (2.18312pt too high) has occurred while \output is active []
-
-
-[2]
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
@@ -2809,27 +2930,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 15--47
+Underfull \hbox (badness 10000) in paragraph at lines 15--48
 []$[][][]\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 x\OT1/jkp/m/n/9 (+20) ) := []\OM
 L/jkp/m/it/9 h[]\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 x\OT1/jkp/m/n/9 (+20) ) =
 
  []
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 56.
+ mdframed uses option nobreak mdframed on input line 57.
 
 Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 
 
 [3] (cheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 32574 strings out of 492946
- 656805 string characters out of 3126266
- 770454 words of memory out of 3000000
+ 32590 strings out of 492946
+ 656957 string characters out of 3126266
+ 769950 words of memory out of 3000000
  35718 multiletter control sequences out of 15000+200000
- 647157 words of font info for 194 fonts, out of 3000000 for 9000
+ 648791 words of font info for 206 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,76p,837b,1067s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,13n,76p,837b,1065s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\maxth\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
 /public/bbm/dpi600\bbm9.pk>{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/enc/dvips/base/8r.enc}{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fon
@@ -2848,7 +2969,7 @@ Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmne
 ts/jkpsy.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/kpfonts/jkpsyb.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/kpfonts/jkpsyc.pfb>
-Output written on cheatsheet.pdf (3 pages, 206835 bytes).
+Output written on cheatsheet.pdf (3 pages, 214421 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

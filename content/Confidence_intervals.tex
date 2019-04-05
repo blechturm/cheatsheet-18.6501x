@@ -1,6 +1,27 @@
 \section{Confidence intervals}
-\subsection*{Onesided}
-\subsection*{Twosided}
+
+Let $\displaystyle ( E,(\mathbb{P}_{\theta })_{\theta \in \Theta })$ be a statistical  model based on observations $X_{1} , \ldots X_{n}$  and assume $\displaystyle \Theta \subseteq \mathbb{R}$. Let $\displaystyle \alpha \in ( 0,1)$.\\
+
+Confidence interval of level $\displaystyle 1-\alpha $ for $\displaystyle \theta $:\\
+
+Any random interval $\displaystyle \mathcal{I}$, depending on the sample $X_{1} , \ldots X_{n}$ but not at $\displaystyle \theta $ and such that:\\
+
+$\mathbb{P}_{\theta }[\mathcal{I} \ni \theta ] \geq 1-\alpha ,\ \ \forall \theta \in \Theta$\\
+
+Confidence interval of \textbf{asymptotic level} $\displaystyle 1-\alpha $  for $\displaystyle \theta $:\\
+
+Any random interval $\displaystyle \mathcal{I}$ whose boundaries do not depend on $\displaystyle \theta $ and such that:\\
+
+$\lim _{n\rightarrow \infty }\mathbb{P}_{\theta } [\mathcal{I} \ni \theta ]\geq 1-\alpha ,\ \ \forall \theta \in \Theta $\\
+
+\subsection*{Two-sided asymptotic CI}
+Let $X_1, \ldots, X_n = \tilde{X}$ and $\tilde{X}\stackrel{iid} {\sim} P_{\theta}$. A two-sided CI is a function depending on $\tilde{X}$ giving an upper and lower bound in which the estimated parameter lies $\mathcal{I} = [l(\tilde{X},u(\tilde{X})]$ with a certain probability $\mathbb{P}(\theta \in  \mathcal{I}) \geq 1 -q_{\alpha}$ and conversely $\mathbb{P}(\theta \not\in  \mathcal{I}) \leq \alpha$\\
+
+Since the estimator is a r.v. depending on $\tilde{X}$ it has a variance $Var(\hat{\theta}_n$ and a mean $\mathbb{E}[\hat{theta}_n]$. After finding those it is possible to standardize the estimator using the CLT. This yields an asymptotic CI: $\mathcal{I} = \hat{\theta}_n + [\frac{-q_{\alpha /2} \sqrt{Var(X_i)} }{\sqrt{n}}, \frac{q_{\alpha /2} \sqrt{Var(X_i)} }{\sqrt{n}}]$
+
+This expression depends on the real variance $Var(X_i)$ of the r.vs, the variance has to be estimated. Three possible methods: plugin (use sample mean), solve (solve quadratic inequality), conservative (use the maximum of the variance).\\
+
 \subsection*{Delta Method}
 
 $\sqrt{n}(g(\widehat{m}_1) - g(m_1(\theta ))) \xrightarrow [n \to \infty ]{(d)} \mathcal{N}(0, g'(m_1(\theta ))^2 \sigma ^2)$
+
