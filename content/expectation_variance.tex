@@ -34,9 +34,6 @@ If Variance of $X$ is known:\\
 
 $\mathbb{E}[X^2] = var(X) - \mathbb{E}[X]$\\
 
-The expectation of a random vector is the elementwise expectation. Let $\mathbf X$  be a random vector of dimension $d \times 1$.\\
-
-$\displaystyle  \displaystyle \mathbb E[\mathbf X] = \displaystyle \begin{pmatrix} \mathbb E[X^{(1)}]\\ \vdots \\ \mathbb E[X^{(d)}]\end{pmatrix}.$\\
 
 \section{Variance}
 
@@ -89,11 +86,3 @@ $Cov(X,X + Y)= Var(X) + cov(X,Y)$\\
 $\displaystyle  Cov(aX+ bY, Z) \displaystyle = aCov(X,Z) + bCov(Y,Z)$\\
 
 If $Cov(X,Y) = 0$, we say that X and Y are uncorrelated. If $X$ and $Y$ are independent, their Covariance is zero. The converse is not always true. It is only true if $X$ and $Y$ form a gaussian vector, ie. any linear combination $\alpha X + \beta Y$ is gaussian for all $(\alpha,\beta) \in \mathbb{R}^2$ without $\{0,0\}$.
-
-\section{Covariance Matrix}
-Let $X$  be a random vector of dimension $d \times 1$ with expectation $\mu _{X}$. 
-
-Matrix outer products!\\ 
-
-$\Sigma =\mathbb E[(X- \mu _{X})(X- \mu _{X})^ T] \\= \mathbb {E}[XX^ T] - \mathbb {E}[X]\mathbb {E}[X]^ T
-\\= \mathbb {E}[XX^ T] - \mu _{X}\mu _{X}^ T$

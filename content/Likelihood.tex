@@ -133,7 +133,7 @@ $\mathcal{I}(\theta ) = - \mathbf{E}(\ell ''(\theta ))$\\
 
 Models with multiple parameters (ie. Gaussians):\\
 
-$\mathcal{I}(\theta ) = -\mathbb E\left[\mathbf{H}\ell (\theta )\right]$
+$\mathcal{I}(\theta ) = -\mathbb E\left[\mathbf{H}\ell (\theta )\right]$\\
 
 Cookbook:\\
 
@@ -142,7 +142,9 @@ Better to use 2nd derivative.\\
 \begin{itemize}
   \item Find loglikelihood
   \item Take second derivative (=Hessian if multivariate)
-  \item Massage second derivative or Hessian to use with $- \mathbf{E}(\ell ''(\theta ))$ or $-\mathbb E\left[\mathbf{H}\ell (\theta )\right]$
+  \item Massage second derivative or Hessian (isolate functions of $X_i$ to use with $- \mathbf{E}(\ell ''(\theta ))$ or $-\mathbb E\left[\mathbf{H}\ell (\theta )\right]$.
+  \item Find the expectation of the functions of $X_i$ and subsitute them back into the Hessian or the second derivative. Be extra careful to subsitute the right power back. $\mathbb{E}[X_i] \neq \mathbb{E}[X_i^2]$.
+  \item Don't forget the minus sign!
 \end{itemize}
 
 \subsection*{Asymptotic normality of the maximum likelihood estimator}

@@ -3,9 +3,9 @@
 
 A random vector $\mathbf X= \left(X^{(1)},\dots ,X^{(d)}\right)^ T$ of dimension $d \times 1$ is a vector-valued function from a probability space $\omega$ to $\mathbb {R}^ d$:\\
 
-$\displaystyle  \mathbf{X}\, \, :\,  \Omega \longrightarrow \displaystyle  \mathbb {R}^ d$\\
+$  \mathbf{X}\, \, :\,  \Omega \longrightarrow   \mathbb {R}^ d$\\
 
-$\displaystyle \omega  \longrightarrow \displaystyle \begin{pmatrix}  X^{(1)}(\omega ) \\ X^{(2)}(\omega )\\ \vdots \\ X^{(d)}(\omega )\end{pmatrix}$\\
+$ \omega  \longrightarrow  \begin{pmatrix}  X^{(1)}(\omega ) \\ X^{(2)}(\omega )\\ \vdots \\ X^{(d)}(\omega )\end{pmatrix}$\\
 
 where each $\, X^{(k)}\ $, is a (scalar) random variable on $\Omega$. \\
 
@@ -13,9 +13,135 @@ PDF of $\mathbf X$: joint distribution of its components $X^{(1)},\, \ldots ,\, 
 
 CDF of $\mathbf X$:\\
 
-$\mathbb {R}^ d \rightarrow \displaystyle  [0,1]$\\
+$\mathbb {R}^ d \rightarrow   [0,1]$\\
 
-$\displaystyle \mathbf{x} \displaystyle \mapsto \displaystyle  \mathbf{P}(X^{(1)}\leq x^{(1)},\ldots ,\, X^{(d)}\leq x^{(d)}).$\\
+$ \mathbf{x}  \mapsto   \mathbf{P}(X^{(1)}\leq x^{(1)},\ldots ,\, X^{(d)}\leq x^{(d)}).$\\
 
 The sequence $\mathbf{X}_1, \mathbf{X}_2,\ldots$ converges in probability to $\mathbf{X}$ if and only if each component of the sequence $\, X_1^{(k)},X_2^{(k)},\ldots \,$ converges in probability to $\, X^{(k)}$.
 
+
+\subsection*{Expectation of a random vector}
+The expectation of a random vector is the elementwise expectation. Let $\mathbf X$  be a random vector of dimension $d \times 1$.\\
+
+$   \mathbb E[\mathbf X] =  \begin{pmatrix} \mathbb E[X^{(1)}]\\ \vdots \\ \mathbb E[X^{(d)}]\end{pmatrix}.$\\
+
+The expectation of a random matrix is the expected value of each of its elements. Let $X=\{X_{ij}\}$ be an $n \times p$ random matrix. Then $\mathbb{E}[X]$, is the $n \times p$ matrix of numbers (if they exist):\\
+
+$\mathbb{E}[X]= \begin{bmatrix}
+   \mathbb{E}[X_{11}]       & \mathbb{E}[X_{12}] & \dots & \mathbb{E}[X_{1p}] \\
+   \mathbb{E}[X_{21}]       & \mathbb{E}[X_{22}] & \dots & \mathbb{E}[X_{2p}] \\
+    \vdots & \vdots &\ddots & \vdots \\
+     \mathbb{E}[X_{n1}]       & \mathbb{E}[X_{n2}] & \dots & \mathbb{E}[X_{np}] \\
+\end{bmatrix}$\\
+
+Let $X$ and $Y$ be random matrices of the same dimension, and let $A$ and $B$ be conformable matrices of constants.\\
+
+$\mathbb{E}[X + Y] = \mathbb{E}[X] + \mathbb{E}[Y]$\\
+$\mathbb{E}[AXB] = A \mathbb{E}[X] B$\\
+
+
+\subsection*{Covariance Matrix}
+Let $X$  be a random vector of dimension $d \times 1$ with expectation $\mu _{X}$. 
+
+Matrix outer products!\\ 
+
+$\Sigma =\mathbb E[(X- \mu _{X})(X- \mu _{X})^ T] =$\\
+
+$\mathbb{E}  \begin{pmatrix} \begin{bmatrix} 
+
+X_1 - \mu_1\\
+X_2 - \mu_2\\
+\ldots\\
+X_d - \mu_d\\
+
+\end{bmatrix} \begin{bmatrix} X_1 - \mu_1, X_2 - \mu_2,\ldots, X_d - \mu_d \end{bmatrix} \end{pmatrix}$\\
+
+$\Sigma = Cov (X) = \begin{bmatrix}
+\sigma_{11} & \sigma_{12} &\ldots & \sigma_{1d} \\
+\sigma_{21} & \sigma_{22} &\ldots & \sigma_{2d} \\
+\vdots & \vdots &\ddots & \vdots \\
+\sigma_{d1} & \sigma_{d2} &\ldots & \sigma_{dd} \\
+
+\end{bmatrix}$\\
+
+The covariance matrix $\Sigma$ is a $d \times d$ matrix. It is a table of the pairwise covariances of the elemtents of the random vector. Its diagonal elements are the variances of the elements of the random vector, the off-diagonal elements are its covariances. Note that the covariance is commutative e.g. $\sigma_{12} = \sigma_{21}$ \\
+
+Alternative forms:\\
+
+$\Sigma = \mathbb {E}[XX^ T] - \mathbb {E}[X]\mathbb {E}[X]^ T =\\ = \mathbb {E}[XX^ T] - \mu _{X}\mu _{X}^ T$\\
+
+Let the random vector $X \in \mathbb{R}^d$ and $A$ and $B$ be conformable matrices of constants.\\
+
+$Cov(AX + B) = Cov(AX) = A Cov(X) A^T = A \Sigma A^T$
+
+Every Covariance matrix is positive definite.\\
+
+$\Sigma \prec 0$\\
+
+\subsection*{Gaussian Random Vectors}
+
+
+A random vector $\mathbf{X}=(X^{(1)},\ldots ,X^{(d)})^ T\,$ is a Gaussian vector, or multivariate Gaussian or normal variable, if any linear combination of its components is a (univariate) Gaussian variable or a constant (a “Gaussian" variable with zero variance), i.e., if $\alpha ^ T \mathbf{X}$ is (univariate) Gaussian or constant for any constant non-zero vector $\alpha \in \mathbb {R}^ d$.
+
+\subsection*{Multivariate Gaussians}
+
+The distribution of, $X$ the $d$-dimensional Gaussian or normal distribution, is completely specified by the vector mean $\mu =\mathbb E[\mathbf{X}]= (\mathbb E[X^{(1)}],\ldots ,\mathbb E[X^{(d)}])^ T$ and the $d \times d$ covariance matrix $\Sigma$. If $\Sigma$ is invertible, then the pdf of $X$ is:\\
+
+$   f_{\mathbf X}(\mathbf x) = \frac{1}{\sqrt{\left(2\pi \right)^ d \text {det}(\Sigma )}}e^{-\frac{1}{2}(\mathbf x-\mu )^ T \Sigma ^{-1} (\mathbf x-\mu )}, ~ ~ ~ \\ \mathbf x\in \mathbb {R}^ d$\\
+
+
+Where $\text {det}(\Sigma )$ is the determinant of $\Sigma$, which is positive when $\Sigma$ is invertible.
+
+If $\mu = 0$ and $\Sigma$ is the identity matrix, then $X$ is called a standard normal random vector .
+
+If the covariant matrix $\Sigma$ is diagonal, the pdf factors into pdfs of univariate Gaussians, and hence the components are independent.\\
+
+The linear transform of a gaussian $X \thicksim N_d(\mu,\Sigma)$ with conformable matrices $A$ and $B$ is a gaussian:\\ 
+
+$AX + B = N_d(A\mu + b, A \Sigma A^T)$
+
+\subsection*{Multivariate CLT}
+
+Let $X_1, \ldots, X_d \in \mathbb{R}^d$ be independent copies of a random vector $X$
+such that $\mathbb{E}[x] = \mu$ ($d \times 1$ vector of expectations) and $Cov(X)= \Sigma$\\
+
+$\sqrt(n)(\bar{X_n}-\mu) \xrightarrow[n \rightarrow \infty]{(d)} N(0,\Sigma)$\\
+
+$\sqrt(n) \Sigma^{-1} \frac{\bar{X_n}-\mu}{\sqrt(\sigma^2)} \xrightarrow[n \rightarrow \infty]{(d)} N(0,I_d)$\\
+
+Where $\Sigma^{-1/2}$ is the $d \times d$ matrix such that $\Sigma^{-1/2} \Sigma^{-1/2} = \Sigma^{1}$ and $I_d$ is the identity matrix.\\
+
+\subsection*{Multivariate Delta Method}
+
+Gradient Matrix of a Vector Function:\\
+
+Given a vector-valued function $f:\mathbb {R}^ d \to \mathbb {R}^ k$, the gradient or the gradient matrix of $f$, denoted by $\nabla f$ , is the $d \times k$ matrix:\\
+
+$   \nabla f =\\ = \begin{pmatrix} |& |& |& |\\ \nabla f_1&  \nabla f_2& \ldots & \nabla f_ k\\ |& |& |& |\\ \end{pmatrix} = \\
+= \begin{pmatrix} \frac{\partial f_1}{\partial x_1}& \ldots & \frac{\partial f_ k}{\partial x_1}\\ \vdots & \ldots & \vdots \\ \frac{\partial f_1}{\partial x_ d}& \ldots & \frac{\partial f_ k}{\partial x_ d} \end{pmatrix}.$\\
+
+This is also the transpose of what is known as the Jacobian matrix $\mathbf{J}_ f$ of $f$.\\
+
+General statement, given\\
+
+\begin{itemize}
+	\item $\left(\mathbf{T}_ n\right)_{n\geq 1}$ a sequence of random vectors 
+	\item satisfying $\,  \sqrt{n} \left(\mathbf{T}_ n - \vec{\theta } \right) \xrightarrow [n\to \infty ]{(d)} \mathbf{T}$,
+
+	\item a function $\mathbf{g}:\mathbb {R}^ d\to \mathbb {R}^ k$  that is continuously differentiable at $\vec{\theta }$,
+
+\end{itemize}
+
+then\\
+
+$   \sqrt{n} \left(\mathbf{g}(\mathbf{T}_ n) - \mathbf{g}(\vec{\theta }) \right) \xrightarrow [n\to \infty ]{(d)} \nabla \mathbf{g}(\vec{\theta })^ T\, \mathbf{T}\qquad$\\
+
+With multivariate Gaussians and Sample mean:\\
+
+Let $\mathbf{T}_ n=\overline{\mathbf{X}}_ n$ where $\overline{\mathbf{X}}_ n$ is the sample average of $\, \mathbf{X}_1,\ldots ,\mathbf{X}_ n\, \stackrel{iid}{\sim }\mathbf{X},\,$ and $\, \vec{\theta }=\mathbb E[\mathbf{X}].\, \,$ The (multivariate) CLT then gives $\, \mathbf{T}\sim \mathcal{N}(\mathbf{0},\Sigma _\mathbf{X})$ where $\, \Sigma _\mathbf{X}\,$ is the covariance of $\mathbf{X}.\, \,$ In this case, we have:\\
+
+$\sqrt{n} \left(\mathbf{g}(\mathbf{T}_ n) - \mathbf{g}(\vec{\theta }) \right) \xrightarrow [n\to \infty ]{(d)} \nabla \mathbf{g}(\vec{\theta })^ T\mathbf{T}\,$\\
+
+$\nabla \mathbf{g}(\vec{\theta })^ T\mathbf{T} \sim \,  \mathcal{N}\left(0, \nabla \mathbf{g}(\vec{\theta })^ T \Sigma _{\mathbf{X}} \nabla \mathbf{g}(\vec{\theta })\right)\qquad$\\
+
+$(\mathbf{T}\sim \mathcal{N}(\mathbf{0},\Sigma _\mathbf{X}))$\\
