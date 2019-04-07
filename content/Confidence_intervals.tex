@@ -17,7 +17,7 @@ $\lim _{n\rightarrow \infty }\mathbb{P}_{\theta } [\mathcal{I} \ni \theta ]\geq 
 \subsection*{Two-sided asymptotic CI}
 Let $X_1, \ldots, X_n = \tilde{X}$ and $\tilde{X}\stackrel{iid} {\sim} P_{\theta}$. A two-sided CI is a function depending on $\tilde{X}$ giving an upper and lower bound in which the estimated parameter lies $\mathcal{I} = [l(\tilde{X},u(\tilde{X})]$ with a certain probability $\mathbb{P}(\theta \in  \mathcal{I}) \geq 1 -q_{\alpha}$ and conversely $\mathbb{P}(\theta \not\in  \mathcal{I}) \leq \alpha$\\
 
-Since the estimator is a r.v. depending on $\tilde{X}$ it has a variance $Var(\hat{\theta}_n$ and a mean $\mathbb{E}[\hat{\theta}_n]$. After finding those it is possible to standardize the estimator using the CLT. This yields an asymptotic CI: $\mathcal{I} = \hat{\theta}_n + [\frac{-q_{\alpha /2} \sqrt{Var(X_i)} }{\sqrt{n}}, \frac{q_{\alpha /2} \sqrt{Var(X_i)} }{\sqrt{n}}]$
+Since the estimator is a r.v. depending on $\tilde{X}$ it has a variance $Var(\hat{\theta}_n$ and a mean $\mathbb{E}[\hat{\theta}_n]$. After finding those it is possible to standardize the estimator using the CLT. This yields an asymptotic CI: $\mathcal{I} = \hat{\theta}_n + [\frac{-q_{\alpha /2} \sqrt{Var(\hat{\theta})} }{\sqrt{n}}, \frac{q_{\alpha /2} \sqrt{Var(\hat{\theta})} }{\sqrt{n}}]$
 
 This expression depends on the real variance $Var(X_i)$ of the r.vs, the variance has to be estimated. Three possible methods: plugin (use sample mean), solve (solve quadratic inequality), conservative (use the maximum of the variance).\\
 

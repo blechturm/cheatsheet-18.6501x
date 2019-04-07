@@ -117,13 +117,19 @@ $\hat{\mu}_ n^{MLE}=\frac{1}{n}\sum_{i=1}(x_i)$
 
 \subsection{Fisher Information}
 
-The Fisher information, captures the negative of the expected curvature of the loglikelihood function.
+The Fisher information is the covariance matrix of the gradient of the loglikelihood function. It is equal to the negative expectation of the Hessian of the loglikelihood function and captures the negative of the expected curvature of the loglikelihood function.\\
+
+Let $\theta \in \Theta \subset \mathbb {R}^ d$ and let $\left(E,\left\{ \mathbf{P}_\theta \right\} _{\theta \in \Theta }\right)$ be a statistical model. Let $f_{\theta }(\mathbf x)$ be the pdf of the distribution $\mathbf{P}_\theta$. Then, the Fisher information of the statistical model is.\\
+
+$\mathcal{I}(\theta) = Cov(\nabla \ell(\theta)) = \\ = \mathbb{E}[\nabla \ell(\theta))\nabla\ell(\theta)^T] -  \mathbb{E}[\nabla \ell(\theta)]\mathbb{E}[\nabla \ell(\theta)] =\\ = -\mathbb{E}[\mathbb{H}\ell(\theta)]$\\
+
+Where $\ell (\theta ) = \ln f_\theta (\mathbf X)$.If $\nabla\ell(\theta) \in \mathbb{R}^d$ it is a $d \times d$ matrix. The definition when the distribution has a pmf $p_\theta (\mathbf x)$ is also the same, with the expectation taken with respect to the pmf.\\
 
 Let $(\mathbb {R}, \{ \mathbf{P}_\theta \} _{\theta \in \mathbb {R}})$ denote a continuous statistical model. Let $f_\theta (x)$ denote the pdf (probability density function) of the continuous distribution $\mathbf{P}_\theta$. Assume that $f_\theta (x)$ is twice-differentiable as a function of the parameter $\theta$.\\
 
 Formula for the calculation of Fisher Information of $X$:\\
 
-$\displaystyle  \mathcal{I}(\theta )= \int _{-\infty }^\infty \frac{\left(\frac{\partial f_\theta (x)}{\partial \theta }\right)^2}{f_\theta (x)} \,  dx$ \\
+$\mathcal{I}(\theta )= \int _{-\infty }^\infty \frac{\left(\frac{\partial f_\theta (x)}{\partial \theta }\right)^2}{f_\theta (x)} \,  dx$ \\
 
 Models with one parameter (ie. Bernulli):\\
 
@@ -149,7 +155,17 @@ Better to use 2nd derivative.\\
 
 \subsection*{Asymptotic normality of the maximum likelihood estimator}
 
-Under certain conditions (see slides) the MLE is asymptotically normal. This applies even if the MLE is not the sample average.
+Under certain conditions the MLE is asymptotically normal and consistent. This applies even if the MLE is not the sample average.
+
+Let the true parameter $\theta^{*} \in \Theta$. Necessary assumptions:
+
+\begin{itemize}
+\item The parameter is identifiable
+\item For all $\theta \in \Theta$, the support $\mathbb{P}_{\theta}$ does not depend on $\theta$ (e.g. like in $Unif(0,\theta)$);
+\item $\theta^{*}$ is not on the boundary of $\Theta$;
+\item Fisher information $\mathcal{I}(\theta)$  is invertible in the neighborhood of $\theta^{*}$
+\item A few more technical conditions
+\end{itemize}
 
 The asymptotic variance of the MLE is the inverse of the fisher information.
 

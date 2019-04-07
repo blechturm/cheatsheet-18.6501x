@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  7 APR 2019 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  7 APR 2019 14:41
 entering extended mode
 **./cheatsheet.tex
 (cheatsheet.tex
@@ -2972,6 +2972,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
@@ -3021,8 +3026,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
 ) (content/Moments.tex
-Underfull \hbox (badness 10000) in paragraph at lines 156--1
+Underfull \hbox (badness 10000) in paragraph at lines 172--1
 
  []
 
@@ -3092,7 +3112,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 36.
 
+Overfull \vbox (2.18312pt too high) has occurred while \output is active []
+
+
+[3]
 Overfull \hbox (4.02428pt too wide) in paragraph at lines 39--40
 []$[]\U/jkpmia/m/it/9  \OT1/jkp/m/n/9 (-20) (\OML/jkp/m/it/9 \OT1/jkp/m/n/9 (-
 20) ) = [][] \U/jkpmia/m/it/9 \OT1/jkp/m/n/9 (-20) (\OML/jkp/m/it/9 \OT1/jkp/
@@ -3122,20 +3148,13 @@ Package mdframed Info: mdframed inside a box
 Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 
 
-[3]
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 57.
-
-Overfull \vbox (2.18312pt too high) has occurred while \output is active []
-
-
 [4] (cheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 32630 strings out of 492946
- 657376 string characters out of 3126266
+ 32634 strings out of 492946
+ 657415 string characters out of 3126266
  778817 words of memory out of 3000000
  35726 multiletter control sequences out of 15000+200000
- 651935 words of font info for 230 fonts, out of 3000000 for 9000
+ 652297 words of font info for 233 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,76p,837b,1071s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\maxth\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
@@ -3156,7 +3175,7 @@ Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmne
 ts/jkpsy.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/kpfonts/jkpsyb.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/kpfonts/jkpsyc.pfb>
-Output written on cheatsheet.pdf (4 pages, 225443 bytes).
+Output written on cheatsheet.pdf (4 pages, 227936 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
