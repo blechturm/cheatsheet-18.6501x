@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  7 APR 2019 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  7 APR 2019 14:43
 entering extended mode
 **./cheatsheet.tex
 (cheatsheet.tex
@@ -3151,10 +3151,10 @@ Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 [4] (cheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
  32634 strings out of 492946
- 657415 string characters out of 3126266
- 778817 words of memory out of 3000000
+ 657411 string characters out of 3126266
+ 778812 words of memory out of 3000000
  35726 multiletter control sequences out of 15000+200000
- 652297 words of font info for 233 fonts, out of 3000000 for 9000
+ 652359 words of font info for 233 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,76p,837b,1071s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\maxth\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
@@ -3175,7 +3175,7 @@ Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmne
 ts/jkpsy.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/kpfonts/jkpsyb.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/kpfonts/jkpsyc.pfb>
-Output written on cheatsheet.pdf (4 pages, 227936 bytes).
+Output written on cheatsheet.pdf (4 pages, 227884 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
