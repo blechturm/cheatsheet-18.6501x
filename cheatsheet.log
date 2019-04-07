@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  6 APR 2019 19:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  7 APR 2019 10:53
 entering extended mode
 **./cheatsheet.tex
 (cheatsheet.tex
@@ -2418,10 +2418,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 8.
+(Font)              scaled to size 8.0pt on input line 10.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 8.
+ mdframed uses option nobreak mdframed on input line 10.
 
 Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 
@@ -2431,11 +2436,6 @@ Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 
 
 {C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
@@ -3133,7 +3133,7 @@ Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  32630 strings out of 492946
  657376 string characters out of 3126266
- 779019 words of memory out of 3000000
+ 778817 words of memory out of 3000000
  35726 multiletter control sequences out of 15000+200000
  651935 words of font info for 230 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3156,7 +3156,7 @@ Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmne
 ts/jkpsy.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/kpfonts/jkpsyb.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/kpfonts/jkpsyc.pfb>
-Output written on cheatsheet.pdf (4 pages, 225599 bytes).
+Output written on cheatsheet.pdf (4 pages, 225443 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
