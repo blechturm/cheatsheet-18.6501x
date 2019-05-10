@@ -26,19 +26,19 @@ $L_ n(x_1, \ldots , x_ n, p) =\\
 
 Loglikelihood n trials:\\
 
-$\ell_n (p) = \\ = \sum _{i=1}^{n}x_{{i}}\ln  \left( p \right) + \left( n-\sum _{i=1}^{n}
-x_{{i}} \right) \ln  \left( 1-p \right)$\\
+$\ell_n (p) = \\ = \ln  \left( p \right) \sum _{i=1}^{n}x_{{i}}+ \left( n-\sum _{i=1}^{n}
+x_{{i}} \right) \ln  \left( 1-p \right) 
+$\\
 
 \subsection*{Binomial}
 Likelihood:\\
 
-$L_ n(x_1, \ldots , x_ n, p,n) =\\
-= nC_x~p^x(1-p)^{n-x} = p^{x_i}(1-p)^{1-x_i}$\\
+$\displaystyle  L_ n(X_1, \ldots , X_ n, \theta ) =\\
+= \left( \prod _{i = 1}^ n \binom {K}{X_ i} \right) \theta ^{\sum _{i = 1}^ n X_ i} (1 - \theta )^{nK - \sum _{i = 1}^ n X_ i }.$\\
 
 Loglikelihood:\\
 
-$\ell_n (p,n)  = \\
- = \ln(nC_x)+x\ln(p)+(n-x)\ln(1-p)$\\
+$\ell_n (\theta) = C + \left( \sum _{i = 1}^ n X_ i \right) \log \theta + \left( nK - \sum _{i = 1}^ n X_ i \right) \log (1 - \theta )$\\
  
 $C$ is a constant from n choose k, disappears after differentiating.
 
@@ -56,7 +56,7 @@ $\ell_n= \sum _{j=2}^{n}T_{{j}}\ln  \left( p_{{j}} \right)$\\
 
 \subsection*{Poisson}
 Likelihood:\\
-$L_ n(x_1, \ldots , x_ n, \lambda) = \prod _{i = 1}^ n \frac{\lambda^{\sum_{i=1}^{n} x_i}}{\prod _{i = 1}^ n x_i!} e^{n\lambda}$\\
+$L_ n(x_1, \ldots , x_ n, \lambda) = \prod _{i = 1}^ n \frac{\lambda^{\sum_{i=1}^{n} x_i}}{\prod _{i = 1}^ n x_i!} e^{-n\lambda}$\\
 
 Loglikelihood:\\
 $\ell_n (\lambda)= \\

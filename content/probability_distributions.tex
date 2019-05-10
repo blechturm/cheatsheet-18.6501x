@@ -64,9 +64,21 @@ $f(x)= \frac{1}{\sqrt(2 \pi \sigma)} exp(-\frac{(x-\mu)^2}{2\sigma^2})$ \\
 $\mathbb{E}[X]=\mu$ \\
 $Var(X)=\sigma^2$\\
 
-Invariant under affine transformation:\\
+CDF of standard gaussian:\\
+
+$\Phi (z) = \int _{-\infty }^ z \frac{1}{\sqrt{2 \pi }} e^{-x^2/2} \,  dx$
+
+Gaussians invariant under affine transformation:\\
 
 $aX+b \sim N(X+b,a^2\sigma^2)$\\
+
+Sum of independent gaussians:\\
+
+Let $X {\sim} N(\mu_X,\sigma_X^2)$ and $Y {\sim} N(\mu_Y,\sigma_Y^2)$\\
+
+If $Y = X + Z$, then $Y \sim N(\mu_X + \mu_Y, \sigma_X + \sigma_Y)$\\
+
+If $U = X - Y$, then $U \sim N(\mu_X - \mu_Y,\sigma_X + \sigma_Y)$\\
 
 Symmetry:\\
 
@@ -115,3 +127,16 @@ $\mathbb{E}[X]=not defined!$\\
 $Var(X)=not defined!$\\
 
 $\text {med}(X) = P(X > M) = P(X < M)\\ = 1/2 = \displaystyle \int _{1/2}^{\infty } \frac{1}{\pi } \cdot \frac{1}{1 + (x-m)^2} \,  dx$
+
+\subsection*{Chi squared}
+The $\chi _ d^2$ distribution with $d$ degrees of freedom is given by the distribution of $Z_1^2 + Z_2^2 + \cdots + Z_ d^2,$ where $Z_1, \ldots , Z_ d \stackrel{iid}{\sim } \mathcal{N}(0,1)$
+
+If $V \sim \chi^2_k:$\\
+
+$\mathbb{E}= \mathbb{E}[Z_1^2] + \mathbb{E}[Z_2^2] + \ldots + \mathbb{E}[Z_d^2] = d$\\ 
+
+$Var(V) = Var(Z_1^2) + Var(Z_2^2) + \ldots + Var(Z_d^2) = 2d$
+
+\subsection*{Student's T Distribution}
+
+$T_ n := \frac{Z}{\sqrt{V/n}}$ where $Z \sim \mathcal{N}(0,1)$, and $Z$ and $V$ are independent

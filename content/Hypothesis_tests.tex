@@ -1,4 +1,59 @@
 \section{Hypothesis tests}
+
+\subsection*{Comparisons of two proportions}
+
+Let $X_1,\dots ,X_ n \stackrel{iid}{\sim} Bern(p_x)$ and  $Y_1,\dots ,Y_ n \stackrel{iid}{\sim} Bern(p_y)$ and be $X$ independent of $Y$. $\hat{p}_x= 1/n \sum_{i=1}^{n} X_i$ and $\hat{p}_x= 1/n \sum_{i=1}^{n} Y_i$\\
+
+$H_0: p_x = p_y; H_1: p_x \neq p_y$
+
+To get the asymptotic Variance use multivariate Delta-method. Consider $\hat{p}_x - \hat{p}_y = g(\hat{p}_x,\hat{p}_y); g(x,y)= x -y$, then
+
+$\sqrt(n) (g(\hat{p}_x,\hat{p}_y) - g(p_x-p_y)) \xrightarrow[n \rightarrow \infty]{(d)} N(0,\nabla g(p_x-p_y)^T \Sigma \nabla g(p_x-p_y))$\\ 
+
+$\Rightarrow N(0,p_x(1-px) + p_y(1-py))$
+
+Pivot:\\
+
+Let $X_1,\dots ,X_ n$ be random samples and let $T_ n$  be a function of $X$ and a parameter vector $\theta$. That is, $T_n$ is a function of $X_1,\dots ,X_ n,\theta$. Let $g(T_ n)$ be a random variable whose distribution is the same for all $\theta$ . Then, $g$ is called a pivotal quantity or a pivot.\\
+
+For example, let $X$ be a random variable with mean $\mu$ and variance $\sigma^2$ . Let $X_1,\dots ,X_ n$ be iid samples of $X$. Then,
+
+$$\displaystyle  g_ n \triangleq \frac{\overline{X_ n} - \mu }{\sigma }$$
+ 		 	 
+is a pivot with $\theta = \left[\mu ~ ~  \sigma ^2\right]^ T$ being the parameter vector. The notion of a parameter vector here is not to be confused with the set of paramaters that we use to define a statistical model.
+
+
+
 \subsection*{Onesided}
 \subsection*{Twosided}
 \subsection*{P-Value}
+
+\subsection*{Walds Test}
+
+$\, X_1, \ldots , X_ n \stackrel{iid}{\sim } \mathbf{P}_{\theta ^*}$  for some true parameter $\theta ^* \in \mathbb {R}^ d$. We construct the associated statistical model $(\mathbb {R}, \{  \mathbf{P}_\theta \} _{\theta \in \mathbb {R}^ d } )$ and the maximum likelihood estimator $\widehat{\theta }_ n^{MLE}$ for $\theta ^*$.
+
+Decide between two hypotheses:
+
+$H_0: \displaystyle  \theta ^* = \mathbf{0}$ VS $H_1: \displaystyle  \theta ^* \neq \mathbf{0}$
+
+Assuming that the null hypothesis is true, the asymptotic normality of the MLE $\widehat{\theta }_ n^{MLE}\,$ implies that the following random variable $\left\lVert \sqrt{n}\, \mathcal{I}(\mathbf{0})^{1/2}(\widehat{\theta }_ n^{MLE}- \mathbf{0}) \right\rVert ^2$ converges to a $\chi ^2_ k$ distribution.\\
+
+$\left\lVert \sqrt{n}\, \mathcal{I}(\mathbf{0})^{1/2}(\widehat{\theta }_ n^{MLE}- \mathbf{0}) \right\rVert ^2 \xrightarrow [n\to \infty ]{(d)} \chi ^2_ d\,$\\
+
+Wald's Test in 1 dimension:\\
+
+In 1 dimension, Wald's Test coincides with the two-sided test based on on the asymptotic normality of the MLE.
+
+Given the hypotheses
+
+$H_0: \displaystyle  \theta ^* = \mathbf{0}$ VS $H_1: \displaystyle  \theta ^* \neq \mathbf{0}$	 	 
+ 	 		 	 
+a two-sided test of level $\alpha$, based on the asymptotic normality of the MLE, is $\displaystyle  \displaystyle \psi _\alpha =\mathbf{1}\left(\sqrt{nI(\theta _0)} \left| \widehat{\theta }^{\text {MLE}} -\theta _0 \right|>q_{\alpha /2}(\mathcal{N}(0,1))\right)$
+
+ 		 	 
+where the Fisher information $\, I(\theta _0)^{-1}\,$ is the asymptotic variance of $\, \widehat{\theta }^{\text {MLE}}\,$ under the null hypothesis.
+
+On the other hand, a Wald's test of level $\alpha$ is
+
+$\displaystyle  \displaystyle \psi ^{\text {Wald}}_\alpha	= \displaystyle \mathbf{1}\left(nI(\theta _0) \left(\widehat{\theta }^{\text {MLE}} -\theta _0\right)^2\, >\, q_{\alpha }(\chi ^2_1)\right) = \displaystyle \mathbf{1}\left(\sqrt{nI(\theta _0)} \, \left| \widehat{\theta }^{\text {MLE}} -\theta _0 \right|\, >\, \sqrt{q_{\alpha }(\chi ^2_1)}\right).$			 	 
+ 	 			 

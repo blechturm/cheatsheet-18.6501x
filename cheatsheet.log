@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  7 APR 2019 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  4 MAY 2019 10:19
 entering extended mode
 **./cheatsheet.tex
 (cheatsheet.tex
@@ -1891,21 +1891,23 @@ LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 3.
 "
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-Underfull \hbox (badness 10000) in paragraph at lines 2--6
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 6859) in paragraph at lines 7--8
+[]$[][][] \OT1/jkp/m/n/9 (+20) = (\OT1/jkp/b/n/9 Ax\OT1/jkp/m/n/9 (+20) )[](\OT
+1/jkp/b/n/9 Ax\OT1/jkp/m/n/9 (+20) )  =  \OT1/jkp/b/n/9 x[]A[]Ax \OT1/jkp/m/n/9
+ (+20) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
 [][] [] \OT1/jkp/m/n/9 (+20) = \OML/jkp/m/it/9 f\OT1/jkp/m/n/9 (+20) (\OML/jkp/
 m/it/9 x; b\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 x\OT1/jkp/m/n/9 (+20) ))\OML/j
 kp/m/it/9 b[]\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 x\OT1/jkp/m/n/9 (+20) ) \OMS
 /jkp/m/n/9  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
-
  []
 
 
@@ -1924,27 +1926,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--41
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 38--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
@@ -1954,27 +1956,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--49
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
@@ -2039,11 +2046,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
@@ -2069,42 +2071,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--88
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--101
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--113
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
@@ -2277,79 +2319,136 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 94.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 94.
+
+Overfull \vbox (2.18312pt too high) has occurred while \output is active []
+
+
+[1
+
+
+
+{C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 []$[]\OML/jkp/m/it/9 Cov\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 aX \OT1/jkp/m/n/9
  (+20) + \OML/jkp/m/it/9 bY; Z\OT1/jkp/m/n/9 (+20) ) = \OML/jkp/m/it/9 aCov\OT1
 /jkp/m/n/9 (+20) (\OML/jkp/m/it/9 X; Z\OT1/jkp/m/n/9 (+20) ) +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
@@ -2423,19 +2522,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 10.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 10.
 
-Overfull \vbox (2.18312pt too high) has occurred while \output is active []
-
-
-[1
-
-
-
-{C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
@@ -2552,7 +2639,62 @@ p/m/n/9   \OML/jkp/m/it/9 g\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 m[]\OT1/jkp/m/
 n/9 (+20) (\OML/jkp/m/it/9 \OT1/jkp/m/n/9 (+20) ))) []
  []
 
-) (content/Hypothesis_tests.tex) (content/Multivariate_RV.tex
+) (content/Hypothesis_tests.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]\T1/jkp/m/n/9 (+20) Let $[]\OML/jkp/m/it/9 X[]; [] ; X[] [] Bern\OT1/jkp/m/n/
+9 (+20) (\OML/jkp/m/it/9 p[]\OT1/jkp/m/n/9 (+20) )$[] \T1/jkp/m/n/9 (+20) and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]$[][]\OML/jkp/m/it/9 n\OT1/jkp/m/n/9 (+20) )(\OML/jkp/m/it/9 g\OT1/jkp/m/n/9 
+(+20) ([]\OML/jkp/m/it/9 ; []\OT1/jkp/m/n/9 (+20) ) \OMS/jkp/m/n/9   \OML/jkp/m
+/it/9 g\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 p[] \OMS/jkp/m/n/9   \OML/jkp/m/it
+/9 p[]\OT1/jkp/m/n/9 (+20) )) []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Overfull \hbox (12.1136pt too wide) in paragraph at lines 58--59
+[]$[]\OML/jkp/m/it/9  [] \OT1/jkp/m/n/9 (-20) = \OT1/jkp/b/n/9 1 [] \OT1/jkp/m/
+n/9 (-20) =
+ []
+
+) (content/Multivariate_RV.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -2627,7 +2769,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 48.
 
+Overfull \vbox (2.18312pt too high) has occurred while \output is active []
+
+
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
@@ -2796,13 +2944,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 5.
 
-Overfull \vbox (2.18312pt too high) has occurred while \output is active []
-
-
-[2]
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
@@ -2869,27 +3011,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]$[]\OML/jkp/m/it/9 `[]\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 \OT1/jkp/m/n/9 (
++20) ) = \OML/jkp/m/it/9 C \OT1/jkp/m/n/9 (+20) + [] [] \OML/jkp/m/it/9  \OT1/
+jkp/m/n/9 (+20) +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
@@ -2956,7 +3105,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 107.
 
+Overfull \vbox (2.18312pt too high) has occurred while \output is active []
+
+
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
@@ -3112,13 +3267,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 36.
 
-Overfull \vbox (2.18312pt too high) has occurred while \output is active []
-
-
-[3]
 Overfull \hbox (4.02428pt too wide) in paragraph at lines 39--40
 []$[]\U/jkpmia/m/it/9  \OT1/jkp/m/n/9 (-20) (\OML/jkp/m/it/9 \OT1/jkp/m/n/9 (-
 20) ) = [][] \U/jkpmia/m/it/9 \OT1/jkp/m/n/9 (-20) (\OML/jkp/m/it/9 \OT1/jkp/
@@ -3150,17 +3299,17 @@ Overfull \vbox (2.18312pt too high) has occurred while \output is active []
 
 [4] (cheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 32634 strings out of 492946
- 657411 string characters out of 3126266
- 778812 words of memory out of 3000000
+ 32646 strings out of 492946
+ 657524 string characters out of 3126266
+ 775411 words of memory out of 3000000
  35726 multiletter control sequences out of 15000+200000
- 652359 words of font info for 233 fonts, out of 3000000 for 9000
+ 653569 words of font info for 242 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,76p,837b,1071s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\maxth\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
 /public/bbm/dpi600\bbm9.pk>{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/enc/dvips/base/8r.enc}{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Users/maxth/AppData/Local/Programs/
+nts/enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Users/maxth/AppData/Local/Programs
+/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/maxth/AppData/Local/Programs/
 MiKTeX 2.9/fonts/enc/dvips/sourcesanspro/a_ggs4wk.enc}<C:/Users/maxth/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb
 ><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/sourcesans
@@ -3173,11 +3322,12 @@ h/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/
 Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmne
 .pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfon
 ts/jkpsy.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/kpfonts/jkpsyb.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/kpfonts/jkpsyc.pfb>
-Output written on cheatsheet.pdf (4 pages, 227884 bytes).
+ic/kpfonts/jkpsya.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/kpfonts/jkpsyb.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/kpfonts/jkpsyc.pfb>
+Output written on cheatsheet.pdf (4 pages, 239465 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26637 words of extra memory for PDF output out of 29859 (max. 10000000)
 

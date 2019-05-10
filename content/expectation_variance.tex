@@ -55,6 +55,27 @@ Variance of sum of two \textbf{independent} r.v.:\\
 
 $Var(X + Y)=Var(X)+Var(Y)$\\
 
+
+\section{Sample Mean and Sample Variance}
+
+Let $X_1, ..., X_n \stackrel{iid}{\sim} P_{\mu}$, where $E(X_i)=\mu$ and $Var(X_i)=\sigma^2$ for all $i=1,2,...,n$\\
+
+Sample Mean:\\
+
+$\bar{X}_n= \frac{1}{n} \sum_{i=1}^{n} X_i$\\
+
+Sample Variance:\\
+
+$S_n= \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar{X}_n)^2 =\\ = \frac{1}{n} (\sum_{i=1}^{n} X_i^2) - \bar{X}_n^2$\\
+
+Cochranes Theorem:\\
+
+If $X_1, ..., X_n \stackrel{iid}{\sim} N{\mu,\sigma^2}$ the sample mean $\bar{X}_n$ and the sample variance $S_n$ are independent $\bar{X}_n \perp \!\!\! \perp S_n$ for all $n$. The sum of squares of $n$ Numbers follows a Chi squared distribution $\frac{n S_ n}{\sigma ^2} \sim \chi _{n -1}^2$\\
+
+Unbiased estimator of sample variance:\\
+
+$\tilde{S}_n= \displaystyle  \frac{1}{n-1} \sum _{i=1}^ n \left(X_ i - \overline{X}_ n\right)^2 = \frac{n}{n-1} S_n$\\
+
 \section{Covariance}
 
 The Covariance is a measure of how much the values of each of two correlated random variables determine each other\\
