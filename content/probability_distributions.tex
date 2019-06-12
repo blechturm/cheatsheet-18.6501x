@@ -7,8 +7,36 @@ $ p_x(k)=
 		(1-p),&\text{if k = 0}\\
 	\end{cases}
 $\\
+
 $\mathbb{E}[X]=p$\\
+
 $Var(X)=p(1-p)$\\
+
+Likelihood n trials:\\
+
+$L_ n(X_1, \ldots , X_ n, p) =\\
+= p^{\sum _{i = 1}^ n X_ i} (1 -p)^{{\color{blue}{n - }} \sum _{i = 1}^ n X_ i}$ \\
+
+Loglikelihood n trials:\\
+
+$\ell_n (p) = \\ = \ln  \left( p \right) \sum _{i=1}^{n}X_{{i}}+ \left( n-\sum _{i=1}^{n}
+X_{{i}} \right) \ln  \left( 1-p \right) 
+$\\
+
+MLE:\\
+
+$\hat{p}_{MLE} = \frac{\sum^n_{i=1}(X_i)}{n}$\\
+
+Fisher Information:\\
+
+$I(p) = \frac{1}{p(1-p)}$\\
+
+Canonical exponential form:\\
+
+$f_{\theta}(y)=\exp\big(y\theta - \underbrace{\ln(1 + e^\theta)}_{b(\theta)} + \underbrace{0}_{c(y, \phi)}\big) \quad$\\
+
+$\theta = \ln\left(\frac{p}{1-p}\right)$\\
+$\phi = 1$\\
 
 \subsection*{Binomial}
 Parameters $p$ and $n$, discrete. Describes the number of successes
@@ -18,7 +46,27 @@ $p_x(k)= {n\choose k}{p}^{k} \left( 1-p \right) ^{n-k}$, $k=1,\ldots, n$\\
 
 $\mathbb{E}[X]=np$\\
 
-$Var(X)= np(1-p)$
+$Var(X)= np(1-p)$ \\
+
+Likelihood:\\
+
+$\displaystyle  L_ n(X_1, \ldots , X_ n, \theta ) =\\
+= \left( \prod _{i = 1}^ n \binom {K}{X_ i} \right) \theta ^{\sum _{i = 1}^ n X_ i} (1 - \theta )^{nK - \sum _{i = 1}^ n X_ i }$\\
+
+Loglikelihood:\\
+
+$\ell_n (\theta) = C + \left( \sum _{i = 1}^ n X_ i \right) \log \theta + \left( nK - \sum _{i = 1}^ n X_ i \right) \log (1 - \theta )$\\
+
+MLE:\\
+
+
+Fisher Information:\\
+
+$I(p) = \frac{n}{p(1-p)}$\\
+
+Canonical exponential form:\\
+
+$f_ p(y) =\\  =\exp (y \underbrace{(\ln (p)-\ln (1-p))}_{\theta } + \underbrace{n\ln (1-p)}_{-b(\theta )} +\underbrace{\ln(\binom {n}{y})}_{c(y,\phi )} )$
 
 \subsection*{Multinomial}
 
@@ -27,18 +75,49 @@ Parameters $n>0$ and $p_1, \ldots, p_r$.
 $p_x(x)= \frac{n!}{x_1!,\ldots,x_n!} p_1, \ldots, p_r$\\
 
 
-$\mathbb{E}[X_i]=n*p_i$
+$\mathbb{E}[X_i]=n*p_i$\\
 
-$Var(X_i)=np_i(1-p_i)$
+$Var(X_i)=np_i(1-p_i)$\\
+
+
+Likelihood:\\
+
+$p_x(x)= \prod _{j=1}^{n}{p_{{j}}}^{T_{{j}}}$, where $T^j=\mathbbm{1}( X_i=j)$ is the count how often an outcome is seen in trials. \\
+
+Loglikelihood:\\
+$\ell_n= \sum _{j=2}^{n}T_{{j}}\ln  \left( p_{{j}} \right)$\\
 
 
 \subsection*{Poisson}
-Parameter $\lambda$. discrete, approximates the binomial PMF when $n$ is large, $p$ is small, and $\lambda = np$.
+Parameter $\lambda$. discrete, approximates the binomial PMF when $n$ is large, $p$ is small, and $\lambda = np$.\\
 
 $\mathbf{p_x}(k)=exp(-\lambda)\frac{\lambda^k}{k!}$ for $k=0,1, \ldots,$\\
 
 $\mathbb{E}[X]=\lambda$\\
+
 $Var(X)=\lambda$\\
+
+Likelihood:\\
+$L_ n(x_1, \ldots , x_ n, \lambda) = \prod _{i = 1}^ n \frac{\lambda^{\sum_{i=1}^{n} x_i}}{\prod _{i = 1}^ n x_i!} e^{-n\lambda}$\\
+
+Loglikelihood:\\
+$\ell_n (\lambda)= \\
+= -n\lambda + log(\lambda)(\sum_{i=1}^n x_i)) - log(\prod _{i = 1}^ n x_i!)$\\
+
+MLE:\\
+
+$\hat{\lambda}_{MLE} = \frac{1}{n} \sum^n_{i=1}(X_i)$\\
+
+Fisher Information:\\
+
+$I(\lambda)= \frac{1}{\lambda}$\\
+
+Canonical exponential form:\\
+
+$ f_{\theta}(y) = \exp\big(y\theta - \underbrace{e^\theta}_{b(\theta)} \underbrace{- \ln y!}_{c(y, \phi)}\big)$\\
+$\theta = \ln \lambda$\\
+$\phi = 1$
+
 
 \subsection*{Exponential}
 Parameter $\lambda$, continuous\\
@@ -58,9 +137,58 @@ $\\
 $\mathbb{E}[X]=\frac{1}{\lambda}$\\
 $Var(X)=\frac{1}{\lambda^2}$\\
 
+Likelihood:\\
+$L(X_1\dots X_n;\lambda)=\lambda^n\exp\left(-\lambda\sum_{i=1}^n X_i\right)$\\
+
+Loglikelihood:\\
+
+$\ell_n (\lambda)= n ln(\lambda) - \lambda \sum_{i=1}^n (X_i)$\\
+
+MLE:\\
+
+$\hat{\lambda}_{MLE}= \frac{n}{\sum^{n}_{i=1}(X_i)}$\\
+
+Fisher Information:\\
+
+$I(\lambda)= \frac{1}{\lambda^2}$\\
+
+Canonical exponential form:\\
+
+$f_{\theta}(y) = \exp\big(y\theta - \underbrace{(-\ln(-\theta))}_{b(\theta)} + \underbrace{0}_{c(y, \phi)}\big)$\\
+
+$\theta = -\lambda = -\frac1{\mu}$\\
+
+$\phi = 1$
+
+\subsection*{Shifted Exponential}
+
+Parameters $\lambda, \theta \in \mathbb{R}$, continuous\\
+$ f_x(x)=
+	\begin{cases}
+		 \lambda exp(-\lambda(x - \theta )),&{x >= \theta}\\
+		0,&{x <= \theta}\\
+	\end{cases}
+$\\
+
+$ F_x(x)=
+	\begin{cases}
+		 1-exp(-\lambda(x-a)),&{if x >= \theta}\\
+		0,&{x <= \theta}\\
+	\end{cases}
+$\\
+
+$\mathbb{E}[X]=a + \frac{1}{\lambda}$\\
+
+$Var(X)=\frac{1}{\lambda^2}$\\
+
+Likelihood:\\
+
+$L(X_1\dots X_n;\lambda,\theta)= \lambda^n \exp(-\lambda n (\bar{X}_n - \theta)) 1(X_1 \ge \theta)$
+
+
 \subsection*{Univariate Gaussians}
 Parameters $\mu$ and $\sigma^2 >0$, continuous\\
-$f(x)= \frac{1}{\sqrt(2 \pi \sigma)} exp(-\frac{(x-\mu)^2}{2\sigma^2})$ \\
+$f(x)= \frac{1}{\sqrt(2 \pi \sigma^2)} exp(-\frac{(x-\mu)^2}{2\sigma^2})$ \\
 $\mathbb{E}[X]=\mu$ \\
 $Var(X)=\sigma^2$\\
 
@@ -68,7 +196,25 @@ CDF of standard gaussian:\\
 
 $\Phi (z) = \int _{-\infty }^ z \frac{1}{\sqrt{2 \pi }} e^{-x^2/2} \,  dx$
 
-Gaussians invariant under affine transformation:\\
+Likelihood:\\
+
+$L(x_1\dots X_n;\mu,\sigma^2)=\\ 
+= \dfrac{1}{\left(\sigma\sqrt{2\pi}\right)^n}\exp{\left(-\dfrac{1}{2\sigma^2}\sum_{i=1}^n (X_i-\mu)^2 \right)}$\\
+
+Loglikelihood:\\
+
+$\ell_n (\mu,\sigma^2)= \\
+= -n log(\sigma\sqrt{2\pi})-\frac{1}{2\sigma^2}\sum_{i=1}^n (X_i-\mu)^2 $
+
+MLE:\\
+
+
+
+Fisher Information:\\
+
+Canonical exponential form:\\
+
+Gaussians are invariant under affine transformation:\\
 
 $aX+b \sim N(X+b,a^2\sigma^2)$\\
 
@@ -98,7 +244,7 @@ $\mathbb{E}[X^2] = \mu^2 + \sigma^2$\\
 $\mathbb{E}[X^3] = \mu^3 + 3\mu\sigma^2$\\
 $\mathbb{E}[X^4] = \mu^4 + 6\mu^2\sigma^2 +3\sigma^4$\\
 
-
+Quantiles:\\
 
 \subsection*{Uniform}
 
@@ -114,9 +260,10 @@ $\\
 $\mathbb{E}[X]=\frac{a+b}{2}$\\
 $Var(X)=\frac{(b-a)^2}{12}$\\
 
-Maximum of n iid uniform r.v.\\
+Likelihood:\\
+$L(x_1\dots x_n;b)=\frac{1(\max_i (x_i \leq b))} {b^n}$\\
 
-Minimum of n iid uniform r.v.\\
+Loglikelihood:\\
 
 \subsection*{Cauchy}
 continuous, parameter $m$,
