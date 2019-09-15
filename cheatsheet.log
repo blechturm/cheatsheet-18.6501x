@@ -1,12 +1,24 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  28 MAY 2019 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  15 SEP 2019 13:52
 entering extended mode
 **./cheatsheet.tex
 (cheatsheet.tex
 LaTeX2e <2018-12-01>
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
-File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\extarticl
+e.cls"
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\size8.clo
+"
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+) ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\exscale.sty
+"
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
 )
 \c@part=\count80
 \c@section=\count81
@@ -18,15 +30,16 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\bibindent=\dimen102
-) ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
-y"
+\bibindent=\dimen103
+)
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-)
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+) ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
+y"
 Package: babel 2018/11/13 3.27 The Babel package
+
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
 "
 File: switch.def 2018/11/13 3.27 Babel switching mechanism
@@ -51,7 +64,7 @@ aphy)
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count88
-\U@D=\dimen103
+\U@D=\dimen104
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
 ef")
@@ -78,8 +91,8 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count90
 \calc@Bcount=\count91
-\calc@Adimen=\dimen104
-\calc@Bdimen=\dimen105
+\calc@Adimen=\dimen105
+\calc@Bdimen=\dimen106
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 80.
@@ -106,12 +119,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 "
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen106
+\ex@=\dimen107
 ))
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
 "
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen107
+\pmbraise@=\dimen108
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
 "
@@ -129,7 +142,7 @@ LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
-\big@size=\dimen108
+\big@size=\dimen109
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count98
@@ -142,12 +155,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \column@=\count103
 \maxfields@=\count104
 \andhelp@=\toks19
-\eqnshift@=\dimen109
-\alignsep@=\dimen110
-\tagshift@=\dimen111
-\tagwidth@=\dimen112
-\totwidth@=\dimen113
-\lineht@=\dimen114
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
 \@envbody=\toks20
 \multlinegap=\skip47
 \multlinetaggap=\skip48
@@ -160,14 +173,14 @@ LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count105
-\l_MT_multwidth_dim=\dimen115
+\l_MT_multwidth_dim=\dimen116
 \origjot=\skip49
-\l_MT_shortvdotswithinadjustabove_dim=\dimen116
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen117
-\l_MT_above_intertext_sep=\dimen118
-\l_MT_below_intertext_sep=\dimen119
-\l_MT_above_shortintertext_sep=\dimen120
-\l_MT_below_shortintertext_sep=\dimen121
+\l_MT_shortvdotswithinadjustabove_dim=\dimen117
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen118
+\l_MT_above_intertext_sep=\dimen119
+\l_MT_below_intertext_sep=\dimen120
+\l_MT_above_shortintertext_sep=\dimen121
+\l_MT_below_shortintertext_sep=\dimen122
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
 tikz.sty"
@@ -178,8 +191,8 @@ cs.sty"
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 futil-common.tex"
 \pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen122
-\pgfutil@tempdimb=\dimen123
+\pgfutil@tempdima=\dimen123
+\pgfutil@tempdimb=\dimen124
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 futil-common-lists.tex"))
@@ -221,8 +234,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen124
-\Gin@req@width=\dimen125
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
 fsys.sty"
@@ -239,14 +252,14 @@ fkeys.code.tex"
 fkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks25
 ))
-\pgf@x=\dimen126
-\pgf@y=\dimen127
-\pgf@xa=\dimen128
-\pgf@ya=\dimen129
-\pgf@xb=\dimen130
-\pgf@yb=\dimen131
-\pgf@xc=\dimen132
-\pgf@yc=\dimen133
+\pgf@x=\dimen127
+\pgf@y=\dimen128
+\pgf@xa=\dimen129
+\pgf@ya=\dimen130
+\pgf@xb=\dimen131
+\pgf@yb=\dimen132
+\pgf@xc=\dimen133
+\pgf@yc=\dimen134
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count106
@@ -312,7 +325,7 @@ calc.code.tex"
 util.code.tex")
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
 parser.code.tex"
-\pgfmath@dimen=\dimen134
+\pgfmath@dimen=\dimen135
 \pgfmath@count=\count113
 \pgfmath@box=\box30
 \pgfmath@toks=\toks29
@@ -344,32 +357,32 @@ float.code.tex"
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@picminx=\dimen135
-\pgf@picmaxx=\dimen136
-\pgf@picminy=\dimen137
-\pgf@picmaxy=\dimen138
-\pgf@pathminx=\dimen139
-\pgf@pathmaxx=\dimen140
-\pgf@pathminy=\dimen141
-\pgf@pathmaxy=\dimen142
-\pgf@xx=\dimen143
-\pgf@xy=\dimen144
-\pgf@yx=\dimen145
-\pgf@yy=\dimen146
-\pgf@zx=\dimen147
-\pgf@zy=\dimen148
+\pgf@picminx=\dimen136
+\pgf@picmaxx=\dimen137
+\pgf@picminy=\dimen138
+\pgf@picmaxy=\dimen139
+\pgf@pathminx=\dimen140
+\pgf@pathmaxx=\dimen141
+\pgf@pathminy=\dimen142
+\pgf@pathmaxy=\dimen143
+\pgf@xx=\dimen144
+\pgf@xy=\dimen145
+\pgf@yx=\dimen146
+\pgf@yy=\dimen147
+\pgf@zx=\dimen148
+\pgf@zy=\dimen149
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@path@lastx=\dimen149
-\pgf@path@lasty=\dimen150
+\pgf@path@lastx=\dimen150
+\pgf@path@lasty=\dimen151
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@shorten@end@additional=\dimen151
-\pgf@shorten@start@additional=\dimen152
+\pgf@shorten@end@additional=\dimen152
+\pgf@shorten@start@additional=\dimen153
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorescopes.code.tex"
@@ -382,14 +395,14 @@ File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgflinewidth=\dimen153
+\pgflinewidth=\dimen154
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@pt@x=\dimen154
-\pgf@pt@y=\dimen155
-\pgf@pt@temp=\dimen156
+\pgf@pt@x=\dimen155
+\pgf@pt@y=\dimen156
+\pgf@pt@temp=\dimen157
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorequick.code.tex"
@@ -406,12 +419,12 @@ File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfarrowsep=\dimen157
+\pgfarrowsep=\dimen158
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@max=\dimen158
+\pgf@max=\dimen159
 \pgf@sys@shading@range@num=\count116
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
@@ -451,8 +464,8 @@ File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
 pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
-\pgf@nodesepstart=\dimen159
-\pgf@nodesepend=\dimen160
+\pgf@nodesepstart=\dimen160
+\pgf@nodesepend=\dimen161
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
 pgfcomp-version-1-18.sty"
@@ -474,8 +487,8 @@ Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
 .code.tex")
-\pgffor@iter=\dimen161
-\pgffor@skip=\dimen162
+\pgffor@iter=\dimen162
+\pgffor@skip=\dimen163
 \pgffor@stack=\toks32
 \pgffor@toks=\toks33
 ))
@@ -487,14 +500,14 @@ Package: tikz 2019/02/02 v3.1.1 (3.1.1)
 flibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@plot@mark@count=\count117
-\pgfplotmarksize=\dimen163
+\pgfplotmarksize=\dimen164
 )
-\tikz@lastx=\dimen164
-\tikz@lasty=\dimen165
-\tikz@lastxsaved=\dimen166
-\tikz@lastysaved=\dimen167
-\tikzleveldistance=\dimen168
-\tikzsiblingdistance=\dimen169
+\tikz@lastx=\dimen165
+\tikz@lasty=\dimen166
+\tikz@lastxsaved=\dimen167
+\tikz@lastysaved=\dimen168
+\tikzleveldistance=\dimen169
+\tikzsiblingdistance=\dimen170
 \tikz@figbox=\box36
 \tikz@figbox@bg=\box37
 \tikz@tempbox=\box38
@@ -596,7 +609,7 @@ File: tikzlibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
 flibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\arrowsize=\dimen170
+\arrowsize=\dimen171
 ))
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries\tikzlibraryfit.code.tex"
@@ -1228,21 +1241,21 @@ LaTeX Info: Redefining \ttfamily on input line 94.
 Package: multicol 2018/11/09 v1.8u multicolumn formatting (FMi)
 \c@tracingmulticols=\count133
 \mult@box=\box60
-\multicol@leftmargin=\dimen171
+\multicol@leftmargin=\dimen172
 \c@unbalance=\count134
 \c@collectmore=\count135
 \doublecol@number=\count136
 \multicoltolerance=\count137
 \multicolpretolerance=\count138
-\full@width=\dimen172
-\page@free=\dimen173
-\premulticols=\dimen174
-\postmulticols=\dimen175
+\full@width=\dimen173
+\page@free=\dimen174
+\premulticols=\dimen175
+\postmulticols=\dimen176
 \multicolsep=\skip50
 \multicolbaselineskip=\skip51
 \partial@page=\box61
 \last@line=\box62
-\maxbalancingoverflow=\dimen176
+\maxbalancingoverflow=\dimen177
 \mult@rightbox=\box63
 \mult@grightbox=\box64
 \mult@gfirstbox=\box65
@@ -1266,17 +1279,17 @@ Package: multicol 2018/11/09 v1.8u multicolumn formatting (FMi)
 \@tempa=\box83
 \c@columnbadness=\count139
 \c@finalcolumnbadness=\count140
-\last@try=\dimen177
-\multicolovershoot=\dimen178
-\multicolundershoot=\dimen179
+\last@try=\dimen178
+\multicolovershoot=\dimen179
+\multicolundershoot=\dimen180
 \mult@nat@firstbox=\box84
 \colbreak@box=\box85
 \mc@col@check@num=\count141
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wrapfig\wrapfig.st
 y"
-\wrapoverhang=\dimen180
-\WF@size=\dimen181
+\wrapoverhang=\dimen181
+\WF@size=\dimen182
 \c@WF@wrappedlines=\count142
 \WF@box=\box86
 \WF@everypar=\toks36
@@ -1298,14 +1311,14 @@ Package ifvtex Info: VTeX not detected.
 \Gm@cnth=\count143
 \Gm@cntv=\count144
 \c@Gm@tempcnt=\count145
-\Gm@bindingoffset=\dimen182
-\Gm@wd@mp=\dimen183
-\Gm@odd@mp=\dimen184
-\Gm@even@mp=\dimen185
-\Gm@layoutwidth=\dimen186
-\Gm@layoutheight=\dimen187
-\Gm@layouthoffset=\dimen188
-\Gm@layoutvoffset=\dimen189
+\Gm@bindingoffset=\dimen183
+\Gm@wd@mp=\dimen184
+\Gm@odd@mp=\dimen185
+\Gm@even@mp=\dimen186
+\Gm@layoutwidth=\dimen187
+\Gm@layoutheight=\dimen188
+\Gm@layouthoffset=\dimen189
+\Gm@layoutvoffset=\dimen190
 \Gm@dimlist=\toks37
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
@@ -1354,12 +1367,12 @@ Package: expl3 2019-01-28 L3 programming layer (code)
 \l__iow_line_target_int=\count154
 \l__iow_one_indent_int=\count155
 \l__iow_indent_int=\count156
-\c_zero_dim=\dimen190
-\c_max_dim=\dimen191
-\l_tmpa_dim=\dimen192
-\l_tmpb_dim=\dimen193
-\g_tmpa_dim=\dimen194
-\g_tmpb_dim=\dimen195
+\c_zero_dim=\dimen191
+\c_max_dim=\dimen192
+\l_tmpa_dim=\dimen193
+\l_tmpb_dim=\dimen194
+\g_tmpa_dim=\dimen195
+\g_tmpb_dim=\dimen196
 \c_zero_skip=\skip52
 \c_max_skip=\skip53
 \l_tmpa_skip=\skip54
@@ -1374,7 +1387,7 @@ Package: expl3 2019-01-28 L3 programming layer (code)
 \g_tmpb_muskip=\muskip16
 \l_keys_choice_int=\count157
 \l__intarray_loop_int=\count158
-\c__intarray_sp_dim=\dimen196
+\c__intarray_sp_dim=\dimen197
 \g__intarray_font_int=\count159
 \c__fp_leading_shift_int=\count160
 \c__fp_middle_shift_int=\count161
@@ -1449,23 +1462,23 @@ Package: expl3 2019-01-28 L3 programming layer (code)
 \l_tmpb_box=\box89
 \g_tmpa_box=\box90
 \g_tmpb_box=\box91
-\l__box_top_dim=\dimen197
-\l__box_bottom_dim=\dimen198
-\l__box_left_dim=\dimen199
-\l__box_right_dim=\dimen256
-\l__box_top_new_dim=\dimen257
-\l__box_bottom_new_dim=\dimen258
-\l__box_left_new_dim=\dimen259
-\l__box_right_new_dim=\dimen260
+\l__box_top_dim=\dimen198
+\l__box_bottom_dim=\dimen199
+\l__box_left_dim=\dimen256
+\l__box_right_dim=\dimen257
+\l__box_top_new_dim=\dimen258
+\l__box_bottom_new_dim=\dimen259
+\l__box_left_new_dim=\dimen260
+\l__box_right_new_dim=\dimen261
 \l__box_internal_box=\box92
 \l__coffin_internal_box=\box93
-\l__coffin_internal_dim=\dimen261
-\l__coffin_offset_x_dim=\dimen262
-\l__coffin_offset_y_dim=\dimen263
-\l__coffin_x_dim=\dimen264
-\l__coffin_y_dim=\dimen265
-\l__coffin_x_prime_dim=\dimen266
-\l__coffin_y_prime_dim=\dimen267
+\l__coffin_internal_dim=\dimen262
+\l__coffin_offset_x_dim=\dimen263
+\l__coffin_offset_y_dim=\dimen264
+\l__coffin_x_dim=\dimen265
+\l__coffin_y_dim=\dimen266
+\l__coffin_x_prime_dim=\dimen267
+\l__coffin_y_prime_dim=\dimen268
 \c_empty_coffin=\box94
 \l__coffin_aligned_coffin=\box95
 \l__coffin_aligned_internal_coffin=\box96
@@ -1477,17 +1490,17 @@ Package: expl3 2019-01-28 L3 programming layer (code)
 \l__coffin_display_coffin=\box102
 \l__coffin_display_coord_coffin=\box103
 \l__coffin_display_pole_coffin=\box104
-\l__coffin_display_offset_dim=\dimen268
-\l__coffin_display_x_dim=\dimen269
-\l__coffin_display_y_dim=\dimen270
+\l__coffin_display_offset_dim=\dimen269
+\l__coffin_display_x_dim=\dimen270
+\l__coffin_display_y_dim=\dimen271
 \g__file_internal_ior=\read2
-\l__coffin_bounding_shift_dim=\dimen271
-\l__coffin_left_corner_dim=\dimen272
-\l__coffin_right_corner_dim=\dimen273
-\l__coffin_bottom_corner_dim=\dimen274
-\l__coffin_top_corner_dim=\dimen275
-\l__coffin_scaled_total_height_dim=\dimen276
-\l__coffin_scaled_width_dim=\dimen277
+\l__coffin_bounding_shift_dim=\dimen272
+\l__coffin_left_corner_dim=\dimen273
+\l__coffin_right_corner_dim=\dimen274
+\l__coffin_bottom_corner_dim=\dimen275
+\l__coffin_top_corner_dim=\dimen276
+\l__coffin_scaled_total_height_dim=\dimen277
+\l__coffin_scaled_width_dim=\dimen278
 \l__seq_internal_a_int=\count294
 \l__seq_internal_b_int=\count295
 )
@@ -1644,7 +1657,7 @@ Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
 \MT@toks=\toks38
 \MT@count=\count310
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen278
+\MT@outer@kern=\dimen279
 LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
 \MT@listname@count=\count311
 
@@ -1673,8 +1686,8 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 y"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
-\AM@pagewidth=\dimen279
-\AM@pageheight=\dimen280
+\AM@pagewidth=\dimen280
+\AM@pageheight=\dimen281
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.
 def"
@@ -1756,13 +1769,13 @@ File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count313
-\scratchdimen=\dimen281
+\scratchdimen=\dimen282
 \scratchbox=\box114
 \nofMPsegments=\count314
 \nofMParguments=\count315
 \everyMPshowfont=\toks41
 \MPscratchCnt=\count316
-\MPscratchDim=\dimen282
+\MPscratchDim=\dimen283
 \MPnumerator=\count317
 \makeMPintoPDFobject=\count318
 \everyMPtoPDFconversion=\toks42
@@ -1786,27 +1799,27 @@ G,.JBIG2,.JB2,.eps]
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape 
-* h-part:(L,W,R)=(0.0pt, 842.20158pt, 2.84526pt)
-* v-part:(T,H,B)=(0.0pt, 594.66261pt, 2.84526pt)
-* \paperwidth=845.04684pt
-* \paperheight=597.50787pt
-* \textwidth=842.20158pt
-* \textheight=594.66261pt
+* h-part:(L,W,R)=(0.0pt, 792.12473pt, 2.84526pt)
+* v-part:(T,H,B)=(0.0pt, 611.44974pt, 2.84526pt)
+* \paperwidth=794.96999pt
+* \paperheight=614.295pt
+* \textwidth=792.12473pt
+* \textheight=611.44974pt
 * \oddsidemargin=-72.26999pt
 * \evensidemargin=-72.26999pt
 * \topmargin=-109.26999pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=9.0pt
 * \footskip=30.0pt
 * \marginparwidth=144.0pt
-* \marginparsep=11.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1851,13 +1864,13 @@ File: T1SourceSansPro-LF.fd 2016/12/03 (autoinst) Font definitions for T1/Sourc
 eSansPro-LF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1.
+(Font)              scaled to size 7.0pt on input line 1.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceSansPro-LF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 1.
+(Font)              scaled to size 7.0pt on input line 1.
 LaTeX Font Info:    Try loading font information for OT1+jkp on input line 3.
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\ot1jkp.fd"
@@ -2002,6 +2015,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
+[]$[]\OML/jkp/m/it/6.8 `[]\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 \OT1/jkp/m/n/6.8
+ ) = \OML/jkp/m/it/6.8 C \OT1/jkp/m/n/6.8 + [] [] \OML/jkp/m/it/6.8  \OT1/jkp/
+m/n/6.8 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
@@ -2023,6 +2043,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
+ []
+
+
+Overfull \hbox (12.8215pt too wide) in paragraph at lines 69--70
+\OT1/jkp/m/n/6.8 = [](\OML/jkp/m/it/6.8 y [] \OT1/jkp/m/n/6.8 + [] + [])$[] 
  []
 
 
@@ -2199,6 +2224,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+[]$[]\OML/jkp/m/it/6.8 L\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 X[] [] X[]\OT1/jkp/
+m/n/6.8 ; \OML/jkp/m/it/6.8 ; \OT1/jkp/m/n/6.8 ) = \OML/jkp/m/it/6.8 [] []\O
+T1/jkp/m/n/6.8 (\OMS/jkp/m/n/6.8  \OML/jkp/m/it/6.8 n\OT1/jkp/m/n/6.8 ([][] \O
+MS/jkp/m/n/6.8  
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 190--194
 
  []
@@ -2348,20 +2381,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
-LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 284.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 284.
 
-Overfull \vbox (2.18312pt too high) has occurred while \output is active []
+Underfull \hbox (badness 6047) in paragraph at lines 285--286
+[]$[]\OML/jkp/m/it/6.8 Var\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 V\OT1/jkp/m/n/6.8
+ ) = \OML/jkp/m/it/6.8 Var\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 Z[]\OT1/jkp/m/n/6
+.8 ) + \OML/jkp/m/it/6.8 Var\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 Z[]\OT1/jkp/m/n
+/6.8 ) + [] +
+ []
 
-
-[1
-
-
-
-{C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
-(content/Quantiles.tex
+) (content/Quantiles.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -2527,13 +2555,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
  []
 
 
-Underfull \hbox (badness 5105) in paragraph at lines 63--64
-[]\T1/jkp/m/n/9 (+20) Let $[]\OML/jkp/m/it/9 X[]; :::; X[] [] P[]$[]\T1/jkp/m/n
-/9 (+20) , whe-re $[]\OML/jkp/m/it/9 E\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 X[]
-\OT1/jkp/m/n/9 (+20) ) = \OML/jkp/m/it/9 $[] \T1/jkp/m/n/9 (+20) and
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
@@ -2649,13 +2670,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
  []
 
 ) (content/Law_large_Numbers.tex
-Underfull \hbox (badness 5105) in paragraph at lines 2--3
-[]\T1/jkp/m/n/9 (+20) Let $[]\OML/jkp/m/it/9 X[]; :::; X[] [] P[]$[]\T1/jkp/m/n
-/9 (+20) , whe-re $[]\OML/jkp/m/it/9 E\OT1/jkp/m/n/9 (+20) (\OML/jkp/m/it/9 X[]
-\OT1/jkp/m/n/9 (+20) ) = \OML/jkp/m/it/9 $[] \T1/jkp/m/n/9 (+20) and
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -2756,8 +2770,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
  []
 
 
+Underfull \hbox (badness 5607) in paragraph at lines 28--29
+[]\T1/jkp/m/n/7 (+20) The ex-pec-ta-ti-on of a ran-dom ma-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--36
+[]$[]\U/jkpsyb/m/n/6.8 E\OT1/jkp/m/n/6.8 [\OML/jkp/m/it/6.8 X\OT1/jkp/m/n/6.8 ]
+ =
  []
 
 
@@ -2786,6 +2811,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
  []
 
 
+Overfull \hbox (5.0894pt too wide) in paragraph at lines 50--58
+[]$[]\U/jkpsyb/m/n/6.8 E []$[] 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 50--58
 
  []
@@ -2795,18 +2825,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--66
 
  []
 
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 66.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 66.
+[1
 
+
+
+{C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 68.
 
-Overfull \vbox (2.18312pt too high) has occurred while \output is active []
-
-
-[2]
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
@@ -2834,6 +2866,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+[]$[]\OML/jkp/m/it/6.8 f[]\OT1/jkp/m/n/6.8 (\OT1/jkp/b/n/6.8 x\OT1/jkp/m/n/6.8 
+) =
  []
 
 
@@ -2874,6 +2912,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
 Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[]\T1/jkp/m/n/7 (+20) Given a vector-valued func-ti-on
  []
 
 
@@ -3067,12 +3110,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
+\T1/jkp/m/n/7 (+20) sol-ve (sol-ve qua-dra-tic in-e-qua-li-ty),
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[]$[][]\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 g\OT1/jkp/m/n/6.8 ([]) \OMS/jkp/m/n/
+6.8   \OML/jkp/m/it/6.8 g\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 m[]\OT1/jkp/m/n/6.
+8 (\OML/jkp/m/it/6.8 \OT1/jkp/m/n/6.8 ))) []
  []
 
 ) (content/Hypothesis_tests.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]\T1/jkp/m/n/7 (+20) Let $[]\OML/jkp/m/it/6.8 X[]; [] ; X[] [] Bern\OT1/jkp/m/
+n/6.8 (\OML/jkp/m/it/6.8 p[]\OT1/jkp/m/n/6.8 )$[] \T1/jkp/m/n/7 (+20) and
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]$[][]\OML/jkp/m/it/6.8 n\OT1/jkp/m/n/6.8 )(\OML/jkp/m/it/6.8 g\OT1/jkp/m/n/6.
+8 ([]\OML/jkp/m/it/6.8 ; []\OT1/jkp/m/n/6.8 ) \OMS/jkp/m/n/6.8   \OML/jkp/m/it/
+6.8 g\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 p[] \OMS/jkp/m/n/6.8   \OML/jkp/m/it/6
+.8 p[]\OT1/jkp/m/n/6.8 )) []
  []
 
 
@@ -3090,13 +3159,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 34.
 
-Overfull \vbox (2.18312pt too high) has occurred while \output is active []
-
-
-[3]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
@@ -3112,15 +3175,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 51--52
-[]\T1/jkp/m/n/9 (+20) a two-sided test of le-vel $[]\OML/jkp/m/it/9 $[]\T1/jkp
-/m/n/9 (+20) , ba-sed on the
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+[]\T1/jkp/m/n/7 (+20) a two-sided test of le-vel $[]\OML/jkp/m/it/6.8 $[]\T1/j
+kp/m/n/7 (+20) , ba-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\T1/jkp/m/n/7 (+20) sed on the asym-pto-tic nor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\T1/jkp/m/n/7 (+20) ma-li-ty of the MLE, is $[]\OML/jkp/m/it/6.8  [] \OT1/jkp/m
+/n/6.8 =
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
-[]$[]\OML/jkp/m/it/9  [] \OT1/jkp/m/n/9 (+20) = \OT1/jkp/b/n/9 1 [] \OT1/jkp/m/
-n/9 (+20) =
+[]$[]\OML/jkp/m/it/6.8  [] \OT1/jkp/m/n/6.8 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+\OT1/jkp/b/n/6.8 1 [] \OT1/jkp/m/n/6.8 =
  []
 
 ) (content/Total_variation.tex
@@ -3135,7 +3213,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--17
+[]$[][]\OT1/jkp/m/n/6.8 (\OT1/jkp/b/n/6.8 P\OML/jkp/m/it/6.8 ; \OT1/jkp/b/n/6.8
+ Q\OT1/jkp/m/n/6.8 ) =
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--57
+[]$[][]\OT1/jkp/m/n/6.8 (\OT1/jkp/b/n/6.8 P\OML/jkp/m/it/6.8 ; \OT1/jkp/b/n/6.8
+ Q\OT1/jkp/m/n/6.8 ) =
  []
 
 
@@ -3151,6 +3241,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--60
 ) (content/Likelihood.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+[]\T1/jkp/m/n/7 (+20) Gaussian Maximum-loglikelihood
  []
 
 
@@ -3238,7 +3333,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-) (content/Moments.tex
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 60.
+
+Overfull \vbox (0.92418pt too high) has occurred while \output is active []
+
+
+[2]) (content/Moments.tex
 Underfull \hbox (badness 10000) in paragraph at lines 80--1
 
  []
@@ -3285,6 +3386,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
  []
 
 
+Overfull \hbox (6.4704pt too wide) in paragraph at lines 29--30
+[]$[]\OML/jkp/m/it/6.8 M[] []$[] 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
@@ -3304,14 +3410,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-) (content/Generalized_Linear_Models.tex
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 1.
 
-Overfull \vbox (2.18312pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+[]$[]\U/jkpmia/m/it/6.8  \OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 \OT1/jkp/m/n/6.8 
+) =
+ []
 
+)
+Underfull \hbox (badness 10000) in paragraph at lines 43--52
+\T1/jkp/m/n/7 (+20) ran-dom vec-tor of the mo-ments
+ []
 
-[4]
+(content/Generalized_Linear_Models.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -3337,10 +3447,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 
-Overfull \hbox (90.39708pt too wide) in paragraph at lines 32--33
-[]$[]\OML/jkp/m/it/9 f[]\OT1/jkp/m/n/9 (-20) (\OT1/jkp/b/n/9 y\OT1/jkp/m/n/9 (-
-20) ) = \OML/jkp/m/it/9 h\OT1/jkp/m/n/9 (-20) (\OT1/jkp/b/n/9 y\OT1/jkp/m/n/9 (
--20) )  [] []  [] []$[] 
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+[]$[]\OML/jkp/m/it/6.8 f[]\OT1/jkp/m/n/6.8 (\OT1/jkp/b/n/6.8 y\OT1/jkp/m/n/6.8 
+) =
  []
 
 
@@ -3355,6 +3464,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
 ) (content/Algebra.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+[]$[][][] \OT1/jkp/m/n/6.8 = (\OT1/jkp/b/n/6.8 Ax\OT1/jkp/m/n/6.8 )[](\OT1/jkp/
+b/n/6.8 Ax\OT1/jkp/m/n/6.8 )  =  \OT1/jkp/b/n/6.8 x[]A[]Ax \OT1/jkp/m/n/6.8 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+[][] [] \OT1/jkp/m/n/6.8 = \OML/jkp/m/it/6.8 f\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6
+.8 x; b\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 x\OT1/jkp/m/n/6.8 ))\OML/jkp/m/it/6.
+8 b[]\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 x\OT1/jkp/m/n/6.8 ) \OMS/jkp/m/n/6.8  
 
  []
 
@@ -3390,6 +3513,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--44
+[] \OMS/jkp/m/n/6.8 2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--44
 
  []
 
@@ -3420,6 +3548,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]\T1/jkp/m/n/7 (+20) Positive (or ne-ga-ti-ve) de-fi-ni-ten-ess
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
@@ -3435,44 +3568,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
 )
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 64.
+ mdframed uses option nobreak mdframed on input line 57.
+ [3] (cheatsheet.aux)
 
-Overfull \vbox (2.18312pt too high) has occurred while \output is active []
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-[5] (cheatsheet.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 32724 strings out of 492946
- 658798 string characters out of 3126266
- 771536 words of memory out of 3000000
- 35776 multiletter control sequences out of 15000+200000
- 663443 words of font info for 281 fonts, out of 3000000 for 9000
+ 32634 strings out of 492946
+ 659535 string characters out of 3126266
+ 805277 words of memory out of 3000000
+ 35755 multiletter control sequences out of 15000+200000
+ 620768 words of font info for 202 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,19n,81p,837b,1071s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/e
-nc/dvips/kpfonts/kpfonts-expert.enc}{C:/Users/maxth/AppData/Local/Programs/MiKT
-eX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\maxth\AppData\Local\MiKTeX\2.9\fo
-nts/pk/ljfour/public/bbm/dpi600\bbm9.pk>{C:/Users/maxth/AppData/Local/Programs/
-MiKTeX 2.9/fonts/enc/dvips/sourcesanspro/a_ggs4wk.enc}<C:/Users/maxth/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb
-><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/sourcesans
-pro/SourceSansPro-Regular.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/maxth/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/maxth/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/maxth/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpexa.pfb><C:/Users/max
-th/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmi.pfb><C:/U
-sers/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmia.
-pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfont
-s/jkpmn8a.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/kpfonts/jkpmne.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/kpfonts/jkpsy.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/maxth/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/kpfonts/jkpsyb.pfb><C:/Users/maxth/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpsyc.pfb>
-Output written on cheatsheet.pdf (5 pages, 252868 bytes).
+ 55i,20n,76p,837b,1130s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/kpfonts/kpf
+onts-expert.enc}{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
+ps/base/8r.enc} <C:\Users\maxth\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public
+/bbm/dpi600\bbm7.pk>{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
+/dvips/sourcesanspro/a_ggs4wk.enc}<C:/Users/maxth/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb><C:/Users/maxth/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Re
+gular.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+kpfonts/jkpbmi.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/kpfonts/jkpbn8a.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/maxth/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/kpfonts/jkpexa.pfb><C:/Users/maxth/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/maxth/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/maxth/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Us
+ers/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmne.p
+fb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts
+/jkpsy.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/kpfonts/jkpsya.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/kpfonts/jkpsyb.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/kpfonts/jkpsyc.pfb>
+Output written on cheatsheet.pdf (3 pages, 249611 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26637 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 27661 words of extra memory for PDF output out of 29859 (max. 10000000)
 
