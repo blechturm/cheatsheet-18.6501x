@@ -1,19 +1,20 @@
 \section{Estimators}
 
-A statistic is any measurable functionof the sample, e.g. $\bar{X_n}, max(X_i),$ etc. An Estimator of $\theta$ is any statistic which does not depend on $\theta$.
+A \textbf{statistic} is any measurable function calculated with the data ($\bar{X_n}, max(X_i),$ etc).\\
 
-An estimator $\hat{\theta }_ n$ is weakly consistent if: $\displaystyle \lim _{n \to \infty } \hat{\theta }_ n = \theta$ or $ \hat{\theta}_n \xrightarrow[n \rightarrow \infty]{P} \mathbb{E}[g(X)]$. If the convergence is almost surely it is strongly consistent.\\
+An \textbf{estimator} $\hat{\theta }_ n$ of $\theta$ is any statistic which does not depend on $\theta$.\\
 
-Asymptotic normality of an estimator:\\
+Estimators are random variables if they depend on the data (= realizations of random variables).\\
 
-$\sqrt(n) (\hat{\theta}_n-\theta) \xrightarrow[n \rightarrow \infty]{(d)} N(0,\sigma^2)$\\
-
-$\sigma^2$ is called the \textbf{Asymptotic Variance} of $\hat{\theta_n}$. In the case of the sample mean it the variance of a single $X_i$. If the estimator is a function of the sample mean the \textbf{Delta Method} is needed to compute the Asymptotic Variance. Asymptotic Variance $\neq$ Variance of an estimator.\\
-
-Bias of an estimator:\\
-
-$Bias(\hat{\theta}_n = \mathbb{E}[\hat{\theta_n}] - \theta$\\
-
-Quadratic risk of an estimator:\\
-
-$R(\hat{\theta}_n)= \mathbb{E}[(\hat{\theta}_n-\theta)^2] = Bias^2 + Variance$\\
+An estimator $\hat{\theta }_ n$ is \textbf{weakly consistent} if: $\displaystyle \lim _{n \to \infty } \hat{\theta }_ n = \theta$ or $ \hat{\theta}_n \xrightarrow[n \rightarrow \infty]{P} \mathbb{E}[g(X)]$. If the convergence is almost surely it is \textbf{strongly consistent}.\\
+\textbf{Asymptotic normality of an estimator:}
+\[\sqrt(n) (\hat{\theta}_n-\theta) \xrightarrow[n \rightarrow \infty]{(d)} N(0,\sigma^2)\]
+$\sigma^2$ is called the \textbf{Asymptotic Variance} of the estimator $\hat{\theta}_n$. In the case of the sample mean it is the same variance as as the single $X_i$.\\
+If the estimator is a function of the sample mean the \textbf{Delta Method} is needed to compute the asymptotic variance.\textbf{Asymptotic Variance} $\neq$ Variance of an estimator.\\
+\textbf{Bias of an estimator:}
+\[Bias(\hat{\theta}_n) = \mathbb{E}[\hat{\theta_n}] - \theta\]
+\textbf{Quadratic risk of an estimator}
+\begin{align*}
+R(\hat{\theta}_n) & = \mathbb{E}[(\hat{\theta}_n-\theta)^2]\\
+& = Bias^2 + Variance
+\end{align*}

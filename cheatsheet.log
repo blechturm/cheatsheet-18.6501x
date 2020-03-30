@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  15 SEP 2019 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.30)  30 MAR 2020 19:35
 entering extended mode
 **./cheatsheet.tex
 (cheatsheet.tex
@@ -7,11 +7,10 @@ LaTeX2e <2018-12-01>
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\extarticl
 e.cls"
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\size8.clo
-"
-File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
-) ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\exscale.sty
-"
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\exscale.sty"
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
@@ -32,10 +31,133 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \belowcaptionskip=\skip42
 \bibindent=\dimen103
 )
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrext
+end.sty"
+Package: scrextend 2019/02/01 v3.26b KOMA-Script package (extend other classes 
+with features of KOMA-Script classes)
+
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrkba
+se.sty"
+Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrbas
+e.sty"
+Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlfi
+le.sty"
+Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
+))))
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtool
+s.sty"
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen104
+\calc@Bdimen=\dimen105
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count90
+\calc@Cskip=\skip45
+)
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.
+sty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+y"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen106
+))
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks16
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks17
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks18
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count103
+\l_MT_multwidth_dim=\dimen115
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen116
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen117
+\l_MT_above_intertext_sep=\dimen118
+\l_MT_below_intertext_sep=\dimen119
+\l_MT_above_shortintertext_sep=\dimen120
+\l_MT_below_shortintertext_sep=\dimen121
+)
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
 ) ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
 y"
 Package: babel 2018/11/13 3.27 The Babel package
@@ -63,12 +185,12 @@ aphy)
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count88
-\U@D=\dimen104
+\babel@savecnt=\count104
+\U@D=\dimen122
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
 ef")
-\bbl@dirlevel=\count89
+\bbl@dirlevel=\count105
 )
 Package babel Info: Making " an active character on input line 121.
 )))
@@ -79,109 +201,6 @@ Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtool
-s.sty"
-Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
-
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
-y"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-) ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count90
-\calc@Bcount=\count91
-\calc@Adimen=\dimen105
-\calc@Bdimen=\dimen106
-\calc@Askip=\skip43
-\calc@Bskip=\skip44
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count92
-\calc@Cskip=\skip45
-)
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.
-sty"
-Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
-)
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
-y"
-Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip46
-
-For additional information on amsmath, use the `?' option.
-
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
-y"
-Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
-"
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen107
-))
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
-"
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen108
-)
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
-"
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count93
-LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count94
-\leftroot@=\count95
-LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count96
-\DOTSCASE@=\count97
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
-\big@size=\dimen109
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count98
-\c@MaxMatrixCols=\count99
-\dotsspace@=\muskip10
-\c@parentequation=\count100
-\dspbrk@lvl=\count101
-\tag@help=\toks18
-\row@=\count102
-\column@=\count103
-\maxfields@=\count104
-\andhelp@=\toks19
-\eqnshift@=\dimen110
-\alignsep@=\dimen111
-\tagshift@=\dimen112
-\tagwidth@=\dimen113
-\totwidth@=\dimen114
-\lineht@=\dimen115
-\@envbody=\toks20
-\multlinegap=\skip47
-\multlinetaggap=\skip48
-\mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
-)
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count105
-\l_MT_multwidth_dim=\dimen116
-\origjot=\skip49
-\l_MT_shortvdotswithinadjustabove_dim=\dimen117
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen118
-\l_MT_above_intertext_sep=\dimen119
-\l_MT_below_intertext_sep=\dimen120
-\l_MT_above_shortintertext_sep=\dimen121
-\l_MT_below_shortintertext_sep=\dimen122
-)
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
 tikz.sty"
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
@@ -1705,62 +1724,67 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-\@input{inhalt/def.aux}
-\openout2 = `inhalt/def.aux'.
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.st
+y"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks41
+)
+\@input{content/def.aux}
+\openout2 = `content/def.aux'.
 
-(inhalt/def.tex
+(content/def.tex
 \pgf@layerbox@background=\box112
 \pgf@layerboxsaved@background=\box113
 ) (cheatsheet.aux)
 \openout1 = `cheatsheet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 26.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 26.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 31.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 31.
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\omljkp.fd"
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 26.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 31.
  ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\omsjkp.fd
 "
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 26.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 31.
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\omxjkp.fd"
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 26.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 31.
 
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\ujkpexa.fd
 "
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 31.
  ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 26.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 31.
  ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ly1\ly1ptm.fd"
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Try loading font information for T1+jkp on input line 26.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Try loading font information for T1+jkp on input line 31.
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\t1jkp.fd"
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
@@ -1773,12 +1797,12 @@ ii"
 \scratchbox=\box114
 \nofMPsegments=\count314
 \nofMParguments=\count315
-\everyMPshowfont=\toks41
+\everyMPshowfont=\toks42
 \MPscratchCnt=\count316
 \MPscratchDim=\dimen283
 \MPnumerator=\count317
 \makeMPintoPDFobject=\count318
-\everyMPtoPDFconversion=\toks42
+\everyMPtoPDFconversion=\toks43
 )
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
 base.sty"
@@ -1814,12 +1838,12 @@ G,.JBIG2,.JB2,.eps]
 * \topmargin=-109.26999pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=9.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
 * \marginparwidth=144.0pt
-* \marginparsep=10.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=6.29997pt plus 2.79968pt minus 1.40028pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1830,7 +1854,7 @@ G,.JBIG2,.JB2,.eps]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box115
-LaTeX Info: Redefining \microtypecontext on input line 26.
+LaTeX Info: Redefining \microtypecontext on input line 31.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1854,7 +1878,7 @@ y"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) (content/probability_distributions.tex
+) (content/basic_concepts.tex
 LaTeX Font Info:    Try loading font information for T1+SourceSansPro-LF on inp
 ut line 1.
 
@@ -1864,14 +1888,15 @@ File: T1SourceSansPro-LF.fd 2016/12/03 (autoinst) Font definitions for T1/Sourc
 eSansPro-LF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 1.
+(Font)              scaled to size 6.38754pt on input line 1.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceSansPro-LF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 7.0pt on input line 1.
-LaTeX Font Info:    Try loading font information for OT1+jkp on input line 3.
+(Font)              scaled to size 6.38754pt on input line 1.
+LaTeX Font Info:    Calculating math sizes for size <6.38754> on input line 2.
+LaTeX Font Info:    Try loading font information for OT1+jkp on input line 2.
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\ot1jkp.fd"
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
@@ -1880,572 +1905,132 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `jkp' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 3.
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 2.
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\ujkpmia.fd
 "
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsya on input line 3.
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 2.
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\ujkpsya.fd
 "
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 3.
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 2.
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\ujkpsyb.fd
 "
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 3.
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 2.
 
 ("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\ujkpsyc.fd
 "
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-Underfull \hbox (badness 10000) in paragraph at lines 3--10
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 108.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 110.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 112.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 114.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 125.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 127.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 129.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 131.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[]\T1/jkp/m/n/6.38754 (+20) Assume $[]\OML/jkp/m/it/6.38754  \OMS/jkp/m/n/6.38
+754 2 \U/jkpsyb/m/n/6.38754 R$[] \T1/jkp/m/n/6.38754 (+20) the goal is to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+\T1/jkp/m/n/6.38754 (+20) find $[]\OML/jkp/m/it/6.38754 $[]\T1/jkp/m/n/6.38754
+ (+20) that mi-ni-mi-zes $[]\OML/jkp/m/it/6.38754 J\OT1/jkp/m/n/6.38754 (+20) (
+\OML/jkp/m/it/6.38754 ; []\OT1/jkp/m/n/6.38754 (+20) ) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
+LaTeX Font Info:    Try loading font information for TS1+jkp on input line 176.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
-
- []
-
-
-Package amsmath Warning: Foreign command \atopwithdelims;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 45.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-[]$[]\OML/jkp/m/it/6.8 `[]\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 \OT1/jkp/m/n/6.8
- ) = \OML/jkp/m/it/6.8 C \OT1/jkp/m/n/6.8 + [] [] \OML/jkp/m/it/6.8  \OT1/jkp/
-m/n/6.8 +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-
-Overfull \hbox (12.8215pt too wide) in paragraph at lines 69--70
-\OT1/jkp/m/n/6.8 = [](\OML/jkp/m/it/6.8 y [] \OT1/jkp/m/n/6.8 + [] + [])$[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-LaTeX Font Info:    Try loading font information for U+bbm on input line 85.
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bbm\ubbm.fd"
-File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\ts1jkp.fd"
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `jkp' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--172
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--179
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
-[]$[]\OML/jkp/m/it/6.8 L\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 X[] [] X[]\OT1/jkp/
-m/n/6.8 ; \OML/jkp/m/it/6.8 ; \OT1/jkp/m/n/6.8 ) = \OML/jkp/m/it/6.8 [] []\O
-T1/jkp/m/n/6.8 (\OMS/jkp/m/n/6.8  \OML/jkp/m/it/6.8 n\OT1/jkp/m/n/6.8 ([][] \O
-MS/jkp/m/n/6.8  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--246
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--259
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
-
- []
-
-
-Underfull \hbox (badness 6047) in paragraph at lines 285--286
-[]$[]\OML/jkp/m/it/6.8 Var\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 V\OT1/jkp/m/n/6.8
- ) = \OML/jkp/m/it/6.8 Var\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 Z[]\OT1/jkp/m/n/6
-.8 ) + \OML/jkp/m/it/6.8 Var\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 Z[]\OT1/jkp/m/n
-/6.8 ) + [] +
- []
-
-) (content/Quantiles.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
+) (content/linear_algebra.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
+) (content/regressions.tex
+Overfull \hbox (24.61617pt too wide) detected at line 76
+[]
  []
 
 
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 88.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 90.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 92.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is: \indent {} on input line 94.
+
+) (content/recommender.tex
+Overfull \hbox (21.97249pt too wide) detected at line 47
+[]
+ []
+
+) (content/clustering.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-) (content/expectation_variance.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
@@ -2461,21 +2046,204 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
+[]$[]\OML/jkp/m/it/6.38754 cost\OT1/jkp/m/n/6.38754 (+20) (\OML/jkp/m/it/6.3875
+4 C[]; []  ; C[]\OT1/jkp/m/n/6.38754 (+20) ; \OML/jkp/m/it/6.38754 Z[]; []  ; Z
+[]\OT1/jkp/m/n/6.38754 (+20) ) =
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[]\T1/jkp/m/n/6.38754 (+20) Given a set of fea-ture vec-tors
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+[]\T1/jkp/m/n/6.38754 (+20) Given $[]\OML/jkp/m/it/6.38754 z[]; []  ; z[]$[]\T1
+/jkp/m/n/6.38754 (+20) , as-sign
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+\T1/jkp/m/n/6.38754 (+20) each da-ta point $[]\OML/jkp/m/it/6.38754 x[]$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+\T1/jkp/m/n/6.38754 (+20) to the clo-sest $[]\OML/jkp/m/it/6.38754 z[]$[]\T1/jk
+p/m/n/6.38754 (+20) , so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+\T1/jkp/m/n/6.38754 (+20) that $[][]\OT1/jkp/m/n/6.38754 (+20) (\OML/jkp/m/it/6
+.38754 z[]; :::z[]\OT1/jkp/m/n/6.38754 (+20) ) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\T1/jkp/m/n/6.38754 (+20) Given $[]\OML/jkp/m/it/6.38754 C[]; []  ; C[]$[] \T
+1/jkp/m/n/6.38754 (+20) find
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\T1/jkp/m/n/6.38754 (+20) the best re-pre-sen-ta-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\T1/jkp/m/n/6.38754 (+20) ves $[]\OML/jkp/m/it/6.38754 z[]; []  ; z[]$[]\T1/jkp
+/m/n/6.38754 (+20) , i.e. find
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+[]\T1/jkp/m/n/6.38754 (+20) The best re-pre-sen-ta-ti-ve is found by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[]\T1/jkp/m/n/6.38754 (+20) Randomly se-lect $[][]\OML/jkp/m/it/6.38754 z[]; ::
+:; z[][] \OMS/jkp/m/n/6.38754 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]\T1/jkp/m/n/6.38754 (+20) Given $[]\OML/jkp/m/it/6.38754 z[]; []  ; z[]$[]\T1
+/jkp/m/n/6.38754 (+20) , as-sign
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+\T1/jkp/m/n/6.38754 (+20) each da-ta point $[]\OML/jkp/m/it/6.38754 x[]$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+\T1/jkp/m/n/6.38754 (+20) to the clo-sest $[]\OML/jkp/m/it/6.38754 z[]$[]\T1/jk
+p/m/n/6.38754 (+20) , so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+\T1/jkp/m/n/6.38754 (+20) that $[][]\OT1/jkp/m/n/6.38754 (+20) (\OML/jkp/m/it/6
+.38754 z[]; :::z[]\OT1/jkp/m/n/6.38754 (+20) ) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+\T1/jkp/m/n/6.38754 (+20) the best re-pre-sen-ta-ti-ve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+[][][] []\OT1/jkp/m/n/6.38754 (+20) (\OML/jkp/m/it/6.38754 x[]; z[]\OT1/jkp/m/n
+/6.38754 (+20) )$[] \T1/jkp/m/n/6.38754 (+20) is
+ []
+
+) (content/generative_models.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Overfull \hbox (61.44717pt too wide) detected at line 69
+[]
+ []
+
+
+Overfull \hbox (0.35463pt too wide) detected at line 106
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
+(Font)              scaled to size 5.8334pt on input line 123.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 123.
+[1
+
+
+
+{C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+[]\T1/jkp/m/n/6.38754 (+20) Randomly in-itia-li-ze $[]\OML/jkp/m/it/6.38754  \
+OT1/jkp/m/n/6.38754 (+20) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+\T1/jkp/m/n/6.38754 (+20) whe-re $[]\OML/jkp/m/it/6.38754 P\OT1/jkp/m/n/6.38754
+ (+20) (\OML/jkp/m/it/6.38754 x\OMS/jkp/m/n/6.38754 j\OML/jkp/m/it/6.38754 \OT
+1/jkp/m/n/6.38754 (+20) ) =
+ []
+
+
+Overfull \hbox (5.95248pt too wide) detected at line 178
+[]
+ []
+
+) (content/reinforcement.tex
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[]\T1/jkp/b/n/6.38754 (Infinite ho-ri-zon) dis-coun-ted re-ward
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
@@ -2495,1117 +2263,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-) (content/Law_large_Numbers.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-) (content/Multivariate_RV.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-Underfull \hbox (badness 5607) in paragraph at lines 28--29
-[]\T1/jkp/m/n/7 (+20) The ex-pec-ta-ti-on of a ran-dom ma-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
-[]$[]\U/jkpsyb/m/n/6.8 E\OT1/jkp/m/n/6.8 [\OML/jkp/m/it/6.8 X\OT1/jkp/m/n/6.8 ]
- =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Overfull \hbox (5.0894pt too wide) in paragraph at lines 50--58
-[]$[]\U/jkpsyb/m/n/6.8 E []$[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--66
-
- []
-
-LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 66.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 66.
-[1
-
-
-
-{C:/Users/maxth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-[]$[]\OML/jkp/m/it/6.8 f[]\OT1/jkp/m/n/6.8 (\OT1/jkp/b/n/6.8 x\OT1/jkp/m/n/6.8 
-) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-[]\T1/jkp/m/n/7 (+20) Given a vector-valued func-ti-on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-
- []
-
-LaTeX Font Info:    Try loading font information for TS1+jkp on input line 128.
-
-("C:\Users\maxth\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kpfonts\ts1jkp.fd"
-File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `jkp' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 147--37
-
- []
-
-(content/Models.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-) (content/estimators.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-) (content/Confidence_intervals.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--1
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-\T1/jkp/m/n/7 (+20) sol-ve (sol-ve qua-dra-tic in-e-qua-li-ty),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-[]$[][]\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 g\OT1/jkp/m/n/6.8 ([]) \OMS/jkp/m/n/
-6.8   \OML/jkp/m/it/6.8 g\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 m[]\OT1/jkp/m/n/6.
-8 (\OML/jkp/m/it/6.8 \OT1/jkp/m/n/6.8 ))) []
- []
-
-) (content/Hypothesis_tests.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-[]\T1/jkp/m/n/7 (+20) Let $[]\OML/jkp/m/it/6.8 X[]; [] ; X[] [] Bern\OT1/jkp/m/
-n/6.8 (\OML/jkp/m/it/6.8 p[]\OT1/jkp/m/n/6.8 )$[] \T1/jkp/m/n/7 (+20) and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-[]$[][]\OML/jkp/m/it/6.8 n\OT1/jkp/m/n/6.8 )(\OML/jkp/m/it/6.8 g\OT1/jkp/m/n/6.
-8 ([]\OML/jkp/m/it/6.8 ; []\OT1/jkp/m/n/6.8 ) \OMS/jkp/m/n/6.8   \OML/jkp/m/it/
-6.8 g\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 p[] \OMS/jkp/m/n/6.8   \OML/jkp/m/it/6
-.8 p[]\OT1/jkp/m/n/6.8 )) []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-[]\T1/jkp/m/n/7 (+20) a two-sided test of le-vel $[]\OML/jkp/m/it/6.8 $[]\T1/j
-kp/m/n/7 (+20) , ba-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-\T1/jkp/m/n/7 (+20) sed on the asym-pto-tic nor-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-\T1/jkp/m/n/7 (+20) ma-li-ty of the MLE, is $[]\OML/jkp/m/it/6.8  [] \OT1/jkp/m
-/n/6.8 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-[]$[]\OML/jkp/m/it/6.8  [] \OT1/jkp/m/n/6.8 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-\OT1/jkp/b/n/6.8 1 [] \OT1/jkp/m/n/6.8 =
- []
-
-) (content/Total_variation.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--17
-[]$[][]\OT1/jkp/m/n/6.8 (\OT1/jkp/b/n/6.8 P\OML/jkp/m/it/6.8 ; \OT1/jkp/b/n/6.8
- Q\OT1/jkp/m/n/6.8 ) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--57
-[]$[][]\OT1/jkp/m/n/6.8 (\OT1/jkp/b/n/6.8 P\OML/jkp/m/it/6.8 ; \OT1/jkp/b/n/6.8
- Q\OT1/jkp/m/n/6.8 ) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-
- []
-
-) (content/Likelihood.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-[]\T1/jkp/m/n/7 (+20) Gaussian Maximum-loglikelihood
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 60.
-
-Overfull \vbox (0.92418pt too high) has occurred while \output is active []
-
-
-[2]) (content/Moments.tex
-Underfull \hbox (badness 10000) in paragraph at lines 80--1
-
- []
-
-Missing character: There is no d in font jkpsyb!
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-
-Overfull \hbox (6.4704pt too wide) in paragraph at lines 29--30
-[]$[]\OML/jkp/m/it/6.8 M[] []$[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-[]$[]\U/jkpmia/m/it/6.8  \OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 \OT1/jkp/m/n/6.8 
-) =
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 43--52
-\T1/jkp/m/n/7 (+20) ran-dom vec-tor of the mo-ments
- []
-
-(content/Generalized_Linear_Models.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-[]$[]\OML/jkp/m/it/6.8 f[]\OT1/jkp/m/n/6.8 (\OT1/jkp/b/n/6.8 y\OT1/jkp/m/n/6.8 
-) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-) (content/Algebra.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-[]$[][][] \OT1/jkp/m/n/6.8 = (\OT1/jkp/b/n/6.8 Ax\OT1/jkp/m/n/6.8 )[](\OT1/jkp/
-b/n/6.8 Ax\OT1/jkp/m/n/6.8 )  =  \OT1/jkp/b/n/6.8 x[]A[]Ax \OT1/jkp/m/n/6.8 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
-[][] [] \OT1/jkp/m/n/6.8 = \OML/jkp/m/it/6.8 f\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6
-.8 x; b\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 x\OT1/jkp/m/n/6.8 ))\OML/jkp/m/it/6.
-8 b[]\OT1/jkp/m/n/6.8 (\OML/jkp/m/it/6.8 x\OT1/jkp/m/n/6.8 ) \OMS/jkp/m/n/6.8  
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--44
-[] \OMS/jkp/m/n/6.8 2
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-[]\T1/jkp/m/n/7 (+20) Positive (or ne-ga-ti-ve) de-fi-ni-ten-ess
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
+Overfull \hbox (11.18881pt too wide) detected at line 40
+[]
  []
 
 )
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 57.
- [3] (cheatsheet.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ mdframed uses option nobreak mdframed on input line 88.
+ [2] (cheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 32634 strings out of 492946
- 659535 string characters out of 3126266
- 805277 words of memory out of 3000000
- 35755 multiletter control sequences out of 15000+200000
- 620768 words of font info for 202 fonts, out of 3000000 for 9000
+ 33425 strings out of 492946
+ 673021 string characters out of 3126266
+ 863310 words of memory out of 3000000
+ 36576 multiletter control sequences out of 15000+200000
+ 635312 words of font info for 192 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,20n,76p,837b,1130s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/kpfonts/kpf
-onts-expert.enc}{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
-ps/base/8r.enc} <C:\Users\maxth\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public
-/bbm/dpi600\bbm7.pk>{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
-/dvips/sourcesanspro/a_ggs4wk.enc}<C:/Users/maxth/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb><C:/Users/maxth/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Re
-gular.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-kpfonts/jkpbmi.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/kpfonts/jkpbn8a.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/maxth/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/kpfonts/jkpexa.pfb><C:/Users/maxth/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/maxth/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/maxth/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Us
-ers/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmne.p
-fb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts
-/jkpsy.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/kpfonts/jkpsya.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/kpfonts/jkpsyb.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/kpfonts/jkpsyc.pfb>
-Output written on cheatsheet.pdf (3 pages, 249611 bytes).
+ 64i,16n,77p,837b,1106s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/
+enc/dvips/kpfonts/kpfonts-expert.enc}{C:/Users/maxth/AppData/Local/Programs/MiK
+TeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/maxth/AppData/Local/Programs/MiKT
+eX 2.9/fonts/enc/dvips/sourcesanspro/a_ggs4wk.enc}<C:/Users/maxth/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb><C:
+/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/
+SourceSansPro-Regular.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/maxth/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/maxth/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/maxth/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/maxth/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/User
+s/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmne.pfb
+><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kpfonts/j
+kpsy.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/k
+pfonts/jkpsyb.pfb><C:/Users/maxth/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/kpfonts/jkpsyc.pfb>
+Output written on cheatsheet.pdf (2 pages, 209491 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 27661 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 23053 words of extra memory for PDF output out of 24883 (max. 10000000)
 

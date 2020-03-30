@@ -1,0 +1,193 @@
+\section{Linear Classifier}
+Feature vectors $x$, labels $y$
+\begin{align*}
+x \in \mathbb{R}^d\\
+y \in \{-1,1\}
+\end{align*}
+Training set
+\begin{align*}
+S_n = \{(x^{(i)}, y^{(i)}), i=1,...,n\}
+\end{align*}
+
+Classifier
+\begin{align*}
+h: \mathbb{R}^d \rightarrow \{-1,1\}\\
+\chi^{+} = \{x \in \mathbb{R}^d: h(x) =1\}\\
+\chi^{-} = \{x \in \mathbb{R}^d: h(x) =-1\}
+\end{align*}
+
+Training error
+\begin{align*}
+\varepsilon_n(h)= \frac{1}{n} \sum_{i=1}^n \textbf{1}\{h(x^{(i)}) \neq y^{(i)} \}
+\end{align*}
+
+Test error (over disjoint set of examples)
+
+\begin{align*}
+\varepsilon(h)
+\end{align*}
+
+Set of classifiers
+\begin{align*}
+h \in H
+\end{align*}
+
+\subsection{Linear classifiers through origin}
+
+Set of all points that satisfies a line through the origin.
+
+\begin{align*}
+\theta &= \begin{bmatrix}
+           \theta_{1} \\
+           \theta_{2}
+         \end{bmatrix}\\
+X &= \begin{bmatrix}
+           x_{1} \\
+           x_{2}
+         \end{bmatrix}\\
+\end{align*}
+
+Decision Boundary
+\begin{align*}
+\{x&: \theta_1 x_1 + \theta_2 x_2 = 0\}\\
+\{x&: \theta \cdot X=0\}
+\end{align*}
+
+Linear Classifier through origin
+\begin{align*}
+h(x,\theta)=sign(\theta \cdot X)\\
+\Theta \in \mathbb{R}^d
+\end{align*}
+
+\subsection{Linear classifiers}
+General linear Classifier (with Intercept)
+\begin{align*}
+\theta &= \begin{bmatrix}
+           \theta_{1} \\
+           \theta_{2}
+         \end{bmatrix}\\
+X &= \begin{bmatrix}
+           x_{1} \\
+           x_{2}
+         \end{bmatrix}\\
+\end{align*}
+
+Decision Boundary
+\begin{align*}
+\{x&: \theta \cdot X + \theta_0 = 0\}
+\end{align*}
+
+Linear Classifier through origin
+\begin{align*}
+h(x,\Theta, \theta_0)=sign(\theta \cdot X + \theta_0)\\
+\theta \in \mathbb{R}^d\\
+\theta_0 \in \mathbb{R}
+\end{align*}
+
+\subsection{Linear Separation}
+
+Traning examples $S_n = \{(x^{(i)}, y^{(i)}), i=1,...,n\}$ are linear separable if there exists a parameter vector $\hat{\theta}$ and offset parameter $\hat{\theta}_0$ such that $y^{(i)}(\hat{\theta} \cdot x^{(i)} + \hat{\theta}_0 )>0$ for all $i=1,\cdots,n$.
+
+\begin{align*}
+(\hat{\theta} \cdot x^{(i)})>0
+	\begin{cases}
+		 y^{(i)}>0 \text{ and } \theta \cdot x^{(i)} >0\\
+		 y^{(i)}<0 \text{ and } \theta \cdot x^{(i)} <0\\
+	\end{cases}
+\end{align*}
+
+$y^{(i)}(\theta \cdot x^{(i)})>0$ if label and classified result match. This leads to a new definition of the \textbf{Training error}:
+
+\begin{align*}
+\varepsilon_n(\theta)&= \frac{1}{n} \sum_{i=1}^n \textbf{1}\{y^{(i)}(\theta \cdot x^{(i)}) \leq 0\}\\
+\varepsilon_n(\theta,\theta_0)&= \frac{1}{n} \sum_{i=1}^n \textbf{1}\{y^{(i)}(\theta \cdot x^{(i)} + \theta_0) \leq 0\}
+\end{align*}
+
+\subsection{Perceptron through Origin}
+\textbf{Perceptron}$\displaystyle \left(\big \{ (x^{(i)}, y^{(i)}), i=1,...,n\big \} , T \right):$
+\begin{enumerate}[\indent {}]
+	\item initialize  $\theta=0$ (vector);
+	\begin{enumerate}[\indent {}]
+		\item for $t=1,\cdots,T$ do
+		\begin{enumerate}[\indent {}]
+			\item for $i=1,\cdots,n$ do
+			\begin{enumerate}[\indent {}]
+				\item if $y^{(i)}(\theta \cdot x^{(i)})\leq 0$ then 
+				\item update $\theta = \theta + y^{(i)}x^{(i)}$
+			\end{enumerate}
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\subsection{Perceptron with Offset}
+
+\textbf{Perceptron}$\displaystyle \left(\big \{ (x^{(i)}, y^{(i)}), i=1,...,n\big \} , T \right):$
+\begin{enumerate}[\indent {}]
+	\item initialize  $\theta=0$ (vector); $\theta_0=0$ (scalar)
+	\begin{enumerate}[\indent {}]
+		\item for $t=1,\cdots,T$ do
+		\begin{enumerate}[\indent {}]
+			\item for $i=1,\cdots,n$ do
+			\begin{enumerate}[\indent {}]
+				\item if $y^{(i)}(\theta \cdot x^{(i)} + \theta_0)\leq 0$ then
+				\item update $\theta = \theta + y^{(i)}x^{(i)}$
+				\item update $\theta_0=\theta_0 + y^{(i)}$
+			\end{enumerate}
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\subsection{Margin Boundary}
+
+The Margin Boundary is the set of points  $x$  which satisfy $\theta \cdot x + \theta _0= \pm 1$. So, the signed distance from the decision boundary to the margin boundary is $\displaystyle \frac{1}{\mid \mid \theta \mid \mid }$.
+
+$\frac{y^{(i)}(\theta \cdot x^{(i)} + \theta _0)}{\mid \mid \theta \mid \mid }=\frac{1}{\mid \mid \theta \mid \mid }.$
+
+\textbf{Hinge Loss (agreement)}
+\begin{align*}
+Agreement &= z = y^{(i)}(\theta \cdot x^{(i)} + \theta _0)\\
+Loss_h(z) &= 
+\begin{cases}
+		 0 \text{ if } z \geq 1\\
+		 1-z \text{ if } z < 1
+\end{cases} 
+\end{align*}
+
+\textbf{Regularization} means pushing out the margin boundaries by adding $max(\frac{1}{\mid \mid \theta \mid \mid })$ or $min(\frac{1}{2}\mid \mid \theta \mid \mid^2)$ to the objective function.
+
+\textbf{Objective Function}
+
+Objective function = average loss + regularization\\
+
+Objective function is minimized, learning becomes an optimization problem. Using hinge loss and margin boundaries is called \textbf{Support Vector Machine} or \textbf{Large margin linear classification}:
+
+\begin{align*}
+J(\theta , \theta _0) = \frac{1}{n} \sum _{i=1}^{n} \text {Loss}_ h (z) + \frac{\lambda }{2} \mid \mid \theta \mid \mid ^2.
+\end{align*}
+
+Where $\lambda > 0$ is called the regularization parameter that regulates how important the margin boundaries are in comparison to the average hinge loss.
+
+\subsection{Gradient Descent}
+
+Assume $\theta \in \mathbb{R}$ the goal is to find $\theta $that minimizes $J(\theta , \theta _0) = \frac{1}{n} \sum _{i=1}^{n} \text {Loss}_ h (y^{(i)} (\theta \cdot x^{(i)} + \theta _0 )) + \frac{\lambda }{2} \mid \mid \theta \mid \mid ^2$ through gradient descent.\\
+
+In other words, we will
+\begin{itemize}
+\item Start $\theta$ at an arbitrary location: $\theta \leftarrow \theta _{start}$
+\item Update $\theta$ repeatedly with $\theta \leftarrow \theta - \eta \frac{\partial J(\theta , \theta _0)}{\partial \theta }$ until $\theta$ does not change significantly.
+\end{itemize}
+
+Where $\eta >0$ is called the stepsize or \textbf{learning parameter}.
+
+\subsection{Stochastic Gradient Descent}
+
+\begin{align*}
+J(\theta , \theta _0) &= \frac{1}{n} \sum _{i=1}^{n} \text {Loss}_ h (z) + \frac{\lambda }{2} \mid \mid \theta \mid \mid ^2\\
+&= \frac{1}{n} \sum _{i=1}^{n}\big [ \text {Loss}_ h (z) + \frac{\lambda }{2} \mid \mid \theta \mid \mid ^2 \big ]
+\end{align*}
+
+With stochastic gradient descent, we choose $i \in \big \{ 1,...,n \big \}$ at random and update $\theta$ such that\\
+
+\begin{align*}
+\theta \leftarrow \theta - \eta \nabla _{\theta } \big [\text {Loss}_ h(z) + \frac{\lambda }{2}\mid \mid \theta \mid \mid ^2 \big ]
+\end{align*}
