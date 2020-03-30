@@ -1,46 +1,61 @@
-\section{Distances between distributions}
+\section{Distance between distributions}
 
-\subsection{Total variation distance}
+\subsection*{Total variation}
 The total variation distance $\text {TV}$ between the propability measures $P$ and $Q$ with a sample space $E$ is defined as:\\
+
 $\text {TV}(\mathbf{P}, \mathbf{Q}) = {\max _{A \subset E}}| \mathbf{P}(A) - \mathbf{Q}(A) |,$\\
+
 Calculation with $f$ and $g$:
-\begin{align*}
-{TV}(\mathbf{P}, \mathbf{Q}) =&\\
-	&\begin{cases}
-		  \frac{1}{2} \, \sum _{x \in E} |f(x) - g(x)|,\text{discr}\\		 
-		 \frac{1}{2} \, {\color{blue}{\int }} _{x \in E} |f(x) - g(x)|dx,\text{cont}
-	\end{cases}	
-\end{align*}
-Symmetry: $TV(\mathbf{P}, \mathbf{Q}) = TV(\mathbf{Q}, \mathbf{P})$\\
-Positive: $TV(\mathbf{P}, \mathbf{Q}) \geq 0$\\
-Definite: $TV(\mathbf{P}, \mathbf{Q}) = 0 \iff \mathbf{P}= \mathbf{Q}$\\
-Triangle inequality: $TV(\mathbf{P}, \mathbf{V}) \leq TV(\mathbf{P}, \mathbf{Q}) + TV(\mathbf{Q}, \mathbf{V})$\\
 
-If the support of $\mathbf{P}$ and $\mathbf{Q}$ is disjoint:
-\begin{align*}
-TV(\mathbf{P}, \mathbf{V}) = 1
-\end{align*}
-TV between continuous and discrete r.v:
-\begin{align*}
-TV(\mathbf{P}, \mathbf{V}) = 1
-\end{align*}
-\subsection{KL divergence}
-The KL divergence (aka relative entropy) $\text {KL}$ between between probability measures $P$ and $Q$ with the common sample space $E$ and pmf/pdf functions $f$ and $g$ is defined as:
-\begin{align*}
-  {KL}(\mathbf{P}, \mathbf{Q}) = &\\
-	&\begin{cases}
-		  \sum _{x \in E} p(x) \ln \left( \frac{p(x)}{q(x)} \right),&\text{discr}\\	 
-		{\int }_{x \in E} p(x) \ln \left( \frac{p(x)}{q(x)}\right)dx,&\text{cont}
+$ \text {TV}(\mathbf{P}, \mathbf{Q}) =
+	\begin{cases}
+		  \frac{1}{2} \, \sum _{x \in E} |f(x) - g(x)|,&\text{discr}\\
+		 
+		 \frac{1}{2} \, {\color{blue}{\int }} _{x \in E} |f(x) - g(x)|dx,&\text{cont}\\
 	\end{cases}
-\end{align*}
-The KL divergence is not a distance measure! Always sum over the support of $P$!\\
-Asymetric in general: $\text {KL}(\mathbf{P}, \mathbf{Q}) \neq \text {KL}(\mathbf{Q}, \mathbf{P})$\\
-Nonnegative: $\text {KL}(\mathbf{P}, \mathbf{Q}) \geq 0$\\
-Definite: if $\mathbf{P}$ = $\mathbf{Q}$ then $\text {KL}(\mathbf{P}, \mathbf{Q}) = 0$\\
-Does not satisfy triangle inequality in general: $KL(\mathbf{P}, \mathbf{V}) \nleq KL(\mathbf{P}, \mathbf{Q}) + KL(\mathbf{Q}, \mathbf{V})$\\
+$\\
 
-\textbf{Estimator of KL divergence:}
-\begin{align*}
-\displaystyle  \text {KL}\left(\mathbf{P}_{\theta ^*}, \mathbf{P}_{\theta }\right)& = \mathbb {E}_{\theta ^*}\left[\ln \left(\frac{p_{\theta ^*}(X)}{p_{\theta }(X)}\right)\right]\\
-\widehat{KL}(\mathbf{P}_{\theta_{*}},\mathbf{P}_{\theta})& = const - \frac{1}{n} \sum_{i=1}^{n} log(p_{\theta}(X_i))
-\end{align*}
+Symmetry:\\
+ $d(\mathbf{P}, \mathbf{Q}) = d(\mathbf{Q}, \mathbf{P})$
+
+nonnegative: \\
+$d(\mathbf{P}, \mathbf{Q}) \geq 0$
+
+definite:\\
+$d(\mathbf{P}, \mathbf{Q}) = 0 \iff \mathbf{P}= \mathbf{Q}$
+
+triangle inequality:\\
+$d(\mathbf{P}, \mathbf{V}) \leq d(\mathbf{P}, \mathbf{Q}) + d(\mathbf{Q}, \mathbf{V})$
+
+If the support of $\mathbf{P}$ and $\mathbf{Q}$ is disjoint:\\
+$d(\mathbf{P}, \mathbf{V}) = 1$
+
+TV between continuous and discrete r.v:
+$d(\mathbf{P}, \mathbf{V}) = 1$
+
+\subsection*{KL divergence}
+
+the KL divergence (also known as relative entropy) $\text {KL}$ between between the propability measures $P$ and $Q$ with the common sample space $E$ and pmf/pdf functions $f$ and $g$ is defined as:
+
+$ \text {KL}(\mathbf{P}, \mathbf{Q}) =
+	\begin{cases}
+		  \sum _{x \in E} p(x) \ln \left( \frac{p(x)}{q(x)} \right),&\text{discr}\\
+		 
+		{\int }_{x \in E} p(x) \ln \left( \frac{p(x)}{q(x)}\right)dx,&\text{cont}\\
+	\end{cases}
+$\\
+Not a distance!\\
+Sum over support of $P$!\\
+Asymetric in general:\\
+$\text {KL}(\mathbf{P}, \mathbf{Q}) \neq \text {KL}(\mathbf{Q}, \mathbf{P})$\\
+Nonnegative:\\
+$\text {KL}(\mathbf{P}, \mathbf{Q}) \geq 0$\\
+Definite:\\
+if $\mathbf{P}$ = $\mathbf{Q}$ then $\text {KL}(\mathbf{P}, \mathbf{Q}) = 0$\\
+Does not satisfy triangle inequality in general:\\
+$KL(\mathbf{P}, \mathbf{V}) \nleq KL(\mathbf{P}, \mathbf{Q}) + KL(\mathbf{Q}, \mathbf{V})$\\
+
+Estimator of KL divergence:\\
+$\displaystyle  \text {KL}\left(\mathbf{P}_{\theta ^*}, \mathbf{P}_{\theta }\right) = \mathbb {E}_{\theta ^*}\left[\ln \left(\frac{p_{\theta ^*}(X)}{p_{\theta }(X)}\right)\right],$ \\
+
+$\widehat{KL}(\mathbf{P}_{\theta_{*}},\mathbf{P}_{\theta}) = const - \frac{1}{n} \sum_{i=1}^{n} log(p_{\theta}(X_i))$ 

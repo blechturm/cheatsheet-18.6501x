@@ -1,12 +1,11 @@
-\documentclass[landscape,letterpaper]{extarticle}
-\usepackage[fontsize=7pt]{scrextend}
-%\usepackage{amsmath}
-\usepackage{mathtools}
+\documentclass[8pt,landscape,letterpaper]{extarticle}
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 \usepackage[T1]{fontenc}
-
-
+\usepackage{mathtools}
+%\usepackage[LY1,T1]{fontenc}
+%\usepackage{frutigernext}
+%\usepackage[lf,minionint]{MinionPro}
 \usepackage{tikz}
 \usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
 \usepackage[nosf]{kpfonts}
@@ -18,72 +17,42 @@
 \usepackage{microtype}
 \usepackage{pdfpages}
 \usepackage{bbm}
-\usepackage{enumerate} 
+
 
 \let\bar\overline
 
-\include{content/def}
-
-
-\AtBeginDocument{%
-\setlength{\belowdisplayskip}{0pt} \setlength{\belowdisplayshortskip}{0pt} \setlength{\abovedisplayskip}{0pt} \setlength{\abovedisplayshortskip}{0pt}}
+\include{inhalt/def}
 
 \begin{document}
 %\footnotesize
 \small
 \begin{multicols*}{6}
 
-% multicol parameters
-% These lengths are set only within the two main columns
-%\setlength{\columnseprule}{0.25pt}
-\setlength{\premulticols}{1pt}
-\setlength{\postmulticols}{1pt}
-\setlength{\multicolsep}{1pt}
-\setlength{\columnsep}{2pt}
-
-%\input{content/probability_distributions}
-
-%\input{content/expectation_variance}
+\input{content/probability_distributions}
+\input{content/Quantiles}
+\input{content/expectation_variance}
 %\input{content/Covariance_Matrix}
+\input{content/Law_large_Numbers}
+\input{content/Multivariate_RV}
 
 
 
 
-
-
-\input{content/basic_concepts}
-\input{content/linear_algebra}
-\input{content/regressions}
-\input{content/recommender}
-\input{content/clustering}
-\input{content/generative_models}
-\input{content/reinforcement}
-%
-%
-%
-%
-%\input{content/Total_variation}
-%\input{content/Likelihood}
-%\input{content/Moments}
-%\input{content/bayesian}
-%\input{content/OLS}
-%\input{content/Generalized_Linear_Models}
-%
-%
-%\input{content/expectation_variance}
-%\input{content/Covariance_Matrix}
+\input{content/Models}
+\input{content/estimators}
+\input{content/Confidence_intervals}
+\input{content/Hypothesis_tests}
 
 
 
-%\input{content/probability_distributions}
+\input{content/Total_variation}
+\input{content/Likelihood}
+\input{content/Moments}
+%\input{content/M_estimation}
 
-%\input{content/notes}
-%\input{content/Multivariate_RV}
-%\input{content/Algebra}
-%\input{content/Covariance_Matrix}
+\input{content/Generalized_Linear_Models}
 
-%\input{content/probability_distributions}
-%\input{content/Algebra}
+\input{content/Algebra}
 
 \end{multicols*}
 \end{document}

@@ -1,50 +1,29 @@
 \section{Confidence intervals}
+
 Let $\displaystyle ( E,(\mathbb{P}_{\theta })_{\theta \in \Theta })$ be a statistical  model based on observations $X_{1} , \ldots X_{n}$  and assume $\displaystyle \Theta \subseteq \mathbb{R}$. Let $\displaystyle \alpha \in ( 0,1)$.\\
+
 \textbf{Non asymptotic} confidence interval of level $\displaystyle 1-\alpha $ for $\displaystyle \theta $:\\
+
 Any random interval $\displaystyle \mathcal{I}$, depending on the sample $X_{1} , \ldots X_{n}$ but not at $\displaystyle \theta $ and such that:\\
+
 $\mathbb{P}_{\theta }[\mathcal{I} \ni \theta ] \geq 1-\alpha ,\ \ \forall \theta \in \Theta$\\
+
 Confidence interval of \textbf{asymptotic level} $\displaystyle 1-\alpha $  for $\displaystyle \theta $:\\
-Any random interval $\displaystyle \mathcal{I}$ whose boundaries do not depend on $\displaystyle \theta $ and such that: $\lim _{n\rightarrow \infty }\mathbb{P}_{\theta } [\mathcal{I} \ni \theta ]\geq 1-\alpha ,\ \ \forall \theta \in \Theta $
-\subsection{Two-sided asymptotic CI}
+
+Any random interval $\displaystyle \mathcal{I}$ whose boundaries do not depend on $\displaystyle \theta $ and such that:\\
+
+$\lim _{n\rightarrow \infty }\mathbb{P}_{\theta } [\mathcal{I} \ni \theta ]\geq 1-\alpha ,\ \ \forall \theta \in \Theta $\\
+
+\subsection*{Two-sided asymptotic CI}
 Let $X_1, \ldots, X_n = \tilde{X}$ and $\tilde{X}\stackrel{iid} {\sim} P_{\theta}$. A two-sided CI is a function depending on $\tilde{X}$ giving an upper and lower bound in which the estimated parameter lies $\mathcal{I} = [l(\tilde{X},u(\tilde{X})]$ with a certain probability $\mathbb{P}(\theta \in  \mathcal{I}) \geq 1 -q_{\alpha}$ and conversely $\mathbb{P}(\theta \not\in  \mathcal{I}) \leq \alpha$\\
-Since the estimator is a r.v. depending on $\tilde{X}$ it has a variance $Var(\hat{\theta}_n$ and a mean $\mathbb{E}[\hat{\theta}_n]$. 
-Since the CLT is valid for every distribution standardizing the distributions and massaging the expression yields an an asymptotic CI:
-\begin{align*}
-\mathcal{I} =  [&\hat{\theta}_n - \frac{q_{\alpha /2} \sqrt{Var(X_i)} }{\sqrt{n}},\\
-&\hat{\theta}_n + \frac{q_{\alpha /2} \sqrt{Var(X_i)} }{\sqrt{n}}]
-\end{align*}
-This expression depends on the real variance $Var(X_i)$ of the r.vs, the variance has to be estimated.\\
-Three possible methods: plugin (use sample mean or empirical variance), solve (solve quadratic inequality), conservative (use the theoretical maximum of the variance).
-\subsection{Sample Mean and Sample Variance}
-Let $X_1, ..., X_n \stackrel{iid}{\sim} P_{\mu}$, where $E(X_i)=\mu$ and $Var(X_i)=\sigma^2$ for all $i=1,2,...,n$\\
-\textbf{Sample Mean:}
-\begin{align*}
-\bar{X}_n= \frac{1}{n} \sum_{i=1}^{n} X_i
-\end{align*}
-\textbf{Sample Variance:}
-\begin{align*}
-S_n &= \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar{X}_n)^2\\ 
-&= \frac{1}{n} (\sum_{i=1}^{n} X_i^2) - \bar{X}_n^2
-\end{align*}
-\textbf{Unbiased estimator of sample variance:}
-\begin{align*}
-\tilde{S}_n &= \displaystyle  \frac{1}{n-1} \sum _{i=1}^ n \left(X_ i - \overline{X}_ n\right)^2\\
-&= \frac{n}{n-1} S_n
-\end{align*}
-\subsection{Delta Method}
 
-To find the asymptotic CI if the estimator is a function of the mean. Goal is to find an expression that converges a function of the mean using the CLT. Let $Z_n$ be a sequence of r.v. $\sqrt(n) (Z_n-\theta) \xrightarrow[n \rightarrow \infty]{(d)} N(0,\sigma^2)$ and let $g: R\longrightarrow R$ be continuously differentiable at $\theta$, then:
-\begin{align*}
-&\sqrt{n}(g(Z_n) - g(\theta)) \xrightarrow [n \to \infty ]{(d)}\\
-&\mathcal{N}(0, g'(\theta )^2 \sigma ^2)
-\end{align*}
-\textbf{Example:} let  $X_1,... ,X_n ~ exp(\lambda)$  where  $\lambda>0$ . Let  $\overline{X}_ n= \frac{1}{n} \sum _{i = 1}^ n X_ i$ denote the sample mean. By the CLT, we know that $\sqrt{n}\left(\overline{X}_ n - \frac{1}{\lambda }\right) \xrightarrow [n \to \infty ]{(d)} N(0, \sigma ^2)$ for some value of  $\sigma^2$  that depends on  $\lambda$.
+Since the estimator is a r.v. depending on $\tilde{X}$ it has a variance $Var(\hat{\theta}_n$ and a mean $\mathbb{E}[\hat{\theta}_n]$. After finding those it is possible to standardize the estimator using the CLT. This yields an asymptotic CI: $\mathcal{I} = \hat{\theta}_n + [\frac{-q_{\alpha /2} \sqrt{Var(\theta)} }{\sqrt{n}}, \frac{q_{\alpha /2} \sqrt{Var(\theta)} }{\sqrt{n}}]$
 
-If we set $g: \displaystyle \mathbb {R} \to \mathbb {R}$ and $\displaystyle x \mapsto 1/x,$ then by the Delta method:
+This expression depends on the real variance $Var(\theta)$ of the r.vs, the variance has to be estimated. Three possible methods: plugin (use sample mean), solve (solve quadratic inequality), conservative (use the maximum of the variance).\\
 
-\begin{align*}
-&\sqrt{n}\left( g(\overline{X}_ n) - g\left(\frac{1}{\lambda }\right) \right)\\
-&\xrightarrow [n \to \infty ]{(d)} N(0, g'(E[X])^2\textsf{Var}{X})\\
-&\xrightarrow [n \to \infty ]{(d)} N(0, g'\left(\frac{1}{\lambda }\right)^2\frac{1}{\lambda ^2})\\
-&\xrightarrow [n \to \infty ]{(d)} N(0, \lambda^2)
-\end{align*}
+\subsection*{Delta Method}
+
+If I take a function of the mean and want to make it converge to a function of the mean. 
+
+$\sqrt{n}(g(\widehat{m}_1) - g(m_1(\theta ))) \xrightarrow [n \to \infty ]{(d)} \mathcal{N}(0, g'(m_1(\theta ))^2 \sigma ^2)$
+

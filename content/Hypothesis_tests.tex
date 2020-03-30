@@ -1,87 +1,6 @@
-\section{Asymptotic Hypothesis tests}
+\section{Hypothesis tests}
 
-Two hypotheses ($\Theta_0$ disjoint set from $\Theta_1$):
-$\begin{cases}
-		H_0: \theta \epsilon \Theta_0\\
-		H_1: \theta \epsilon \Theta_1\\
-\end{cases}$. Goal is to reject $H_0$ using a test statistic.\\
-
-A test $\psi$ has \textbf{level $\alpha$} if $\alpha_{\psi}(\theta) \leq \alpha, \forall \theta \in \Theta_0.$ and \textbf{asymptotic level $\alpha$} if $\lim _{n \to \infty } P_\theta ( \psi = 1) \leq \alpha$.\\
-
-\textbf{A hypothesis-test} has the form 
-
-\begin{align*}
-\psi = \textbf{1} \lbrace  T_n \geq c \rbrace
-\end{align*}
-for some test statistic $T_n$ and threshold $c \in \mathbb{R}$. Threshold $c$ is usually $q_{\alpha/2}$\\
-\textbf{Rejection region:}
-\begin{align*}
-R_{\psi} = \lbrace T_n > c \rbrace
-\end{align*}
-\textbf{Symmetric about zero and acceptance Region interval:}
-\begin{align*}
-\psi = \mathbf{1}\{  |T_n| - c > 0 \} .
-\end{align*}
-
-\textbf{Power of the test}:\\
-\begin{align*}
-\pi_\psi = \inf_{\theta \in \Theta_1}(1 - \beta_\psi(\theta))
-\end{align*}
-Where $\beta_\psi$ is the probability of making a Type2 Error and $inf$ is the maximum.\\
-\textbf{Two-sided test}:
-\begin{align*}
-H_1&: \theta \neq \Theta_0\\
-\mathbf{1}&(|T_ n| > q_{\alpha /2})
-\end{align*}
-\textbf{One-sided tests}:
-\begin{align*}
-H_1&: \theta > \Theta_0\\
-\mathbf{1}&(T_ n < -q_{\alpha})
-H_1&: \theta < \Theta_0\\
-\mathbf{1}&(T_ n > q_{\alpha})
-\end{align*}
-\textbf{Type1 Error:}\\
-Test rejects null hypothesis $\psi = 1$ but it is actually true $H_0 = TRUE$\\
-\textbf{Type2 Error:}\\
-Test does not reject null hypothesis $\psi = 0$ but alternative hypothesis is true $H_1 = TRUE$\\
-\textbf{Example:} Let $X_1, \ldots , X_ n \stackrel{i.i.d.}{\sim } \text {Ber}(p^*)$. Question: is $p^* = 1/2$.\\
-$H_0: p^* = 1/2; H_1:p^* \neq 1/2$\\
-If asymptotic level $\alpha$ then we need to standardize the estimated parameter $\hat{p} = \overline{X}_ n$ first.\\
-\begin{align*}
-T_n &= \sqrt{n}\frac{\left| \overline{X}_ n - 0.5\right|}{\sqrt{0.5(1 - 0.5)}}\\
-\displaystyle \psi _{n} &= \displaystyle \mathbf{1}\left(T_n>q_{\alpha /2} \right)
-\end{align*}
-where $q_{\alpha /2}$ denotes the $q_{\alpha /2}$ quantile of a standard Gaussian, and $\alpha$ is determined by the required level of $\psi$. Note the absolute value in $T_n$ for this two sided test.\\
-\textbf{Pivot:}\\
-Let $T_n$ be a function of the random samples $X_1,\dots ,X_ n,\theta$. Let $g(T_ n)$ be a random variable whose distribution is the same for all $\theta$ . Then, $g$ is called a pivotal quantity or a pivot.\\
-\textbf{Example:} let $X$ be a random variable with mean $\mu$ and variance $\sigma^2$ . Let $X_1,\dots ,X_ n$ be iid samples of $X$. Then,
-\[\displaystyle  g_ n \triangleq \frac{\overline{X_ n} - \mu }{\sigma }\]
-is a pivot with $\theta = \left[\mu ~ ~  \sigma ^2\right]^ T$ being the parameter vector (not the same set of paramaters that we use to define a statistical model).
-\subsection{P-Value}
-The (asymptotic) p-value of a test $\psi_{\alpha}$ is the smallest (asymptotic) level $\alpha$ at which $\psi_{\alpha}$ rejects $H_0$. It is random since it depends on the sample. It can also interpreted as the probability that the test-statistic $T_n$ is realized given the null hypothesis.\\
-
-If $pvalue \leq \alpha$ , $H_0$ is rejected by $\psi_{\alpha}$ at the (asymptotic) level $\alpha$\\
-
-The smaller the p-value, the more confidently one can reject $H_0$.\\
-\textbf{Left-tailed p-values:}
-\begin{align*}
-pvalue&=\mathbb{P}(X\leq x|H_0)\\
-&=\mathbf{P}( Z < T_{n,\theta _0}(\overline{X}_ n)))\\
-&=\Phi (T_{n,\theta _0}(\overline{X}_ n))\\
-&Z\sim \mathcal{N}(0,1)	
-\end{align*}
-\textbf{Right-tailed p-values:}
-\begin{align*}
-	pvalue&=\mathbb{P}(X\geq x|H_0)
-\end{align*}
-\textbf{Two-sided p-values:}
-If asymptotic, create normalized $T_n$ using parameters from $H_0$. Then use $T_n$ to get to probabilities.
-\begin{align*}
-&pvalue=2 min\{\mathbb{P}(X\leq x|H_0),\mathbb{P}(X\geq x|H_0)\}\\
-&\mathbb{P}(\lvert Z\rvert > \lvert T_{n,\theta _0}(\overline{X}_ n)\rvert = 2(1-\Phi(T_n))\\
-&Z \sim N(0,1)
-\end{align*}
-\subsection{Comparisons of two proportions}
+\subsection*{Comparisons of two proportions}
 
 Let $X_1,\dots ,X_ n \stackrel{iid}{\sim} Bern(p_x)$ and  $Y_1,\dots ,Y_ n \stackrel{iid}{\sim} Bern(p_y)$ and be $X$ independent of $Y$. $\hat{p}_x= 1/n \sum_{i=1}^{n} X_i$ and $\hat{p}_x= 1/n \sum_{i=1}^{n} Y_i$\\
 
@@ -93,156 +12,48 @@ $\sqrt(n) (g(\hat{p}_x,\hat{p}_y) - g(p_x-p_y)) \xrightarrow[n \rightarrow \inft
 
 $\Rightarrow N(0,p_x(1-px) + p_y(1-py))$
 
-\section{Non-asymptotic Hypothesis tests}
+Pivot:\\
 
-\subsection{Chi squared}
-The $\chi _ d^2$ distribution with $d$ degrees of freedom is given by the distribution of $Z_1^2 + Z_2^2 + \cdots + Z_ d^2,$ where $Z_1, \ldots , Z_ d \stackrel{iid}{\sim } \mathcal{N}(0,1)$
+Let $X_1,\dots ,X_ n$ be random samples and let $T_ n$  be a function of $X$ and a parameter vector $\theta$. That is, $T_n$ is a function of $X_1,\dots ,X_ n,\theta$. Let $g(T_ n)$ be a random variable whose distribution is the same for all $\theta$ . Then, $g$ is called a pivotal quantity or a pivot.\\
 
-If $V \sim \chi^2_k:$\\
+For example, let $X$ be a random variable with mean $\mu$ and variance $\sigma^2$ . Let $X_1,\dots ,X_ n$ be iid samples of $X$. Then,
 
-$\mathbb{E}= \mathbb{E}[Z_1^2] + \mathbb{E}[Z_2^2] + \ldots + \mathbb{E}[Z_d^2] = d$\\ 
-
-$Var(V) = Var(Z_1^2) + Var(Z_2^2) + \ldots + Var(Z_d^2) = 2d$
-
-\textbf{Cochranes Theorem:}\\
-If $X_1, ..., X_n \stackrel{iid}{\sim} N(\mu,\sigma^2)$, then sample mean $\bar{X}_n$ and the sample variance $S_n$ are independent. The sum of squares of $n$ variables follows a chi squared distribution with (n-1) degrees of freedom:
-\begin{align*}
-\frac{n S_ n}{\sigma ^2} \sim \chi _{n -1}^2
-\end{align*}
-If formula for unbiased sample variance is used:\\
-\begin{align*}
-\frac{(n-1) S_ n}{\sigma ^2} \sim \chi _{n -1}^2
-\end{align*}
-\subsection{Student's T Test}
-Non-asymptotic hypothesis test for small samples (works on large samples too), data must be gaussian.\\
-
-\textbf{Student's T distribution} with $d$ degrees of freedom:
-$t_d := \frac{Z}{\sqrt{V/n}}$ where $Z \sim \mathcal{N}(0,1)$ and $V \sim \chi^2_k$ are independent.\\
-
-\textbf{Student's T test (one sample + two-sided):}\\
-
-Let $X_1, ..., X_n \stackrel{iid}{\sim} N(\mu,\sigma^2)$ and suppose we want to test $H_0: \mu = \mu_0 = 0$ vs. $H_1: \mu \neq 0$.\\
-
-Test statistic follows Student's T distribution:
-
-\begin{align*}
-T_n &= \frac{\displaystyle \sqrt{n}\frac{\bar{X}_n - \mu_0}{\sigma}}{\displaystyle \sqrt{\frac{\tilde{S}_n}{\sigma^2}}}\\
-&\sim \frac{N(0,1)}{\sqrt{\frac{\chi^2_{n-1}}{n-1}}}\\
-&\sim t_{n-1}
-\end{align*}
-
-Works bc. under $H_0$ the numerator $N(0,1)$ and the denominator $\frac{\tilde{S}_n}{\sigma^2} \sim \frac1{n-1}\chi^2_{n-1}$ are independent by Cochran's Theorem.\\
-
-Student's T test at level $\alpha$:
-\begin{align*}
-\psi_\alpha = \textbf{1}\{|T_n| > q_{\alpha/2}(t_{n-1})\}
-\end{align*}
-
-\textbf{Student's T test (one sample, one-sided):}
-\begin{align*}
-\psi_\alpha = \textbf{1}\{T_n > q_\alpha(t_{n-1})\}
-\end{align*}
-
-\textbf{Student's T test (two samples, two-sided):}
-
-Let $X_1, ..., X_n \stackrel{iid}{\sim} N(\mu_X,\sigma^2_X)$ and $Y_1, ..., Y_n \stackrel{iid}{\sim} N(\mu_Y,\sigma^2_Y)$, suppose we want to test $H_0: \mu_X = \mu_Y$ vs $H_1: \mu_X \neq \mu_Y$.
-
-\begin{align*}
-T_{n, m} = \frac{\bar{X}_n - \bar{Y}_m}{\displaystyle \sqrt{\frac{\hat{\sigma^2}_X}n + \frac{\hat{\sigma^2}_Y}m}}
-\end{align*}
+$$\displaystyle  g_ n \triangleq \frac{\overline{X_ n} - \mu }{\sigma }$$
+ 		 	 
+is a pivot with $\theta = \left[\mu ~ ~  \sigma ^2\right]^ T$ being the parameter vector. The notion of a parameter vector here is not to be confused with the set of paramaters that we use to define a statistical model.
 
 
-\textbf{Welch-Satterthwaite formula:}\\
 
-When samples are different sizes we need to finde the Student's T distribution of: $T_{n, m} \sim t_N$\\
+\subsection*{Onesided}
+\subsection*{Twosided}
+\subsection*{P-Value}
 
-Calculate the degrees of freedom for $t_N$ with:
-\begin{align*}
-N = \frac{\displaystyle \left(\frac{\hat{\sigma^2}_X}n + \frac{\hat{\sigma^2}_Y}m\right)^2}{\displaystyle \frac{\hat{\sigma^2}^2_X}{n^2(n-1)} + \frac{\hat{\sigma^2}^2_Y}{m^2(m-1)}} \geq \min(n, m)
-\end{align*}
+\subsection*{Walds Test}
 
-$N$ should be rounded down.
+$\, X_1, \ldots , X_ n \stackrel{iid}{\sim } \mathbf{P}_{\theta ^*}$  for some true parameter $\theta ^* \in \mathbb {R}^ d$. We construct the associated statistical model $(\mathbb {R}, \{  \mathbf{P}_\theta \} _{\theta \in \mathbb {R}^ d } )$ and the maximum likelihood estimator $\widehat{\theta }_ n^{MLE}$ for $\theta ^*$.
 
-\subsection{Walds Test}
+Decide between two hypotheses:
 
-Squared distance of $\widehat{\theta}_ n^{MLE}$ to true $\theta_0$ using the fisher information $I(\widehat{\theta}_ n^{MLE})$ as metric.
+$H_0: \displaystyle  \theta ^* = \mathbf{0}$ VS $H_1: \displaystyle  \theta ^* \neq \mathbf{0}$
 
-Let $\, X_1, \ldots , X_ n \stackrel{iid}{\sim } \mathbf{P}_{\theta ^*}$ for some true parameter $\theta ^* \in \mathbb {R}^ d$ and the  maximum likelihood estimator $\widehat{\theta }_ n^{MLE}$ for $\theta ^*$.\\
-
-Test $H_0: \displaystyle  \theta ^* = \mathbf{0}$ vs $H_1: \displaystyle  \theta ^* \neq \mathbf{0}$\\
-
-Under $H_0$, the asymptotic normality of the MLE $\widehat{\theta }_ n^{MLE}\,$ implies that:\\
+Assuming that the null hypothesis is true, the asymptotic normality of the MLE $\widehat{\theta }_ n^{MLE}\,$ implies that the following random variable $\left\lVert \sqrt{n}\, \mathcal{I}(\mathbf{0})^{1/2}(\widehat{\theta }_ n^{MLE}- \mathbf{0}) \right\rVert ^2$ converges to a $\chi ^2_ k$ distribution.\\
 
 $\left\lVert \sqrt{n}\, \mathcal{I}(\mathbf{0})^{1/2}(\widehat{\theta }_ n^{MLE}- \mathbf{0}) \right\rVert ^2 \xrightarrow [n\to \infty ]{(d)} \chi ^2_ d\,$\\
 
-\textbf{Test statistic:}
-\begin{align*}
-T_n = &
-n(\widehat{\theta}_ n^{MLE} - \theta_0)^\top I(\widehat{\theta}_ n^{MLE}) (\widehat{\theta}_ n^{MLE} - \theta_0)\\
-&\xrightarrow [n\to \infty ]{(d)} \chi ^2_ d
-\end{align*}
+Wald's Test in 1 dimension:\\
 
-\textbf{Wald test} of level $\alpha$:
-\begin{align*}
-\psi_\alpha = \mathbf{1}\{T_n > q_\alpha(\chi^2_d)\}
-\end{align*}
+In 1 dimension, Wald's Test coincides with the two-sided test based on on the asymptotic normality of the MLE.
+
+Given the hypotheses
+
+$H_0: \displaystyle  \theta ^* = \mathbf{0}$ VS $H_1: \displaystyle  \theta ^* \neq \mathbf{0}$	 	 
  	 		 	 
-%\textbf{Two-sided Wald test} of level $\alpha$:  
-%\begin{align*}
-%\psi _\alpha =\\
-%\mathbf{1}(\sqrt{nI(\theta _0)} | \widehat{\theta }^{\text {MLE}} -\theta _0|>q_{\alpha /2}(\mathcal{N}(0,1)))
-%\end{align*}
-%Where Fisher information $\, I(\theta _0)^{-1}\,$ is the asymptotic variance of $\, \widehat{\theta }^{\text {MLE}}\,$ under the null hypothesis.
-%
-%On the other hand, a Wald's test of level $\alpha$ is
-%
-%\begin{align*}
-%\psi ^{\text {Wald}}_\alpha	&=\\
-%&=\mathbf{1}\left(nI(\theta _0) \left(\widehat{\theta }^{\text {MLE}} -\theta _0\right)^2\, >\, q_{\alpha }(\chi ^2_1)\right)
-%&= \mathbf{1}\left(\sqrt{nI(\theta _0)} \, \left| \widehat{\theta }^{\text {MLE}} -\theta _0 \right|\, >\, \sqrt{q_{\alpha }(\chi ^2_1)}\right)
-%\end{align*}
-%.
+a two-sided test of level $\alpha$, based on the asymptotic normality of the MLE, is $\displaystyle  \displaystyle \psi _\alpha =\mathbf{1}\left(\sqrt{nI(\theta _0)} \left| \widehat{\theta }^{\text {MLE}} -\theta _0 \right|>q_{\alpha /2}(\mathcal{N}(0,1))\right)$
 
-\subsection{Likelihood Ratio Test}
-Parameter space $\Theta \subseteq \mathbb{R}^d$ and $H_0$ is that parameters $\theta_{r+1}$ through $\theta_d$ have values $\theta_c^{r+1}$ through $\theta^c_d$ leaving the other $r$ unspecified. That is:\\
-$H_0: (\theta_{r+1}, ..., \theta_d)^T = \theta_{r+1...d} = \theta_0$\\
+ 		 	 
+where the Fisher information $\, I(\theta _0)^{-1}\,$ is the asymptotic variance of $\, \widehat{\theta }^{\text {MLE}}\,$ under the null hypothesis.
 
-\textbf{Construct two estimators:}
-\begin{align*}
-\widehat{\theta}_n^{MLE} = argmax_{\theta \in \Theta}(\ell_n(\theta))\\
-\widehat{\theta}_n^c = argmax_{\theta \in \Theta_0}(\ell_n(\theta))
-\end{align*}
+On the other hand, a Wald's test of level $\alpha$ is
 
-\textbf{Test statistic:}
-\begin{align*}
-T_n = 2 ( \ell(X_1,..X_n|\widehat{\theta}_n^{MLE}) - \ell(X_1,..X_n|\widehat{\theta}_n^c)))
-\end{align*}
-\textbf{Wilk's Theorem:} under $H_0$, if the MLE conditions are satisfied: 
-\begin{align*}
-T_n& \xrightarrow[n \rightarrow \infty]{(d)} \chi_{d-r}^2\\
-\end{align*}
-\textbf{Likelihood ratio test} at level $\alpha$:
-\begin{align*}
-\psi_\alpha = \textbf{1}\{T_n > q_\alpha(\chi^2_{d-r})\}
-\end{align*}
-\subsection{Implicit Testing}
-Todo
-\subsection{Goodness of Fit Discrete Distributions}
-
-Let $X_1,...,X_n$ be iid samples from a categorical distribution. Test $H_0: p = p^0$ against $H_1: p \neq p^0$. Example: against the uniform distribution $p^0 = (1/K, \ldots, 1/K)^\top$.\\
-
-\textbf{Test statistic} under $H_0$:
-\begin{align*}
-T_n = n\sum_{k=1}^K\frac{(\hat{p}_k - p^0_k)^2}{p^0_k} \xrightarrow[n \rightarrow \infty]{(d)} \chi^2_{K-1}
-\end{align*}
-\textbf{Test at level alpha:}
-\begin{align*}
-\psi_\alpha = \mathbb{1}\{T_n > q_\alpha(\chi^2_{K-1})\}
-\end{align*}
-\subsection{Kolmogorov-Smirnov test}
-\subsection{Kolmogorov-Lilliefors test}
-\subsection{QQ plots}
-\textbf{Heavier tails}: below > above the diagonal.\\
-\textbf{Lighter tails}: above > below the diagonal.\\
-\textbf{Right-skewed}: above > below > above the diagonal.\\
-\textbf{Left-skewed}: below > above > below the diagonal.\\
+$\displaystyle  \displaystyle \psi ^{\text {Wald}}_\alpha	= \displaystyle \mathbf{1}\left(nI(\theta _0) \left(\widehat{\theta }^{\text {MLE}} -\theta _0\right)^2\, >\, q_{\alpha }(\chi ^2_1)\right) = \displaystyle \mathbf{1}\left(\sqrt{nI(\theta _0)} \, \left| \widehat{\theta }^{\text {MLE}} -\theta _0 \right|\, >\, \sqrt{q_{\alpha }(\chi ^2_1)}\right).$			 	 
+ 	 			 

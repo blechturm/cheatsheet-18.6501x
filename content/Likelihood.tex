@@ -1,32 +1,27 @@
-\section{Maximum likelihood estimation}
+\subsection*{Maximum likelihood estimation}
+
+Cookbook: take the log of the likelihood function. Take the partial derivative of the loglikelihood function with respect to the parameter. Set the partial derivative to zero and solve for the parameter.
+
+If an indicator function on the pdf/pmf does not depend on the parameter, it can be ignored. If it depends on the parameter it can't be ignored because there is an discontinuity in the loglikelihood function. The maximum/minimum of the $X_i$ is then the maximum likelihood estimator.
+
+Maximum likelihood estimator:\\
 
 Let $\left\{ E,\left(\mathbf{P}_{\theta }\right)_{\theta \in \Theta }\right\}$  be a statistical model associated with a sample of i.i.d. random variables $X_1, X_2, \dots , X_ n$. Assume that there exists $\theta ^* \in \Theta$ such that $X_ i \sim \mathbf{P}_{\theta ^*}$.
 
-The \textbf{likelihood} of the model is the product of the $n$ samples of the pdf/pmf:
-
-\begin{align*}
-L_n{(X_1, X_2, \dots , X_ n, \theta)} = \\
-{\begin{cases}
-    \displaystyle \prod_{i=1}^np_\theta(x_i) & \text{if }E\text{ is discrete} \\
-    \displaystyle \prod_{i=1}^nf_\theta(x_i) & \text{if }E\text{ is continous}
-\end{cases}}
-\end{align*}
 The maximum likelihood estimator is the (unique) $\theta$ that minimizes $\widehat{\text {KL}}\left(\mathbf{P}_{\theta ^*}, \mathbf{P}_{\theta }\right)$ over the parameter space. (The minimizer of the KL divergence is unique due to it being strictly convex in the space of distributions once  is fixed.)
-\begin{align*}
-\widehat{\theta }_ n^{MLE}& = \displaystyle \text {argmin}_{\theta \in \Theta }\widehat{\text {KL}}_ n\left(\mathbf{P}_{\theta ^*}, \mathbf{P}_{\theta }\right)\\
-&= \displaystyle \text {argmax}_{\theta \in \Theta } \sum _{i=1}^{n} \ln p_{\theta }(X_ i)\\  
-&= \displaystyle \text {argmax}_{\theta \in \Theta } \ln \left(\prod _{i=1}^{n} p_{\theta }(X_ i)\right)
-\end{align*}
 
-Since taking derivatives of products is hard but easy for sums and $exp()$ is very common in pdfs we usually take the log of the likelihood function before maximizing it.
-\begin{align*}
-\ell((X_1, X_2, \dots , X_ n, \theta)) &= ln(L_n{(X_1, X_2, \dots , X_ n, \theta)})\\
- &= \sum_{i=1}^n  ln(L_i(X_i,\theta)
-\end{align*}
+$\widehat{\theta }_ n^{MLE} =\\ \displaystyle \text {argmin}_{\theta \in \Theta }\widehat{\text {KL}}_ n\left(\mathbf{P}_{\theta ^*}, \mathbf{P}_{\theta }\right) =\\ \displaystyle \text {argmax}_{\theta \in \Theta } \sum _{i=1}^{n} \ln p_{\theta }(X_ i) =\\  \displaystyle \text {argmax}_{\theta \in \Theta } \ln \left(\prod _{i=1}^{n} p_{\theta }(X_ i)\right)$
 
-Cookbook: set up the likelihood function, take log of likelihood function. Take the partial derivative of the loglikelihood function wrt. the parameter(s). Set the partial derivative(s) to zero and solve for the parameter.
+Gaussian Maximum-loglikelihood estimators:\\
 
-If an indicator function on the pdf/pmf does not depend on the parameter, it can be ignored. If it depends on the parameter it can't be ignored because there is an discontinuity in the loglikelihood function. The maximum/minimum of the $X_i$ is then the maximum likelihood estimator.
+ MLE estimator for $\sigma^2 = \tau$:\\  
+$\hat{\tau }_ n^{MLE} = \frac{1}{n} \sum _{i = 1}^ n X_ i^2$\\
+
+MLE estimators:\\
+
+$\hat{\mu}_ n^{MLE}=\frac{1}{n}\sum_{i=1}(x_i)$
+
+%\subsection*{Continuous Likelihood}
 
 \subsection{Fisher Information}
 
@@ -66,7 +61,7 @@ Better to use 2nd derivative.\\
   \item Don't forget the minus sign!
 \end{itemize}
 
-\subsection{Asymptotic normality of the maximum likelihood estimator}
+\subsection*{Asymptotic normality of the maximum likelihood estimator}
 
 Under certain conditions the MLE is asymptotically normal and consistent. This applies even if the MLE is not the sample average.
 
