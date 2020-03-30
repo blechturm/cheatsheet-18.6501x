@@ -66,7 +66,32 @@ $I(p) = \frac{n}{p(1-p)}$\\
 
 Canonical exponential form:\\
 
-$f_ p(y) =\\  =\exp (y \underbrace{(\ln (p)-\ln (1-p))}_{\theta } + \underbrace{n\ln (1-p)}_{-b(\theta )} +\underbrace{\ln(\binom {n}{y})}_{c(y,\phi )} )$
+$f_ p(y) =\\  
+exp (y \underbrace{(\ln (p)-\ln (1-p))}_{\theta } + \underbrace{n\ln (1-p)}_{-b(\theta )} +\underbrace{\ln(\binom {n}{y})}_{c(y,\phi )} )$
+
+\subsection*{Geometric}
+Number of $T$ trials up to (and including) the first success. 
+
+$p_T(t) = (1-p)^{t-1}, t=1,2,...$\\
+$\mathbb{E}[T]=\frac{1}{p}$\\
+$var(T)=\frac{1-p}{p^2}$
+
+\subsection*{Pascal}
+
+The negative binomial or Pascal distribution is a generalization of the geometric distribution. It relates to the random experiment of repeated independent trials until observing $m$ successes. I.e. the time of the kth arrival.
+
+$Y_k=T_1+...T_k$\\
+
+$T_i \sim iid Geometric(p)$\\
+
+$\mathbb{E}[Y_k]=\frac{k}{p}$\\
+
+$Var(Y_k)= \frac{k(1-p}{p^2}$
+
+$p_{Y_k}(t) ={t-1 \choose k-1}p^k(1-p)^{t-k}$\\
+
+$t=k,k+1,...$
+
 
 \subsection*{Multinomial}
 
@@ -116,8 +141,15 @@ Canonical exponential form:\\
 
 $ f_{\theta}(y) = \exp\big(y\theta - \underbrace{e^\theta}_{b(\theta)} \underbrace{- \ln y!}_{c(y, \phi)}\big)$\\
 $\theta = \ln \lambda$\\
-$\phi = 1$
+$\phi = 1$\\
 
+Poisson process:\\
+k arrivals in t slots
+$\mathbf{p_x}(k,t) = \mathbb{P}(N_t=k)=e^{-\lambda t} \frac{(\lambda t)^k}{k!}$\\
+
+$\mathbb{E}[N_t]=\lambda t$\\
+
+$Var(N_t)=\lambda t$
 
 \subsection*{Exponential}
 Parameter $\lambda$, continuous\\
@@ -162,18 +194,18 @@ $\phi = 1$
 
 \subsection*{Shifted Exponential}
 
-Parameters $\lambda, \theta \in \mathbb{R}$, continuous\\
+Parameters $\lambda, a \in \mathbb{R}$, continuous\\
 $ f_x(x)=
 	\begin{cases}
-		 \lambda exp(-\lambda(x - \theta )),&{x >= \theta}\\
-		0,&{x <= \theta}\\
+		 \lambda exp(-\lambda(x - a )),&{x >= a}\\
+		0,&{x <= a}\\
 	\end{cases}
 $\\
 
 $ F_x(x)=
 	\begin{cases}
-		 1-exp(-\lambda(x-a)),&{if x >= \theta}\\
-		0,&{x <= \theta}\\
+		 1-exp(-\lambda(x-a)),&{if x >= a}\\
+		0,&{x <= a}\\
 	\end{cases}
 $\\
 
@@ -183,8 +215,17 @@ $Var(X)=\frac{1}{\lambda^2}$\\
 
 Likelihood:\\
 
-$L(X_1\dots X_n;\lambda,\theta)= \lambda^n \exp(-\lambda n (\bar{X}_n - \theta)) 1(X_1 \ge \theta)$
+$L(X_1\dots X_n;\lambda,\theta)= \lambda ^ n \exp \left( -\lambda \sum _{i = 1}^ n (X_ i - a) \right) \mathbf{1}_{\min _{i = 1, \ldots , n}(X_ i) \geq a}.$
 
+Loglikelihood:\\
+
+$\ell (\lambda , a) := n \ln \lambda - \lambda \sum _{i = 1}^ n X_ i + n \lambda a$
+
+MLE:
+
+$\hat{\lambda }_{MLE} = \frac{1}{\overline{X}_ n - \hat{a}}$\\
+
+$\hat{a}_{MLE} = \min _{i =1, \ldots , n}(X_ i)$
 
 \subsection*{Univariate Gaussians}
 Parameters $\mu$ and $\sigma^2 >0$, continuous\\
@@ -256,6 +297,15 @@ $ \mathbf{f_x}(x)=
 		0,&\text{o.w.}\\
 	\end{cases}
 $\\
+
+$ \mathbf{F_x}(x)=
+	\begin{cases}
+		 0,&for x \leq a\\
+		 \frac{x-a}{b-a},& x \in [a,b)\\
+		1,&x \geq b\\
+	\end{cases}
+$\\
+
 
 $\mathbb{E}[X]=\frac{a+b}{2}$\\
 $Var(X)=\frac{(b-a)^2}{12}$\\

@@ -13,7 +13,9 @@
 \pgfsetlayers{background,main}
 
 \everymath\expandafter{\the\everymath \color{myblue}}
-\everydisplay\expandafter{\the\everydisplay \color{myblue}}
+%\everydisplay\expandafter{\the\everydisplay \color{myblue}}
+
+\let\displaystyle\textstyle
 
 \renewcommand{\baselinestretch}{.8}
 \pagestyle{empty}
@@ -27,8 +29,8 @@ leftmargin=0mm,rightmargin=0mm,skipbelow=0mm,skipabove=0mm,
 \begin{mdframed}[style=header]
 \footnotesize
 \sffamily
-Hilfszettel zur Klausur\\
-von~Tim~S.,~Seite~\thepage~von~2
+Capstone-Cheatsheet Part 2\\
+by Blechturm,~Page~\thepage~of~2
 \end{mdframed}
 }
 
@@ -36,7 +38,7 @@ von~Tim~S.,~Seite~\thepage~von~2
 \renewcommand{\section}{\@startsection{section}{1}{0mm}%
                                 {.2ex}%
                                 {.2ex}%x
-                                {\color{myblue}\sffamily\small\bfseries}}
+                                {\color{black}\sffamily\small\bfseries}}
 \renewcommand{\subsection}{\@startsection{subsection}{1}{0mm}%
                                 {.2ex}%
                                 {.2ex}%x

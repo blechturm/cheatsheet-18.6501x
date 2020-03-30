@@ -1,0 +1,105 @@
+\section{Regression and classification}
+
+Classification:
+\begin{align*}
+S_n = \{(x^{(t)},x^{(t)}))|t=1,\cdots,n\}\\
+x^{(t)} \in \mathbb{R}^d, y^{(t)} \in \{-1,1\}
+\end{align*}
+
+Regression:
+\begin{align*}
+y^{(t)} \in \mathbb{R}\\
+f(x,\theta,\theta_0) &= \sum_{i=1}^d (\theta_i x_i + \theta_0) = \\
+&=\theta \cdot x + \theta_0
+\end{align*}
+
+\subsection{Objective for linear regression}
+
+The empirical risk  $R_n$  is defined as
+\begin{align*}
+R_ n(\theta ) = \frac{1}{n} \sum _{t=1}^{n} \text {Loss}(y^{(t)} - \theta \cdot x^{(t)})
+\end{align*}
+
+where  $(x^{(t)},y^{(t)})$  is the  $t$th training example (and there are $n$ in total), and  Loss  is some loss function, such as hinge loss.
+
+Possible to get \textbf{closed form solution} for gradient because function is concave. Only possible if the $dxd$ matrix $A$ is invertible. Computationally expensive if dimensions are very high like in bag of words approach.
+
+\begin{align*}
+\nabla R_ n(\theta ) &= A\theta - b (=0)\\
+&= A^{-1}b\\
+\text {where } \\
+A &= \frac{1}{n} \sum _{t=1}^{n} x^{(t)} ( x^{(t)})^ T\\
+b &= \frac{1}{n} \sum _{t=1}^{n} y^{(t)} x^{(t)}
+\end{align*}
+
+$b$ is a vector with dimensionality $d$.
+\subsection{Gradient based Approach}
+Nudge gradient in the opposite direction to find (local) minima.
+
+\begin{align*}
+\nabla_{\theta}(y^{(t)} - \theta x^{(t)})^2 / 2 =\\
+= (y^{(t)} - \theta x^{(t)}) \nabla_{\theta}(y^{(t)} - \theta x^{(t)}) = \\
+= -(y^{(t)} - \theta x^{(t)}) \cdot x^{(t)}
+\end{align*}
+
+
+\begin{itemize}
+\item initialize $\theta=0$
+\item randomly pick $t=\{1,\cdots,n\}$
+\item $\theta = \theta + \eta(y^{(t)} - \theta x^{(t)}) \cdot x^{(t)}$
+\end{itemize}
+
+Where $\eta$ is the learning rate (steps) and the learning rate gets smaller the closer you get $\eta_k = \frac{1}{1+k}$ 
+
+\subsection{Ridge Regression}
+Regularization is trying to push away from perfect fit.
+
+\begin{align*}
+J_{n, \lambda } (\theta , \theta _0) &= \frac{1}{n} \sum _{t=1}^{n} \frac{(y^{(t)} - \theta \cdot x^{(t)}-\theta _0)^2}{2} + \frac{\lambda }{2} \left\|  \theta  \right\| ^2\\
+\nabla_{\theta}(J_{n, \lambda })&= \lambda \theta - (y^{(t)}-\theta x^{(t)})x^{(t)}
+\end{align*}
+
+\begin{itemize}
+\item initialize $\theta=0$
+\item randomly pick $t=\{1,\cdots,n\}$
+\item $\theta = \theta + \eta\lambda \theta - (y^{(t)}-\theta x^{(t)})x^{(t)} = (1-\eta \lambda)\theta + \eta(y^{(t)}-\theta \cdot x^{(t)})$
+\end{itemize}
+
+\subsection{Kernels}
+
+\begin{align*}
+\displaystyle  \phi (x) \displaystyle &= \big [x_1, \, x_2,\,  {x_1}^2,\,  \sqrt{2}x_1x_2,\,  {x_2}^2 \big ]\\
+\displaystyle \phi (x') \displaystyle &= \big [x_1^\prime ,\,  x_2^\prime ,\,  {x_1^\prime }^2,\,  \sqrt{2}x_1^\prime x_2^\prime ,\,  {x_2^\prime }^2 \big ]\\
+\displaystyle  \phi (x) \cdot \phi (x^\prime )&=\displaystyle {x_1}{x_1^\prime } + {x_2}{x_2^\prime } + {x_1x_1^\prime }^2 + 2{x_1}{x_1^\prime }{x_2}{x_2^\prime } + {x_2x_2^\prime }^2\\
+&=\displaystyle \left({x_1}{x_1^\prime } + {x_2}{x_2^\prime }\right)+ \left({x_1}{x_1^\prime } + {x_2}{x_2^\prime }\right)^2\\
+&=\displaystyle \left({x_1}{x_1^\prime } + {x_2}{x_2^\prime }\right)+ \left({x_1}{x_1^\prime } + {x_2}{x_2^\prime }\right)^2
+\end{align*}
+
+\subsection{Kernel Perceptron}
+
+The parameter vector of a preceptron algorithm can also be written as: 
+\begin{align*}
+\displaystyle  \displaystyle \theta = \sum _{j=1}^{n} \alpha _ j y^{(j)} \phi \left(x^{(j)}\right)
+\end{align*}
+
+Where $\alpha_j$ represents the number of classification mistakes the perceptron algo made. Every time a missclassification happens the parameter vector is updated with the product of the label and the feature vector $\theta  = \theta + y^{(i)} x^{(i)}$. The goal of the Kernel Perceptron algo is to find the vector $\alpha$ with the counts of the missclassifications.
+
+\textbf{Kernel Perceptron}$\displaystyle \left(\big \{ (x^{(i)}, y^{(i)}), i=1,...,n, T \big \} \right)$
+\begin{enumerate}[\indent {}]
+	\item initialize  $\alpha _1, \alpha _2, ..., \alpha _ n;$ to some values
+	\begin{enumerate}[\indent {}]
+		\item for $t=1,\cdots,T$ do
+		\begin{enumerate}[\indent {}]
+			\item for $i=1,\cdots,n$ do
+			\begin{enumerate}[\indent {}]
+				\item if $y^{(i)}\sum _{j=1}^{n} \alpha _ j y^{(j)} K(x^{j},x^{i}) \leq 0$ then
+				\item update $\alpha _ i = \alpha _ i +1 y^{(i)}$
+			\end{enumerate}
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\subsection{Radial basis Kernel}
+\begin{align*}
+K(x,x') = e^{-\frac{1}{2} {||x-x'||}^2}
+\end{align*}

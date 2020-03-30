@@ -1,0 +1,49 @@
+\subsection{Reinforcement Learning}
+
+A \textbf{Markov decision process (MDP)} is defined by
+
+a set of states  $s\in S$ a set of actions $a \in A$;
+
+Action dependent transition probabilities $T(s,a,s')=P(s'|s, a)$ , so that for each state  s  and action  a ,  $\displaystyle \sum _{s'\in S} T(s,a,s')=1$.
+
+Reward functions $R(s, a, s')$ representing the reward for starting in state  $s$ , taking action  $a$  and ending up in state  $s'$  after one step. (The reward function may also depend only on  $s$ , or only  $s$  and  $a$ .)
+
+Therefore a Markov decision process is defined by $MDP = <S,A,T,R>$ MDPs satisfy the Markov property in that the transition probabilities and rewards depend only on the current state and action, and remain unchanged regardless of the history (i.e. past states and actions) that leads to the current state.
+
+Rewards collected after the  $n$th  step do not depend on the previous states $s_1,s_2,\cdots,s_{n-1}$
+
+\textbf{Markov properties:}\\
+
+Rewards collected after the $n$th  step do not depend on the previous actions $a_1,a_2,\cdots,a_{n}$
+
+\textbf{(Infinite horizon) discounted reward based utility}\\
+
+\begin{align*}
+U[s_0,s_1,\ldots ]= R(s_0) + \gamma R(s_1) + \gamma ^2 R(s_2) \ldots = \\
+= \sum _{t=0}^\infty \gamma ^ t R(s_ t) \text {where }0\leq \gamma <1\\
+\leq \frac{R_max}{\gamma}
+\end{align*}
+
+\textbf{Bellman Equations}\\
+
+$V^{*}(s) = \underset {a}{max}\sum _{s'}T(s,a,s')[R(s,a,s')+\gamma V^{*}(s')]$\\
+
+$Q^{*}(s,a)=\sum _{s'}T(s,a,s')[R(s,a,s')+\gamma V^{*}(s')]$\\
+
+Q-value: $Q(s,a)$ in state $s$ take action $a$ and act optimally afterwards. 
+
+Policy $\pi^*: s \rightarrow a$ is set of actions to maximize the expected reward for every state $s$.
+
+\begin{align*}
+\pi^*(s) = argmax_a(Q^*(s,a)\\
+Q^*(s,a)= \sum_{s'} T(s,a,s')[R(s,a,s') + \gamma max_a Q(s',a')]
+\end{align*}
+
+To find the policy two algos: Value iteration and Q-value iteration (look online).
+
+\subsection{Q value iteration by sampling}
+
+
+
+
+

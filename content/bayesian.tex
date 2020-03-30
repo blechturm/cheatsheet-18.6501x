@@ -1,0 +1,46 @@
+\section{Bayesian Statistics}
+Bayesian inference conceptually amounts to weighting the likelihood $L_n(\theta)$ by a prior knowledge we might have on $\theta$.
+Given a statistical model we technically model our parameter $\theta$ as if it were a random variable. We therefore define the \textbf{prior distribution} (PDF):
+\begin{align*}
+\pi(\theta)
+\end{align*}
+Let $X_1,...,X_n$. We note $L_n(X_1,...,X_n|\theta)$ the joint probability distribution of $X_1,...,X_n$ conditioned on $\theta$ where $\theta \sim \pi$. This is exactly the likelihood from the frequentist approach.
+\subsection{Bayes' formula}. 
+The {posterior distribution} verifies:
+\begin{align*}
+\forall \theta \in \Theta, \pi(\theta|X_1,...,X_n) \propto\\ \pi(\theta)L_n(X_1,...,X_n | \theta)
+\end{align*}
+The constant is the normalization factor to ensure the result is a proper distribution, and does not depend on $\theta$:
+\begin{align*}
+\pi(\theta|X_1,...,X_n) = \frac{\pi(\theta)L_n(X_1,...,X_n | \theta)}{\int_\Theta\pi(\theta)L_n(X_1,...,X_n | \theta)d\theta}
+\end{align*}
+We can often use an \textbf{improper prior}, i.e. a prior that is not a proper probability distribution (whose integral diverges), and still get a proper posterior. For example, the improper prior $\pi(\theta) = 1$ on $\Theta$ gives the likelihood as a posterior.
+\subsection{Jeffreys Prior}
+\begin{align*}
+\pi_J(\theta) \propto \sqrt{det I(\theta)}
+\end{align*}
+where $I(\theta)$ is the Fisher information. This prior is \textbf{invariant by reparameterization}, which means that if we have $\eta = \phi(\theta)$, then the same prior gives us a probability distribution for $\eta$ verifying:
+\begin{align*}
+\tilde\pi_J(\eta) \propto \sqrt{det \tilde I(\eta)}
+\end{align*}
+The change of parameter follows the following formula:
+\begin{align*}
+\tilde\pi_J(\eta) = det(\nabla \phi^{-1}(\eta)) \pi_J(\phi^{-1}(\eta))
+\end{align*}
+\subsection{Bayesian confidence region}
+Let $\alpha \in (0, 1)$. A *Bayesian confidence region with level $\alpha$* is a random subset $\mathcal{R} \subset \Theta$ depending on $X_1,...,X_n$ (and the prior $\pi$) such that:
+\begin{align*}
+P[\theta \in \mathcal{R} | X_1,...,X_n] \geq 1 - \alpha
+\end{align*}
+Bayesian confidence region and confidence interval are \textbf{distinct notions}.The Bayesian framework can be used to estimate the true underlying parameter. In that case, it is used to build a new class of estimators, based on the posterior distribution.
+\subsection{Bayes estimator}
+
+\textbf{posterior mean}:
+\begin{align*}
+\hat{\theta}_{(\pi)} = \int_\Theta\theta\pi(\theta | X_1,...,X_n)d\theta
+\end{align*}
+\textbf{Maximum a posteriori estimator (MAP):}
+\begin{align*}
+\hat{\theta}^{MAP}_{(\pi)} = argmax_{\theta\in\Theta}\pi(\theta | X_1,...,X_n)
+\end{align*}
+The MAP is equivalent to the MLE, if the prior is uniform.
